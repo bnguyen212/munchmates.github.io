@@ -34,6 +34,7 @@ h1 {
 rect {
   fill: none;
   pointer-events: all;
+  overflow: hidden;
 }
 
 circle {
