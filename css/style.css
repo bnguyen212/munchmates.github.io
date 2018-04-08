@@ -41,6 +41,15 @@ circle {
   stroke-width: 1px;
 }
 
+.main {
+  margin-left: 100px; 
+  margin-right: 100px; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 #email-list {
   position: relative;
   z-index: 2;
@@ -71,6 +80,7 @@ circle {
   color: #ffcd00;
   text-align: center;
   margin-bottom: 20px;
+  font-size: 2vh;
 }
 
 #munchmates {
@@ -78,7 +88,7 @@ circle {
   /* display: flex; */
   z-index: 2;
   margin: 65px 0px 20px 0px;
-  font-size: 76px; 
+  font-size: 8vh; 
   text-align: center;
 }
 
@@ -113,20 +123,25 @@ select.frecuency:focus {
 }
 .input-group {
     margin: 20px auto;
-    width: 50%;
+    width: 40em;
 }
 input.btn.btn-lg {
-    width: 60%;
-    height: 60px;
+    width: 75%;
+    height: 4vh;
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
 }
 button.btn {
-    width: 40%;
-    height: 60px;
+    width: 25%;
+    height: 4vh;
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
 }
+
+button.btn.btn-info {
+      padding: 0;
+}
+
 .promise {
     color: #999;
 }
@@ -152,6 +167,6 @@ button.btn {
 
 #thank-you {
   margin: 20px 0px 23px 0px;
-  font-size: 40px;
+  font-size: 4vh;
   display: none;
 }
