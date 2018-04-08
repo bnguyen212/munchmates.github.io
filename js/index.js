@@ -9,7 +9,7 @@ var svg = d3.select("body").append("svg")
     .attr("position", "absolute")
     .attr("z-index", "1")
     .attr("transform", "translate(0,-490)")
-
+    .attr("overflow", "hidden")
 
 svg.append("rect")
     .attr("width", width)
