@@ -1,5 +1,5 @@
-var width = "100%",
-    height = "100%";
+var width = "110%",
+    height = "110%";
 
 var i = 0;
 
@@ -14,6 +14,7 @@ var svg = d3.select("body").append("svg")
 svg.append("rect")
     .attr("width", width)
     .attr("height", height)
+    .attr("overflow", "hidden")
     .on("ontouchstart" in document ? "touchmove" : "mousemove", particle);
 
 function particle() {
