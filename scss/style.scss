@@ -1,0 +1,40 @@
+@import "compass/css3";
+
+@import url(https://fonts.googleapis.com/css?family=Share+Tech+Mono);
+
+html {
+  height: 100%;
+  width: 100%;
+}
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  // background: linear-gradient(#FFE29E, #DCF9B2);
+  background: url("https://images.pexels.com/photos/54455/cook-food-kitchen-eat-54455.jpeg?cs=srgb&dl=food-lunch-meal-54455.jpg&fm=jpg");
+  background-size: cover;
+}
+h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate3d(-50%, -50%, 0);
+  font-family: "Share Tech Mono", monospace;
+  font-weight: normal;
+  text-shadow: 0 2px 4px rgba(white, .25),
+    0 1px 2px rgba(white, .5);
+  text-transform: uppercase;
+  letter-spacing: .15em;
+  // color: rgba(darkslategray, .8);
+  color: #ffcd00;
+  pointer-events: none;
+}
+rect {
+  fill: none;
+  pointer-events: all;
+}
+
+circle {
+  fill: none;
+  stroke-width: 1px;
+}
