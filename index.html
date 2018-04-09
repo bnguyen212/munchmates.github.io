@@ -28,17 +28,26 @@
       based on your profile. Sign up to our mailing list to know when we launch!
     </div>
 
-    <!-- <form method="POST" action="https://formspree.io/chris.raveendra@gmail.com">
+    <!-- <form method="POST" action="https://formspree.io/finnqiao1993@gmail.com">
       <input type="email" name="email" placeholder="Your email">
       <textarea name="message" placeholder="Your message"></textarea>
       <button type="submit">Send</button>
     </form> -->
+
       <form id="email-list" z-list: 100>
+         <div class="input-group">
+           <input class="btn btn-lg" name="email" id="email" type="email" placeholder="Your Email" required>
+          <button class="btn btn-info btn-lg" type="submit">Submit</button>
+        </div>
+       </form>
+
+
+      <!-- <form id="email-list" z-list: 100 method="POST" action="https://formspree.io/finnqiao1993@gmail.com">
         <div class="input-group">
           <input class="btn btn-lg" name="email" id="email" type="email" placeholder="Your Email" required>
           <button class="btn btn-info btn-lg" type="submit">Submit</button>
         </div>
-      </form>
+      </form> -->
 
       <div id="mission">
                 <div id="thank-you">
@@ -62,10 +71,11 @@
     }
   </script>
   <script>
-    var Email= require("./model/models").Email
+    var Email= require("./models/models").Email
     var mongoose = require('mongoose');
     mongoose.connect(process.env.MONGODB_URI);
     $('#email-list').on('submit', function () {
+
       var newem=$("input").val();
       var tosave = new Email({
         email: newem
