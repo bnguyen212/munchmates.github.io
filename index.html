@@ -71,7 +71,7 @@
     }
   </script>
   <script>
-    var Email= require("./model/models").Email
+    var Email= require("./models/models").Email
     var mongoose = require('mongoose');
     mongoose.connect(process.env.MONGODB_URI);
     $('#email-list').on('submit', function () {
