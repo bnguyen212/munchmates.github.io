@@ -62,10 +62,21 @@
     }
   </script>
   <script>
-
+    var Email= require("./model/models").Email
+    var mongoose = require('mongoose');
+    mongoose.connect(process.env.MONGODB_URI);
     $('#email-list').on('submit', function () {
-      alert($(this).children())
-      return false;
+      var newem=$("input").val();
+      var tosave = new Email({
+        email: newem
+      });
+      tosave.save(function(err) {
+        if (err) {
+          res.status(500).json(err);
+        } else {
+          res.send(newem+" saved");
+        }
+      });
     });
   </script>
 
