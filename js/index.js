@@ -1,21 +1,9 @@
-var width = "110%",
-    height = "110%";
-
 var i = 0;
 
 var svg = d3.select("body").append("svg")
-    .attr("width", width)
-    .attr("height", height)
-    .attr("position", "absolute")
-    .attr("z-index", "1")
-    .attr("transform", "translate(0,-490)")
-    .attr("overflow", "hidden")
 
 svg.append("rect")
-    .attr("width", width)
-    .attr("height", height)
-    .attr("overflow", "hidden")
-    .on("ontouchstart" in document ? "touchmove" : "mousemove", particle);
+    .on("mousemove", particle);
 
 function particle() {
   var m = d3.mouse(this);
