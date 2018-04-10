@@ -1,21 +1,12 @@
-var width = "110%",
-    height = "110%";
-
 var i = 0;
 
 var svg = d3.select("body").append("svg")
-    .attr("width", width)
-    .attr("height", height)
-    .attr("position", "absolute")
-    .attr("z-index", "1")
-    .attr("transform", "translate(0,-490)")
-    .attr("overflow", "hidden")
 
 svg.append("rect")
-    .attr("width", width)
-    .attr("height", height)
+    .attr("width", '100%')
+    .attr("height", '100%')
     .attr("overflow", "hidden")
-    .on("ontouchstart" in document ? "touchmove" : "mousemove", particle);
+    .on("mousemove", particle);
 
 function particle() {
   var m = d3.mouse(this);
@@ -36,21 +27,3 @@ function particle() {
 
   d3.event.preventDefault();
 }
-var Email = require("./models/models").Email
-var mongoose = require('mongoose');
-mongoose.connect(process.env.MONGODB_URI);
-$('#email-list').on('submit', function () {
-
-  var newem=$("input").val();
-  var tosave = new Email({
-    email: newem
-  });
-  tosave.save(function(err) {
-    if (err) {
-      res.status(500).json(err);
-    } else {
-      res.send(newem+" saved");
-    }
-  });
-  return false;
-});
