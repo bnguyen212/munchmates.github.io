@@ -4,6 +4,7 @@
   "description": "A Pen created at CodePen.io. You can find this one at https://codepen.io/chrisraveendra/pen/JLembp.",
   "main": "js/server.js",
   "scripts": {
+    "start": "node js/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/ChrisRaveendra/munchmates.github.io/issues"
   },
-  "homepage": "https://github.com/ChrisRaveendra/munchmates.github.io#readme"
+  "homepage": "https://github.com/ChrisRaveendra/munchmates.github.io#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "mongoose": "^5.0.14"
+  }
 }
