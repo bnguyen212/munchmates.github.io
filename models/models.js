@@ -10,5 +10,5 @@ var emailSchema = mongoose.Schema({
 });
 var Email = mongoose.model('Email', emailSchema);
 module.exports = {
-  Email:email
+  Email:Email
 }

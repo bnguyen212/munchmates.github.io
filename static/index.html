@@ -35,8 +35,7 @@
       <button type="submit">Send</button>
     </form> -->
 
-
-      <form id="email-list" z-list: 100>
+      <form id="email-list" action="/signup" method="post" z-list: 100>
          <div class="input-group">
            <input class="btn btn-lg" name="email" id="email" type="email" placeholder="Your Email" required>
           <button class="btn btn-info btn-lg" type="submit">Submit</button>
@@ -73,24 +72,7 @@
     }
   </script>
   <script>
-    var Email= require("./models/models").Email
-    var mongoose = require('mongoose');
-    mongoose.connect(process.env.MONGODB_URI);
-    $('#email-list').on('submit', function () {
-
-      var newem=$("input").val();
-      var tosave = new Email({
-        email: newem
-      });
-      tosave.save(function(err) {
-        if (err) {
-          res.status(500).json(err);
-        } else {
-          res.send(newem+" saved");
-        }
-      });
-      return false;
-    });
+    //
   </script>
 
   <script  src="js/index.js"></script>
