@@ -3,6 +3,9 @@ var i = 0;
 var svg = d3.select("body").append("svg")
 
 svg.append("rect")
+    .attr("width", '100%')
+    .attr("height", '100%')
+    .attr("overflow", "hidden")
     .on("mousemove", particle);
 
 function particle() {
