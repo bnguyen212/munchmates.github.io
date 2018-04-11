@@ -1,4 +1,6 @@
 import React from 'react';
+import { serverurl } from 'react-native-dotenv';
+console.log('serverurl', serverurl);
 import {   StyleSheet,
   View,
   Text,
@@ -8,7 +10,6 @@ import {   StyleSheet,
   Alert,
   Button,
   AsyncStorage,
-
   PanResponder,
   Animated,
   Dimensions} from 'react-native';
@@ -50,7 +51,33 @@ class RegisterScreen extends React.Component {
     title: 'Register'
   };
   registerButton() {
-
+    console.log("tusa basti")
+    if (this.state.username === '' || this.state.password === '') {
+      alert('Invalid username or password.')
+    } else {
+      console.log("dolu", serverurl)
+      fetch(`${serverurl}/signup`, {
+        method: 'POST',
+        headers: {
+          "Content-Type": "application/json"
+        },
+        body: JSON.stringify({
+          username: this.state.username,
+          password: this.state.password,
+        })
+      })
+      .then((response) => response.json())
+      .then((responseJson) => {
+        console.log(responseJson)
+        this.props.navigation.navigate('Login');
+        /* do something with responseJson and go back to the Login view but
+        * make sure to check for responseJson.success! */
+      })
+      .catch((err) => {
+        console.log(err)
+        alert(err.message);
+      });
+    }
   }
   render() {
     return (
@@ -78,8 +105,33 @@ class LoginScreen extends React.Component {
   };
 
   registerButton() {
+    if (this.state.username === '' || this.state.password === '') {
+      alert('Invalid username or password.')
+    } else {
+      fetch(`${serverurl}/login`, {
+        method: 'POST',
+        headers: {
+          "Content-Type": "application/json"
+        },
+        body: JSON.stringify({
+          username: this.state.username,
+          password: this.state.password,
+        })
+      })
+      .then((response) => response.json())
+      .then((responseJson) => {
+        console.log(responseJson)
+        this.props.navigation.navigate('Home')
+      })
+      .then(()=>AsyncStorage.setItem('user', JSON.stringify({
+        username: this.state.username,
+        password: this.state.password
+      })))
+      .catch((err) => {
+        alert( err);
+      });
+    }
   }
-
   render() {
     return (
       <View style={styles.container}>
@@ -92,7 +144,16 @@ class LoginScreen extends React.Component {
     )
   }
 }
-
+class Home extends React.Component{
+  static navigationOptions = {
+    title: 'Home'
+  };
+  render(){
+    return(
+    <View><Text>Finn doesn't welcome you</Text></View>
+  )
+  }
+}
 
 export default StackNavigator({
   Welcome: {
@@ -104,6 +165,9 @@ export default StackNavigator({
   Login: {
     screen: LoginScreen,
 
+  },
+  Home:{
+    screen: Home,
   }
 
 }, {initialRouteName: 'Welcome'});
