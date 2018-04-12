@@ -9,7 +9,8 @@ import { iOSColors, sanFranciscoWeights } from 'react-native-typography'
 
 export default class WelcomeScreen extends Component {
   static navigationOptions = {
-    title: 'Welcome'
+    title: 'Welcome',
+    header: null
   };
   register() {
     this.props.navigation.navigate('Register');
@@ -28,7 +29,7 @@ export default class WelcomeScreen extends Component {
         <View style={styles.container}>
 
           <View style={styles.titleContainer}>
-              <Text style={styles.title}>MUNCHMATES</Text>
+            <Text style={styles.title}>MUNCHMATES</Text>
           </View>
 
           <View style={styles.navContainer}>

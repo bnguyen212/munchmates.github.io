@@ -6,44 +6,86 @@ import { StyleSheet,
   TextInput,
   Alert,
   Button,
-} from 'react-native';
+  Image,
+  KeyboardAvoidingView } from 'react-native';
+import { iOSColors, sanFranciscoWeights } from 'react-native-typography'
 
 export default class RegisterScreen extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      username: '',
-      password: ''
+      email: '',
+      password: '',
+      password2: '',
     }
   }
-  static navigationOptions = {
-    title: 'Register'
-  };
+  static navigationOptions = (props) => ({
+    title: 'Register',
+    headerRight: <TouchableOpacity onPress={() => {props.navigation.navigate('Login')}}><Text style={styles.navRight}>Login</Text></TouchableOpacity>
+  });
 
-  registerButton() {
-
+  register() {
+    
   }
 
   render() {
     return (
-      <View style={styles.container}>
-        <TextInput style={{height: 40, width: '95%', borderWidth: 0.5, borderColor: 'black', marginBottom: 10, paddingLeft: 10}} type="text" placeholder="Username" value={this.state.username} onChangeText={(text) => this.setState({username: text})}/>
-        <TextInput style={{height: 40, width: '95%', borderWidth: 0.5, borderColor: 'black', paddingLeft: 10}} secureTextEntry={true} placeholder="Password" value={this.state.password} onChangeText={(text) => this.setState({password: text})}/>
-        <TextInput style={{height: 40, width: '95%', borderWidth: 0.5, borderColor: 'black', paddingLeft: 10}} secureTextEntry={true} placeholder="Confirm Password" value={this.state.password} onChangeText={(text) => this.setState({password: text})}/>
-        <TouchableOpacity style={styles.button} onPress={ () => {this.registerButton()} }>
-          <Text style={styles.buttonLabel}>Register</Text>
-        </TouchableOpacity>
-      </View>
+      <KeyboardAvoidingView style={styles.container} behavior='padding'>
+
+        <View style={styles.backgroundContainer}>
+          <Image source={require('../assets/background2.jpg')} style={styles.backgroundImage} />
+        </View>
+
+        <View style={styles.titleContainer}>
+          <Text style={styles.title}>MUNCHMATES</Text>
+        </View>
+
+        <View style={styles.formContainer}>
+          <TextInput style={styles.input}
+                     placeholder="Email"
+                     value={this.state.email}
+                     onChangeText={email => this.setState({email})} />
+          <TextInput style={styles.input}
+                     secureTextEntry={true}
+                     placeholder="Password"
+                     value={this.state.password}
+                     onChangeText={password => this.setState({password})} />
+          <TextInput style={styles.input}
+                     secureTextEntry={true}
+                     placeholder="Confirm Password"
+                     value={this.state.password2}
+                     onChangeText={password2 => this.setState({password2})} />
+          <TouchableOpacity style={[styles.button, styles.buttonRed]} onPress={ () => this.register() }>
+            <Text style={styles.buttonLabel}>Register</Text>
+          </TouchableOpacity>
+        </View>
+      </KeyboardAvoidingView>
     )
   }
 }
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
+    width: '100%',
+    height: '100%',
     justifyContent: 'center',
+
+  },
+  navRight: {
+    fontSize: 20, 
+    color: 'blue', 
+    marginRight: 15
+  },
+  input: {
+    height: 40,
+    width: '90%',
+    borderWidth: 0.5,
+    borderColor: 'black',
+    marginBottom: 5,
+    marginTop: 5,
+    paddingLeft: 10,
+    borderRadius: 5,
+    backgroundColor: 'white',
   },
   button: {
     width: 300,
@@ -54,17 +96,48 @@ const styles = StyleSheet.create({
     marginRight: 5,
     borderRadius: 5,
     alignItems: 'center',
-    //backgroundColor: '#FF585B',
   },
   buttonRed: {
-    backgroundColor: '#FF585B',
+    backgroundColor: iOSColors.red,
   },
   buttonBlue: {
-    backgroundColor: '#0074D9',
+    backgroundColor: iOSColors.blue,
   },
   buttonLabel: {
     textAlign: 'center',
-    fontSize: 16,
+    fontSize: 20,
     color: 'white'
+  },
+  title: {
+    fontSize: 30,
+    color: iOSColors.yellow,
+    ...sanFranciscoWeights.heavy,
+    marginTop: 15,
+    marginBottom: 15,
+  },
+  titleContainer: {
+    backgroundColor: 'black',
+    alignItems: 'center',
+    justifyContent: 'center',
+    position: 'absolute',
+    top: 0,
+    left: 0,
+    width: '100%'
+  },
+  backgroundContainer: {
+    position: 'absolute',
+    top: '5%',
+    left: 0,
+    width: '100%',
+    height: '100%'
+  },
+  backgroundImage: {
+    width: '100%',
+    height: '100%'
+  },
+  formContainer: {
+    alignItems: 'center',
+    justifyContent: 'center',
+    width: '100%'
   },
 });
