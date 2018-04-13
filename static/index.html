@@ -71,9 +71,14 @@
       // window.open("https://form.jotform.com/80936563206156");
     }
   </script>
-  <script>
-    //
-  </script>
+    <script>
+      $('#email-list').on('submit', function () {
+        document.getElementById("email-list").style.display = "none";
+        document.getElementById("thank-you").style.display = "block";
+        return false;
+      });
+    </script>
+
 
   <script  src="js/index.js"></script>
 
