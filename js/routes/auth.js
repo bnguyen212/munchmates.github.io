@@ -1,6 +1,6 @@
 var express = require('express');
 var router = express.Router();
-var User=require("../models/models.js").User
+var User=require("../../models/models.js").User
 var crypto =require('crypto');
 function hashPassword(password){
   var hash= crypto.createHash('sha256');
