@@ -23,7 +23,32 @@ export default class LoginScreen extends Component {
   });
 
   login() {
-    
+    if (this.state.username === '' || this.state.password === '') {
+      alert('Invalid username or password.')
+    } else {
+      fetch(`/login`, {
+        method: 'POST',
+        headers: {
+          "Content-Type": "application/json"
+        },
+        body: JSON.stringify({
+          username: this.state.username,
+          password: this.state.password,
+        })
+      })
+      .then((response) => response.json())
+      .then((responseJson) => {
+        console.log(responseJson)
+        this.props.navigation.navigate('Home')
+      })
+      .then(()=>AsyncStorage.setItem('user', JSON.stringify({
+        username: this.state.username,
+        password: this.state.password
+      })))
+      .catch((err) => {
+        alert( err);
+      });
+    }
   }
 
   render() {
@@ -65,8 +90,8 @@ const styles = StyleSheet.create({
 
   },
   navRight: {
-    fontSize: 20, 
-    color: 'blue', 
+    fontSize: 20,
+    color: 'blue',
     marginRight: 15
   },
   input: {

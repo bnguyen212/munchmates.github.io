@@ -14,4 +14,7 @@ export default StackNavigator({
   Login: {
     screen: LoginScreen,
   }
+  Home: {
+    screen: HomeScreen
+  }
 }, {initialRouteName: 'Welcome'});

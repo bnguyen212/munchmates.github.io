@@ -25,7 +25,26 @@ export default class RegisterScreen extends Component {
   });
 
   register() {
-    
+    if (this.state.username === '' || this.state.password === '') {
+      alert('Invalid username or password.')
+    }
+    else if (this.state.password!==this.state.password2){
+      alert("Passwords don't match")
+    }
+    else if(this.state.password.length<6){
+      alert('Password is not strong enough!')
+    }
+    else {
+      fetch(`/signup`, {  //     this may create a problem
+        method: 'POST',
+        headers: {
+          "Content-Type": "application/json"
+        },
+        body: JSON.stringify({
+          username: this.state.username,
+          password: this.state.password,
+        })
+      })
   }
 
   render() {
@@ -72,8 +91,8 @@ const styles = StyleSheet.create({
 
   },
   navRight: {
-    fontSize: 20, 
-    color: 'blue', 
+    fontSize: 20,
+    color: 'blue',
     marginRight: 15
   },
   input: {
