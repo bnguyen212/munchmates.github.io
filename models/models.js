@@ -17,6 +17,10 @@ var userSchema = mongoose.Schema({
     type: String,
     required: true
   },
+  favorites:{
+    type: Object,
+    required: false
+  }
 });
 
 var Email = mongoose.model('Email', emailSchema);
