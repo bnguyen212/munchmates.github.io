@@ -19,8 +19,9 @@ module.exports = function(passport) {
   });
 
 
-  router.post("/signup", function(req, res){
+  router.post("/signupa", function(req, res){
     console.log(req.body, "aaaaa")
+    console.log(req.body.username, "bbbb");
     if(req.body.username && req.body.password) {
       var newUser= new User({
         username:req.body.username,
@@ -43,7 +44,7 @@ module.exports = function(passport) {
   })
 
   router.post("/login", passport.authenticate('local'), function(req, res){
-    res.redirect('/contacts');
+    res.json({"authenticated": true})
   })
 
   router.get("/logout", function(req,res){

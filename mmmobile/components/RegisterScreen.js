@@ -35,13 +35,14 @@ export default class RegisterScreen extends Component {
       alert('Password is not strong enough!')
     }
     else {
-      fetch(`/signup`, {  //     this may create a problem
+      console.log(this.state)
+      fetch(`https://3aa11377.ngrok.io/signupa`, {  //     this may create a problem
         method: 'POST',
         headers: {
           "Content-Type": "application/json"
         },
         body: JSON.stringify({
-          username: this.state.username,
+          username: this.state.email,
           password: this.state.password,
         })
       })

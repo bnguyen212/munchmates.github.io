@@ -13,7 +13,7 @@ var bodyParser = require('body-parser');
 var auth = require('./routes/auth');
 var passport = require('passport');
 var LocalStrategy = require('passport-local').Strategy;
-var User=require('..mmobile/models/models').User;
+var User=require('../models/models').User;
 var session = require('express-session');
 var mongoose = require('mongoose');
 var crypto= require("crypto")
@@ -66,20 +66,18 @@ passport.use(new LocalStrategy(function(username, password, done) {
     // if there's an error, finish trying to authenticate (auth failed)
     if (err) {
       console.log(err);
-      console.log("giremedi")
       return done(err);
     }
     // if no user present, auth failed
     if (!user) {
       console.log(user);
-      console.log("giremedi1")
       return done(null, false);
     }
     // if passwords do not match, auth failed
     if (user.password !== hashPassword(password)) {
-      console.log("giremedi2")
       return done(null, false);
     }
+    console.log(user.username, user.password)
     // auth has has succeeded
     console.log("girdi")
     return done(null, user);
@@ -130,6 +128,3 @@ app.listen(3000, function () {
     console.log(' server listening on: 3000');
 });
 module.exports = app;
-
-console.log('Express started. Listening on port', process.env.PORT || 3000);
-app.listen(process.env.PORT || 3000);
