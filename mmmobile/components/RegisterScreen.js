@@ -46,7 +46,7 @@ export default class RegisterScreen extends Component {
         })
       })
   }
-
+}
   render() {
     return (
       <KeyboardAvoidingView style={styles.container} behavior='padding'>

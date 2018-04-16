@@ -5,7 +5,7 @@ import { StyleSheet,
   Text,
   TouchableOpacity,
   TextInput } from 'react-native';
-import { iOSColors, sanFranciscoWeights } from 'react-native-typography'
+import { iOSColors, sanFranciscoWeights } from 'react-native-typography';
 
 export default class WelcomeScreen extends Component {
   static navigationOptions = {

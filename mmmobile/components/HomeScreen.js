@@ -11,9 +11,13 @@ import { StyleSheet,
 import { iOSColors, sanFranciscoWeights } from 'react-native-typography'
 
 export default class HomeScreen extends Component {
+  static navigationOptions =  ({
+    title: 'HomeScreen'
+  });
 
   render() {
     return (
       <Text>Hello Brian! I have been expecting you!</Text>
     )
+  }
 }
