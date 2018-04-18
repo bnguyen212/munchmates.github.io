@@ -36,7 +36,7 @@ export default class RegisterScreen extends Component {
     }
     else {
       console.log(this.state)
-      fetch(`https://3aa11377.ngrok.io/signupa`, {  //     this may create a problem
+      fetch(`/*ngrok*//signupa`, {  //     this may create a problem
         method: 'POST',
         headers: {
           "Content-Type": "application/json"

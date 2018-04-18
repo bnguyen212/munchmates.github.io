@@ -20,14 +20,14 @@ export default class HomeScreen extends Component {
     this.state={
       longitude:0,
       latitude:0,
-      markers:[{longitude:0,
-      latitude:0}]
+      markers:[{title:"me",latlng:{longitude:0,
+      latitude:0}}]
       }
     }
 
   componentWillMount(){
     navigator.geolocation.getCurrentPosition((success)=>{
-      console.log("aaaa", success)
+
       this.setState({
         latitude:success.coords.latitude,
         longitude: success.coords.longitude,
@@ -36,21 +36,25 @@ export default class HomeScreen extends Component {
       })
       console.log(this.state)
     }, (error)=>{})
-  }
+
+
+}
   componentDidMount(){
-    fetch(`https://3aa11377.ngrok.io/places`, {
+    fetch(`/*ngrok*//places`, {
       method: 'GET',
-    }).then(response => {
+    }).then(response=>response.json()).then(response => {
+      //alert(response)
       for(var i = 0; i<response.length; i++ ){
 
         var place={title:response[i].name,
-           latlng:{latitude:response[i].latitude,
-             longitude: response[i].longitude}}
-        var addto: [...this.state.markers]
+           latlng:{latitude:response[i].lat,
+             longitude: response[i].long}}
+        var addto= [...this.state.markers]
         addto.push(place)
         this.setState({
           markers: addto
         })
+        console.log(this.state.markers)
       }
     })
   }

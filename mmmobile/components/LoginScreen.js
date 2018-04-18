@@ -29,7 +29,7 @@ export default class LoginScreen extends Component {
     if (this.state.username === '' || this.state.password === '') {
       alert('Invalid username or password.')
     } else {
-      fetch(`https://3aa11377.ngrok.io/login`, {
+      fetch(`/*ngrok*//login`, {
         method: 'POST',
         headers: {
           "Content-Type": "application/json"

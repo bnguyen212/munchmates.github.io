@@ -11,6 +11,7 @@ var bodyParser = require('body-parser');
 
 //var routes = require('./routes/index');
 var auth = require('./routes/auth');
+var routes1= require("./routes/index")
 var passport = require('passport');
 var LocalStrategy = require('passport-local').Strategy;
 var User=require('../models/models').User;
@@ -27,7 +28,7 @@ app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({extended: true }))
 var routes = require('./routes');
 app.use('/', routes);
-
+app.use('/', routes1);
 app.use(express.static(path.resolve(__dirname, "../static")))
 function hashPassword(password){
   var hash= crypto.createHash('sha256');
