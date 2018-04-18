@@ -8,7 +8,7 @@ import { StyleSheet,
   Button,
   Image,
   KeyboardAvoidingView } from 'react-native';
-import { iOSColors, sanFranciscoWeights } from 'react-native-typography'
+import { iOSColors, sanFranciscoWeights } from 'react-native-typography';
 
 export default class LoginScreen extends Component {
   constructor(props) {
