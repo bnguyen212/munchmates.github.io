@@ -4,7 +4,6 @@ import { StyleSheet,
   Text,
   Image,
   ScrollView } from 'react-native';
-import { iOSColors, sanFranciscoWeights } from 'react-native-typography';
 import moment from 'moment';
 
 export default class Recommendation extends Component {
@@ -22,7 +21,7 @@ export default class Recommendation extends Component {
         </View>
         <View style={styles.content}>
           <View style={styles.imageContainer}>
-            <Image source={require('../assets/background1.jpg')} style={styles.image}/>
+            <Image source={{uri: this.props.rec.image}} style={styles.image}/>
           </View>
           <ScrollView style={styles.descContainer} bounces={false}>
             <Text style={styles.desc}>{this.props.rec.desc}</Text>
@@ -45,7 +44,8 @@ const styles = StyleSheet.create({
     height: 150,
     display: 'flex',
     flexDirection: 'column',
-    justifyContent: 'space-around'
+    justifyContent: 'space-around',
+    backgroundColor: 'white'
   },
   header: {
     display: 'flex', 
@@ -69,9 +69,6 @@ const styles = StyleSheet.create({
   imageContainer: {
     flex: 0.7,
     marginRight: 2,
-    borderWidth: 1,
-    borderColor: 'black',
-    borderRadius: 5,
     height: "85%"
   },
   descContainer: {
@@ -84,6 +81,9 @@ const styles = StyleSheet.create({
   },
   image: {
     height: '100%',
-    width: '100%'
+    width: '100%',
+    borderWidth: 1,
+    borderColor: 'black',
+    borderRadius: 5,
   }
 })

@@ -4,6 +4,7 @@ import RegisterScreen from './components/RegisterScreen';
 import LoginScreen from './components/LoginScreen';
 import HomeScreen from './components/HomeScreen';
 import RecommendationHistoryScreen from './components/RecommendationHistoryScreen';
+import ContentFeedScreen from './components/ContentFeedScreen';
 
 export default StackNavigator({
   Welcome: {
@@ -20,6 +21,9 @@ export default StackNavigator({
   },
   Recommendation: {
     screen: RecommendationHistoryScreen,
+  },
+  ContentFeed: {
+    screen: ContentFeedScreen,
   }
-}, {initialRouteName: 'Recommendation'});
+}, {initialRouteName: 'ContentFeed'});
 
