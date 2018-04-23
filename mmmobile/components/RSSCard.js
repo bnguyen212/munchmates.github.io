@@ -22,7 +22,6 @@ export default class RSSCard extends Component {
     date.setDate(this.props.feed.pubDate.slice(8, 10))
     const $ = cheerio.load(this.props.feed.description);
     const desc = $('p').first().text();
-    console.log(desc);
     return (
       <View style={styles.card}>
         <Image source={{uri: 'https://static1.squarespace.com/static/511b2ccce4b0f4197c11661c/t/57393c8d1d07c093e2806269/1463368856675/Brenda+Ton'}} style={[styles.image, styles.author]}/>
@@ -49,7 +48,7 @@ export default class RSSCard extends Component {
 
 const styles = StyleSheet.create({
   card: {
-    marginVertical: 30,
+    marginTop: 60,
     marginHorizontal: '2.5%',
     width: '95%',
     paddingTop: 20,

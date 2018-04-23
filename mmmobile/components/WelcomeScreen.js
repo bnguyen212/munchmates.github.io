@@ -10,7 +10,8 @@ import { iOSColors, sanFranciscoWeights } from 'react-native-typography'
 export default class WelcomeScreen extends Component {
   static navigationOptions = {
     title: 'Welcome',
-    header: null
+    header: null,
+    gesturesEnabled: false
   };
   register() {
     this.props.navigation.navigate('Register');

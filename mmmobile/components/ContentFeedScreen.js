@@ -1,15 +1,18 @@
 import React, { Component } from 'react';
-import { StyleSheet, ScrollView, Text } from 'react-native';
-// import Recommendation from './Recommendation';
+import { StyleSheet, ScrollView, Text, View, TouchableOpacity } from 'react-native';
 import RSSCard from './RSSCard';
+import { iOSColors, sanFranciscoWeights } from 'react-native-typography';
+import Icon from 'react-native-vector-icons/Ionicons';
 
 export default class ContentFeedScreen extends Component {
   constructor(props) {
     super(props);
     this.state = {feed: []}
   }
+
   static navigationOptions = (props) => ({
-    title: 'Content Feed'
+    title: 'Content Feed',
+    gesturesEnabled: false,
   });
 
   componentWillMount() {
@@ -20,7 +23,7 @@ export default class ContentFeedScreen extends Component {
 
   render() {
     return (
-      <ScrollView contentContainerStyle={styles.container}>
+      <ScrollView style={styles.contentContainer}>
         {this.state.feed.map(item => <RSSCard feed={item} key={item.guid} />)}
       </ScrollView>
     )
@@ -28,8 +31,24 @@ export default class ContentFeedScreen extends Component {
 }
 
 const styles = StyleSheet.create({
-  container: {
-    width: '100%',
-    paddingVertical: '10%'
-  }
+  contentContainer: {
+    height: '92.5%',
+    marginBottom: '5%'
+  },
+  nav: {
+    display: 'flex',
+    flexDirection: 'row',
+    alignItems: 'center',
+    marginHorizontal: 10,
+  },
+  navText: {
+    fontSize: 17, 
+    color: iOSColors.blue,
+  },
+  navArrow: {
+    fontSize: 35, 
+    color: iOSColors.blue,
+    paddingTop: 3,
+    marginHorizontal: 5,
+  },
 });

@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import { StyleSheet, ScrollView } from 'react-native';
-import Recommendation from './Recommendation';
+import VendorCard from './VendorCard';
 
-export default class RecommendationHistoryScreen extends Component {
+export default class FavoritesScreen extends Component {
   constructor(props) {
     super(props);
     this.state = {recs: [{title: 'Panda Express', time: new Date(), image: 'http://logonoid.com/images/panda-express-logo.png', desc: 'Panda Express is a fast casual restaurant chain which serves American Chinese cuisine.'},
@@ -19,13 +19,14 @@ export default class RecommendationHistoryScreen extends Component {
                          {title: 'Popeyes', time: new Date(), image: 'http://restaurantnewsrelease.com/wp-content/uploads/2017/03/Cheryl-Bachelder-to-Step-Down-as-CEO-of-Popeyes-Louisiana-Kitchen-Upon-Closing-of-Transaction-with-Restaurant-Brands-International.gif', desc: 'Popeyes is an American multinational chain of fried chicken fast food restaurants.'}]}
   }
   static navigationOptions = (props) => ({
-    title: 'Top Recommendations History'
+    title: 'Favorites',
+    gesturesEnabled: false,
   });
 
   render() {
     return (
       <ScrollView contentContainerStyle={styles.container}>
-        {this.state.recs.map((item, i) => <Recommendation key={i} rec={item} />)}
+        {this.state.recs.map((item, i) => <VendorCard key={i} rec={item} />)}
       </ScrollView>
     )
   }

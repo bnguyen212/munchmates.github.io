@@ -8,7 +8,7 @@ import { StyleSheet,
   Button,
   Image,
   KeyboardAvoidingView } from 'react-native';
-import { iOSColors, sanFranciscoWeights } from 'react-native-typography';
+  import { iOSColors } from 'react-native-typography'
 
 export default class LoginScreen extends Component {
   constructor(props) {
@@ -23,7 +23,7 @@ export default class LoginScreen extends Component {
   });
 
   login() {
-    
+    this.props.navigation.navigate('Profile')
   }
 
   render() {
@@ -32,10 +32,6 @@ export default class LoginScreen extends Component {
 
         <View style={styles.backgroundContainer}>
           <Image source={require('../assets/background3.jpg')} style={styles.backgroundImage} />
-        </View>
-
-        <View style={styles.titleContainer}>
-          <Text style={styles.title}>MUNCHMATES</Text>
         </View>
 
         <View style={styles.formContainer}>
@@ -48,7 +44,7 @@ export default class LoginScreen extends Component {
                      placeholder="Password"
                      value={this.state.password}
                      onChangeText={password => this.setState({password})} />
-          <TouchableOpacity style={[styles.button, styles.buttonBlue]} onPress={ () => this.login() }>
+          <TouchableOpacity style={styles.button} onPress={ () => this.login() }>
             <Text style={styles.buttonLabel}>Login</Text>
           </TouchableOpacity>
         </View>
@@ -89,11 +85,6 @@ const styles = StyleSheet.create({
     marginRight: 5,
     borderRadius: 5,
     alignItems: 'center',
-  },
-  buttonRed: {
-    backgroundColor: iOSColors.red,
-  },
-  buttonBlue: {
     backgroundColor: iOSColors.blue,
   },
   buttonLabel: {
@@ -101,25 +92,9 @@ const styles = StyleSheet.create({
     fontSize: 20,
     color: 'white'
   },
-  title: {
-    fontSize: 30,
-    color: iOSColors.yellow,
-    ...sanFranciscoWeights.heavy,
-    marginTop: 15,
-    marginBottom: 15,
-  },
-  titleContainer: {
-    backgroundColor: 'black',
-    alignItems: 'center',
-    justifyContent: 'center',
-    position: 'absolute',
-    top: 0,
-    left: 0,
-    width: '100%'
-  },
   backgroundContainer: {
     position: 'absolute',
-    top: '5%',
+    top: 0,
     left: 0,
     width: '100%',
     height: '100%'

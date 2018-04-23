@@ -6,7 +6,7 @@ import { StyleSheet,
   ScrollView } from 'react-native';
 import moment from 'moment';
 
-export default class Recommendation extends Component {
+export default class VendorCard extends Component {
   constructor(props) {
     super(props);
     this.state = {}
@@ -38,9 +38,6 @@ const styles = StyleSheet.create({
     marginHorizontal: '2.5%',
     width: '95%',
     padding: 10,
-    borderRadius: 5,
-    borderWidth: 1,
-    borderColor: 'grey',
     height: 150,
     display: 'flex',
     flexDirection: 'column',

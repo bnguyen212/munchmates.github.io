@@ -2,28 +2,45 @@ import { StackNavigator } from 'react-navigation';
 import WelcomeScreen from './components/WelcomeScreen';
 import RegisterScreen from './components/RegisterScreen';
 import LoginScreen from './components/LoginScreen';
-import HomeScreen from './components/HomeScreen';
-import RecommendationHistoryScreen from './components/RecommendationHistoryScreen';
+import RecommendationsHistoryScreen from './components/RecommendationsHistoryScreen';
 import ContentFeedScreen from './components/ContentFeedScreen';
+import ProfileScreen from './components/ProfileScreen';
+import UpdateProfileScreen from './components/UpdateProfileScreen';
+import FavoritesScreen from './components/FavoritesScreen';
+import MapScreen from './components/MapScreen';
+import PreferencesScreen from './components/PreferencesScreen';
+import testScreen from './components/test';
 
 export default StackNavigator({
   Welcome: {
-    screen: WelcomeScreen,
+    screen: WelcomeScreen
   },
   Register: {
-    screen: RegisterScreen,
+    screen: RegisterScreen
   },
   Login: {
-    screen: LoginScreen,
+    screen: LoginScreen
   },
-  Home: {
-    screen: HomeScreen,
+  Profile: {
+    screen: ProfileScreen
   },
-  Recommendation: {
-    screen: RecommendationHistoryScreen,
+  Map: {
+    screen: MapScreen
   },
   ContentFeed: {
-    screen: ContentFeedScreen,
-  }
-}, {initialRouteName: 'ContentFeed'});
+    screen: ContentFeedScreen
+  },
+  UpdateProfile: {
+    screen: UpdateProfileScreen
+  },
+  Favorites: {
+    screen: FavoritesScreen
+  },
+  RecommendationsHistory: {
+    screen: RecommendationsHistoryScreen
+  },
+  Preferences: {
+    screen: PreferencesScreen
+  },
+}, {initialRouteName: 'Map'});
 
