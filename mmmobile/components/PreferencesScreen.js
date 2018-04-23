@@ -20,15 +20,13 @@ const budgetOptions = [
   { label: '$$$$', value: 4 }
 ]
 
-const cuisineOptions = [ 'African', 'American', 'Chinese', 'Thai', 'Korean', 'Japanese', 'Vietnamese', 'Filipino', 'Indian', 'Middle Eastern', 'French', 'Italian', 'Mexican', 'Spanish', 'Latin American', 'Mediterranean',]
+const cuisineOptions = [ 'African', 'American', 'Chinese', 'Thai', 'Japanese', 'Vietnamese', 'Indian', 'Middle Eastern', 'French', 'Italian', 'Spanish', 'Latin American', 'Mediterranean', 'Other Asian', 'Other European']
 
 const dietOptions = [
-  { label: 'None', value: 0 },
-  { label: 'Vegan', value: 1 },
-  { label: 'Ovo-Vegetarian', value: 2 },
-  { label: 'Lacto-Vegetarian', value: 3 },
-  { label: 'Lacto-Ovo Vegetarian', value: 4 },
-  { label: 'Pescatarian', value: 5}
+  { label: 'None', value: 1 },
+  { label: 'Vegan', value: 2 },
+  { label: 'Vegetarian', value: 3 },
+  { label: 'Pescatarian', value: 4 }
 ]
 
 const allergyOptions = [ 'Peanut', 'Tree Nuts', 'Milk', 'Egg', 'Wheat', 'Soy', 'Fish', 'Shellfish', 'Meat', 'Poultry' ];
@@ -47,7 +45,7 @@ export default class PreferencesScreen extends Component {
     this.state = {
       budget: 2,
       diet: 5,
-      cuisines: ['Thai', 'Korean', 'Vietnamese'],
+      cuisines: ['Thai', 'Vietnamese'],
       allergies: ['Wheat'],
       otherAllergy: 'Finn',
       popularityRating: 4,
@@ -86,7 +84,7 @@ export default class PreferencesScreen extends Component {
             items={dietOptions}
             placeholder={{
               label: 'Select your dietary restriction',
-              value: '',
+              value: 0,
             }}
             onValueChange={diet => this.setState({diet: diet.value})}
             style={{ ...pickerSelectStyles }}

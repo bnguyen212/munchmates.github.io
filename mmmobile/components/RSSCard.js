@@ -9,6 +9,8 @@ import { StyleSheet,
 import moment from 'moment';
 import cheerio from 'react-native-cheerio';
 import Icon from 'react-native-vector-icons/MaterialIcons';
+import { iOSColors } from 'react-native-typography';
+
 
 export default class RSSCard extends Component {
   constructor(props) {
@@ -35,6 +37,13 @@ export default class RSSCard extends Component {
         <ScrollView style={styles.descContainer}>
           <Text style={styles.desc}>{desc}</Text>
         </ScrollView>
+
+        <View style={styles.tags}>
+          {this.props.feed.categories.map((cat,i) => (
+            <TouchableOpacity key={i}><Text style={{color: iOSColors.tealBlue, fontWeight: 'bold', padding: 5}}>{'#' +cat}</Text></TouchableOpacity>
+            ))
+          }
+        </View>
 
         <View style={styles.actions}>
           <TouchableOpacity><Icon name="thumb-up" size={30} color='black'/></TouchableOpacity>
@@ -90,7 +99,7 @@ const styles = StyleSheet.create({
     flex: 1,
     marginTop: 10,
     paddingVertical: 5,
-    marginBottom: 20
+    marginBottom: 10
   },
   desc: {
     textAlign: 'justify',
@@ -101,4 +110,9 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     justifyContent: 'space-around',
   },
+  tags: {
+    display: 'flex',
+    flexDirection: 'row',
+    marginBottom: 10
+  }
 })

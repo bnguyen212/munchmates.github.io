@@ -42,5 +42,5 @@ export default StackNavigator({
   Preferences: {
     screen: PreferencesScreen
   },
-}, {initialRouteName: 'Map'});
+}, {initialRouteName: 'Login'});
 
