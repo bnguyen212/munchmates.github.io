@@ -17,6 +17,9 @@ var userSchema = mongoose.Schema({
     type: String,
     required: true
   },
+  first:{
+    type: Boolean,
+  },
   favorites:{
     type: Object,
     required: false

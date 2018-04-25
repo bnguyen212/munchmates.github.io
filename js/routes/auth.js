@@ -2,14 +2,20 @@ var express = require('express');
 var router = express.Router();
 var User=require("../../models/models.js").User
 var crypto =require('crypto');
+var User=require("../../models/models.js").User
+var pg =require ('pg');
+var pool = new pg.Pool({
+  host: "localhost",
+  max:20,
+  database:"munchmates"
+  //connectionSring: process.env.DATABASE_URL
+});
 function hashPassword(password){
   var hash= crypto.createHash('sha256');
   hash.update(password);
   return hash.digest('hex')
 }
 module.exports = function(passport) {
-  // Add Passport-related auth routes here, to the router!
-  // YOUR CODE HERE
   router.get("/", function(req, res){
     if (!req.user) {
       res.redirect("/login",);
@@ -22,25 +28,10 @@ module.exports = function(passport) {
   router.post("/signupa", function(req, res){
     console.log(req.body, "aaaaa")
     console.log(req.body.username, "bbbb");
-    if(req.body.username && req.body.password) {
-      var newUser= new User({
-        username:req.body.username,
-        password:hashPassword(req.body.password)
-      })
-      newUser.save(function(err, user) {
-        if (err) {
-          console.log(err);
-          res.status(500).redirect('/signup');
-          return;
-        }
-        console.log(user);
-        res.json({});
-      })
-    }else{
-      console.log("invalid entry");
-      res.status(400).send(req.body.username, req.body.password)
-    }
-
+    pool.query({
+      text: `insert into vendors(email, password) values($1, $2)`,
+      values: [req.body.username, req.body.password]
+    })
   })
 
   router.post("/login", passport.authenticate('local'), function(req, res){

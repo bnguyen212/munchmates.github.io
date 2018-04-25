@@ -1,6 +1,5 @@
 var express = require('express');
 var app = express();
-var mongoose = require('mongoose');
 var bodyParser= require('body-parser')
 var path= require("path")
 var express = require('express');
@@ -125,7 +124,7 @@ app.use(function(err, req, res, next) {
   });
 });
 
-app.listen(3000, function () {
+app.listen(process.env.PORT || 3000, function () {
     console.log(' server listening on: 3000');
 });
 module.exports = app;
