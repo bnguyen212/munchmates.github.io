@@ -125,6 +125,6 @@ app.use(function(err, req, res, next) {
 });
 
 app.listen(process.env.PORT || 3000, function () {
-    console.log(' server listening on: 3000');
+    console.log('Server listening on:', process.env.PORT);
 });
 module.exports = app;
