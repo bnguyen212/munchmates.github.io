@@ -9,7 +9,8 @@ import UpdateProfileScreen from './components/UpdateProfileScreen';
 import FavoritesScreen from './components/FavoritesScreen';
 import MapScreen from './components/MapScreen';
 import PreferencesScreen from './components/PreferencesScreen';
-import testScreen from './components/test';
+import SettingScreen from './components/SettingScreen';
+import InviteScreen from './components/InviteScreen';
 
 export default StackNavigator({
   Welcome: {
@@ -42,5 +43,11 @@ export default StackNavigator({
   Preferences: {
     screen: PreferencesScreen
   },
-}, {initialRouteName: 'Login'});
+  Setting: {
+    screen: SettingScreen
+  },
+  Invite: {
+    screen: InviteScreen
+  }
+}, {initialRouteName: 'Welcome'});
 

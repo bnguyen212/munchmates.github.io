@@ -20,7 +20,7 @@ const budgetOptions = [
   { label: '$$$$', value: 4 }
 ]
 
-const cuisineOptions = [ 'African', 'American', 'Chinese', 'Thai', 'Japanese', 'Vietnamese', 'Indian', 'Middle Eastern', 'French', 'Italian', 'Spanish', 'Latin American', 'Mediterranean', 'Other Asian', 'Other European']
+const cuisineOptions = [ 'African', 'American', 'Chinese', 'Thai', 'Japanese', 'Korean', 'Vietnamese', 'Indian', 'Middle Eastern', 'French', 'Italian', 'Mexican', 'Spanish', 'Latin American', 'Mediterranean', 'Other Asian', 'Other European']
 
 const dietOptions = [
   { label: 'None', value: 1 },
@@ -44,14 +44,14 @@ export default class PreferencesScreen extends Component {
     super(props);
     this.state = {
       budget: 2,
-      diet: 5,
+      diet: 4,
       cuisines: ['Thai', 'Vietnamese'],
       allergies: ['Wheat'],
       otherAllergy: 'Finn',
       popularityRating: 4,
       ratingRating: 5,
       proximityRating: 3,
-      ambianceRating: 1,
+      ambienceRating: 1,
       menuRating: 2
     }
   }
@@ -161,16 +161,16 @@ export default class PreferencesScreen extends Component {
               value={this.state.proximityRating} />
           </View>
           <View style={styles.sublabel}>
-            <Text>Ambiance</Text>
+            <Text>Ambience</Text>
             <RNPickerSelect
               items={ratingOptions}
               placeholder={{
                 label: 'Unrated',
                 value: 0,
               }}
-              onValueChange={ambiance => this.setState({ambianceRating: ambiance.value})}
+              onValueChange={ambience => this.setState({ambienceRating: ambience.value})}
               style={{ ...pickerSelectStyles2 }}
-              value={this.state.ambianceRating} />
+              value={this.state.ambienceRating} />
           </View>
           <View style={styles.sublabel}>
             <Text>Menu Variety</Text>

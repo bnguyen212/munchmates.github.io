@@ -60,13 +60,13 @@ export default class ProfileScreen extends Component {
           </View>
 
           <View style={styles.navItemContainer}>
-            <TouchableOpacity onPress={() => this.redirect('')}>
+            <TouchableOpacity onPress={() => this.redirect('Setting')}>
               <Text style={styles.navItem}>SETTINGS</Text>
             </TouchableOpacity>
           </View>
 
           <View style={styles.navItemContainer}>
-            <TouchableOpacity onPress={() => this.redirect('')}>
+            <TouchableOpacity onPress={() => this.redirect('Invite')}>
               <Text style={styles.navItem}>INVITE A FRIEND</Text>
             </TouchableOpacity>
           </View>
