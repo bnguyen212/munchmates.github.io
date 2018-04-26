@@ -17,16 +17,29 @@ export default class RSSCard extends Component {
     super(props);
   }
 
+  profilePic(value) {
+    let url;
+    switch (value) {
+      case 'Brenda Ton':
+        url = 'https://static1.squarespace.com/static/511b2ccce4b0f4197c11661c/t/57393c8d1d07c093e2806269/1463368856675/Brenda+Ton';
+        break;
+      case 'Nik Sharma':
+        url = 'https://static1.squarespace.com/static/53c2f8afe4b00a113d59f23a/t/572b500559827e91950d2d3f/1462456335185/Nik+Sharma.jpg?format=200w';
+        break;
+      case 'Sarah Menanix':
+        url ='https://www.snixykitchen.com/wp-content/themes/SnixyKitchenTheme/images/SarahMenanixAuthor.png';
+        break;
+    }
+    return url
+  }
+
   render() {
-    let date = new Date();
-    date.setFullYear(this.props.feed.pubDate.slice(0,4));
-    date.setMonth(this.props.feed.pubDate.slice(5,7));
-    date.setDate(this.props.feed.pubDate.slice(8, 10))
+    let date = new Date(this.props.feed.pubDate.slice(0,10));
     const $ = cheerio.load(this.props.feed.description);
     const desc = $('p').first().text();
     return (
       <View style={styles.card}>
-        <Image source={{uri: 'https://static1.squarespace.com/static/511b2ccce4b0f4197c11661c/t/57393c8d1d07c093e2806269/1463368856675/Brenda+Ton'}} style={[styles.image, styles.author]}/>
+        <Image source={{uri: this.profilePic(this.props.feed.author)}} style={[styles.image, styles.author]}/>
 
         <Image source={{uri: this.props.feed.thumbnail}} style={styles.image}/>
 
@@ -113,6 +126,7 @@ const styles = StyleSheet.create({
   tags: {
     display: 'flex',
     flexDirection: 'row',
-    marginBottom: 10
+    marginBottom: 10,
+    flexWrap: 'wrap'
   }
 })

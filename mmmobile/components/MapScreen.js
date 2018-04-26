@@ -241,7 +241,8 @@ export default class MapScreen extends Component {
           latitude: 37.765257
         }, 
         priceRange: '$$', 
-        type: 'popup' 
+        type: 'popup',
+        range: 500,
       } ,
       {
         id: 789,
@@ -262,6 +263,18 @@ export default class MapScreen extends Component {
           longitude: -122.401219, 
           latitude: 37.767852
         }, 
+        priceRange: '$$$$', 
+        type: 'popup',
+        range: 1000
+      } ,
+      {
+        id: 1234,
+        name: 'Eat Stay Love Lafayette Food Tour', 
+        desc: ['Chinese', 'Takeout', 'Steak'],
+        coords: {
+          longitude: -122.404954, 
+          latitude: 37.781441
+        },
         priceRange: '$$$$', 
         type: 'popup' 
       }
@@ -357,26 +370,40 @@ export default class MapScreen extends Component {
               //onMapReady={() => this.fetchLocation()}
               style={styles.mapView} 
               >
-              { this.state.data.map((vendor, id) => (
-
-                <Marker key={vendor.id} coordinate={vendor.coords}
-                        pinColor={this.state.markerColor} >
-                  <Callout onPress={() => AlertIOS.alert('Favorited!')}>
-                    <View style={styles.calloutView}>
-                      <Text style={styles.calloutTitle}>{vendor.name}</Text>
-                      <View style={styles.calloutTags}>
-                        { vendor.desc.map((word, i) => (
-                          <View key={i} style={styles.calloutTagBorder}>
-                            <Text style={styles.calloutTagText}>{word}</Text>
-                          </View>
-                          ))
-                        }
+              { 
+                this.state.data.map(vendor => (
+                  <Marker key={vendor.id} coordinate={vendor.coords}
+                          pinColor={this.state.markerColor} >
+                    <Callout onPress={() => AlertIOS.alert('Favorited!')}>
+                      <View style={styles.calloutView}>
+                        <Text style={styles.calloutTitle}>{vendor.name}</Text>
+                        <View style={styles.calloutTags}>
+                          { vendor.desc.map((word, i) => (
+                            <View key={i} style={styles.calloutTagBorder}>
+                              <Text style={styles.calloutTagText}>{word}</Text>
+                            </View>
+                            ))
+                          }
+                        </View>
+                        <Text style={styles.calloutInfo}>{vendor.priceRange} | {vendor.type.toUpperCase()}</Text>
                       </View>
-                      <Text style={styles.calloutInfo}>{vendor.priceRange} | {vendor.type.toUpperCase()}</Text>
-                    </View>
-                  </Callout>
-                </Marker>
+                    </Callout>
+                  </Marker>
                 ))
+              }
+              {
+                this.state.filter !== 3 ? null : (this.state.data.map((vendor, i) => {
+                  if (vendor.type === 'popup' && vendor.range) {
+                    return (<Circle key={vendor.id + i}
+                                    center={vendor.coords}
+                                    radius={vendor.range}
+                                    strokeWidth={2}
+                                    strokeColor={this.state.markerColor}
+                                    fillColor='rgba(0, 204, 68, 0.2)' />)
+                  } else {
+                    return null
+                  }
+                }))
               }
             </MapView>
 

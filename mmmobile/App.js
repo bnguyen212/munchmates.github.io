@@ -11,6 +11,7 @@ import MapScreen from './components/MapScreen';
 import PreferencesScreen from './components/PreferencesScreen';
 import SettingScreen from './components/SettingScreen';
 import InviteScreen from './components/InviteScreen';
+import UsersMapScreen from './components/UsersMapScreen';
 
 export default StackNavigator({
   Welcome: {
@@ -48,6 +49,9 @@ export default StackNavigator({
   },
   Invite: {
     screen: InviteScreen
+  },
+  UsersMap: {
+    screen: UsersMapScreen
   }
 }, {initialRouteName: 'Welcome'});
 
