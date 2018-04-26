@@ -6,10 +6,7 @@ var User=require("../../models/models.js").User
 var pg =require ('pg');
 
 var pool = new pg.Pool({
-  host: "localhost",
-  max:20,
-  database:"munchmates"
-  //connectionSring: process.env.DATABASE_URL
+  connectionSring: process.env.DATABASE_URL
 });
 function hashPassword(password){
   var hash= crypto.createHash('sha256');
