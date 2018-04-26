@@ -27,8 +27,20 @@ router.get('/places', function(req, res, next) {
   })
 })
 router.get('/user', function(req, res, next){
-  pool.query(`select * from users where email ${req.body.email}`)
+  pool.query('select * from users where _email $1' [req.body.email])
   .then(function(result){
+    res.json(result.rows[0])
+  })
+})
+router.get('/preferences', function(req, res, next){
+  pool.query('select * from emails where _email $1', [req.body.email],
+  (result)=>{
+    res.json(result.rows[0])
+  })
+})
+router.get('/settings', function(req, res, next){
+  pool.query('select * from settings where _email $1', [req.body.email],
+  (result)=>{
     res.json(result.rows[0])
   })
 })
@@ -47,6 +59,22 @@ router.post('/user/preference', function(req, res, next){
     res.json(result.rows[0])
   })
 })
+router.post('/user/settings', function(req, res, next){
+  pool.query('update settings daily=$1, weekly=$2, vendor=$3, articles=$4 where _email like $12 ',
+   [req.body.daily, req.body.weekly, req.body.vendor, req.body.articles, req.body._email],
+   (err, resp)=>{
+     {if(err){
+       console.log(err)
+     }
+     else{
+       res.json({"ok":true})
+     }
+   })
+  .then(function(result){
+    res.json(result.rows[0])
+  })
+})
+
 
 
 
