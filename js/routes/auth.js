@@ -4,6 +4,7 @@ var User=require("../../models/models.js").User
 var crypto =require('crypto');
 var User=require("../../models/models.js").User
 var pg =require ('pg');
+
 var pool = new pg.Pool({
   host: "localhost",
   max:20,
@@ -26,12 +27,17 @@ module.exports = function(passport) {
 
 
   router.post("/signupa", function(req, res){
-    console.log(req.body, "aaaaa")
-    console.log(req.body.username, "bbbb");
-    pool.query({
-      text: `insert into vendors(email, password) values($1, $2)`,
-      values: [req.body.username, req.body.password]
-    })
+    console.log(req.body)
+    pool.query(
+     'insert into users(email, password) values($1, $2)',
+     [req.body.username, hashPassword(req.body.password)],
+     (err, resp)=> {if(err){
+       console.log(err)
+     }
+     else{
+       res.json({"ok":true})
+     }
+   })
   })
 
   router.post("/login", passport.authenticate('local'), function(req, res){

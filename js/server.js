@@ -18,7 +18,11 @@ var session = require('express-session');
 var mongoose = require('mongoose');
 var crypto= require("crypto")
 const MongoStore = require('connect-mongo')(session);
+var pg =require ('pg');
+var pool = new pg.Pool({
 
+  connectionSring: process.env.DATABASE_URL
+});
 if (! process.env.MONGODB_URI) {
   throw new Error("MONGODB_URI is not in the environmental variables. Try running 'source env.sh'");
 }
@@ -50,39 +54,40 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 // Tell Passport how to set req.user
 passport.serializeUser(function(user, done) {
+  console.log(user)
   done(null, user._id);
 });
 
 passport.deserializeUser(function(id, done) {
-  User.findById(id, function(err, user) {
-    done(err, user);
-  });
+  pool.query({
+    text: `select * from users where email like $1`,
+    values: [id],
+  }).then((i)=>{
+      console.log(i)
+      var user= i.rows[0]
+      done(null, {_id: user.email})
+})
 });
 
-// Tell passport how to read our user models
-passport.use(new LocalStrategy(function(username, password, done) {
-  // Find the user with the given username
-  User.findOne({ username: username }, function (err, user) {
-    // if there's an error, finish trying to authenticate (auth failed)
-    if (err) {
-      console.log(err);
-      return done(err);
+  passport.use(new LocalStrategy(function(username, password, done) {
+    // Find the user with the given username
+    pool.query({
+      text:`select * from users where email like $1`,
+      values:[username]
+    }).then((i)=>{
+    console.log(password,hashPassword(password))
+    console.log(i)
+    passwordb=i.rows[0].password
+    var user=i.rows[0]
+    if(passwordb!==hashPassword(password)){
+      console.log(user)
+      return done(null, false)
     }
-    // if no user present, auth failed
-    if (!user) {
-      console.log(user);
-      return done(null, false);
-    }
-    // if passwords do not match, auth failed
-    if (user.password !== hashPassword(password)) {
-      return done(null, false);
-    }
-    console.log(user.username, user.password)
-    // auth has has succeeded
-    console.log("girdi")
-    return done(null, user);
-  });
-}));
+    return done(null, {_id: username})
+  })
+
+  }));
+
 app.use(passport.initialize());
 app.use(passport.session());
 
