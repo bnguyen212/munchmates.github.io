@@ -29,6 +29,7 @@ module.exports = function(passport) {
 
 
   router.post("/register", function(req, res){
+    console.log(req.body, " AAAAAAAAA")
     pool.query(
      'select * from users where email = $1',
      [`${req.body.email}`]
@@ -67,6 +68,9 @@ module.exports = function(passport) {
     req.logout();
     res.redirect("/login");
   })
-
+router.post('/login/foobar', passport.authenticate('local'), function(req, res){
+  console.log(req.body)
+  res.json({"authenticated": true})
+})
   return router;
 }

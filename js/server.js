@@ -64,24 +64,25 @@ passport.serializeUser(function(user, done) {
 
 passport.deserializeUser(function(id, done) {
   pool.query({
-    text: `select * from users where email like $1`,
+    text: `select * from users where email = $1`,
     values: [id],
   }).then((i)=>{
-      console.log(i)
+      console.log(i, id)
       var user= i.rows[0]
-      done(null, {_id: user.email})
-})
+      done(null, {user})
+  })
 });
 
   passport.use(new LocalStrategy(function(username, password, done) {
     // Find the user with the given username
+    console.log("USERNAME:"+username,"PASSWORD:"+password)
     pool.query({
       text:`select * from users where email like $1`,
       values:[username]
     }).then((i)=>{
-    console.log(password,hashPassword(password))
-    console.log(i)
-    passwordb=i.rows[0].password
+    // console.log(password,hashPassword(password))
+    // console.log(i)
+    var passwordb=i.rows[0].password
     var user=i.rows[0]
     if(passwordb!==hashPassword(password)){
       console.log(user)
