@@ -28,16 +28,17 @@ module.exports = function(passport) {
   });
 
 
-  router.post("/signupa", function(req, res){
+  router.post("/register", function(req, res){
     console.log(req.body)
     pool.query(
      'insert into users(email, password) values($1, $2)',
      [req.body.username, hashPassword(req.body.password)],
      (err, resp)=> {if(err){
-       console.log(err)
+       res.json({success: false,
+         "err":err})
      }
      else{
-       res.json({"ok":true})
+       res.json({"success":true})
      }
    })
   })
