@@ -12,9 +12,9 @@ if (!pool){
 }
 
 //const request = require('request');
-// router.get('/hi', function(req, res, next){
-//   res.send("hi")
-// })
+ router.get('/hi', function(req, res, next){
+   res.send("hi")
+ })
 router.get('/places', function(req, res, next) {
   pool.query('SELECT * FROM vendors')
   .then(function (result){
@@ -48,7 +48,7 @@ router.post('/user/preference', function(req, res, next){
   pool.query('update preferences budget=$1, diet=$2, cuisines=$3, allergies=$4, otherAllergy=$5, popularityRating=$6, ratingRating=$7, proximityRating=$8, menuRating=$9,  ambienceRating=$11, where _email like $12 ',
    [req.body.budget, req.body.diet, req.body.cuisines, req.body.allergies, req.body.otherAllergy, req.body.popularityRating, req.body.ratingRating, req.body.proximityRating, req.body.menuRating, req.body.ambienceRating, req.body.email],
    (err, resp)=>{
-     {if(err){
+     if(err){
        console.log(err)
      }
      else{
@@ -63,7 +63,7 @@ router.post('/user/settings', function(req, res, next){
   pool.query('update settings daily=$1, weekly=$2, vendor=$3, articles=$4 where _email like $12 ',
    [req.body.daily, req.body.weekly, req.body.vendor, req.body.articles, req.body._email],
    (err, resp)=>{
-     {if(err){
+     if(err){
        console.log(err)
      }
      else{
