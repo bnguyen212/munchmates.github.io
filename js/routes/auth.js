@@ -29,10 +29,22 @@ module.exports = function(passport) {
 
 
   router.post("/register", function(req, res){
-    console.log(req.body)
+    pool.query(
+     'select * from users where email = $1',
+     [`${req.body.email}`]
+     //,
+   //   (err, resp)=> {if(err){
+   //     console.log(err)
+   //     res.json({success: false,
+   //       "err":err})
+   //   }else{
+   //     console.log( "aaaa")
+   //   }
+   // }
+ ).then((i)=>{if(i.rows.length==0){
     pool.query(
      'insert into users(email, password) values($1, $2)',
-     [req.body.username, hashPassword(req.body.password)],
+     [req.body.email, hashPassword(req.body.password)],
      (err, resp)=> {if(err){
        res.json({success: false,
          "err":err})
@@ -40,7 +52,11 @@ module.exports = function(passport) {
      else{
        res.json({"success":true})
      }
-   })
+   })}else{
+     res.json({success: false,
+       "err":"user already exists"})
+   }
+ })
   })
 
   router.post("/login", passport.authenticate('local'), function(req, res){
