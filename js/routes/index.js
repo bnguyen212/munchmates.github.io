@@ -21,17 +21,13 @@ if (!pool){
    res.send("hi")
  })
 router.get('/places', function(req, res, next) {
-  pool.query('SELECT * FROM vendors where lat>$1-$2 and lat<$1+$2 and long>$3-$4 and long<$3+$4')
-  [req.query._lat, req.query._latdel, req.query._long, req.query._longdel]
-  .then(function (result){
+  pool.query('SELECT * FROM vendors where lat>$1-$2 and lat<$1+$2 and long>$3-$4 and long<$3+$4',
+  [req.query._lat, req.query._latdel, req.query._long, req.query._longdel],
+  (result)=>{
     console.log(result.rows[0])
     res.json(result.rows)
-  })
-  .catch(function(err){
-    console.log(err, "ERR")
-    res.json({"err": err})
-  })
-})
+  }
+)})
 router.get('/user', function(req, res, next){
   pool.query('select * from users where email like $1' [req.query.email])
   .then(function(result){
