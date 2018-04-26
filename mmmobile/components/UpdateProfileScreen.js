@@ -41,7 +41,7 @@ export default class UpdateProfileScreen extends Component {
       gender: 'Male',
       ageRange: 3,
       location: 'San Francisco, CA',
-      expertise: 3
+      expertise: 2
     }
   }
 

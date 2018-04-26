@@ -14,6 +14,7 @@ import MapView, { Marker, Callout, Circle } from 'react-native-maps';
 import { Location, Permissions } from 'expo';
 import Icon from 'react-native-vector-icons/Ionicons';
 import SwitchSelector from 'react-native-switch-selector';
+import moment from 'moment';
 
 const options = [
     { label: 'All', value: 0 },
@@ -24,7 +25,7 @@ const options = [
 
 export default class MapScreen extends Component {
   static navigationOptions = props => ({
-    title: 'Map',
+    title: 'Vendor Map',
     headerLeft: <TouchableOpacity onPress={() => {props.navigation.goBack()}}><View style={styles.nav}><Icon name='ios-arrow-back' style={styles.navArrow}/><Text style={styles.navText}>Profile </Text></View></TouchableOpacity>,
     headerRight: <TouchableOpacity onPress={() => {props.navigation.navigate('ContentFeed')}}><View style={styles.nav}><Text style={styles.navText}>Content Feed</Text><Icon name='ios-arrow-forward' style={styles.navArrow}/></View></TouchableOpacity>,
     gesturesEnabled: false,
@@ -42,7 +43,7 @@ export default class MapScreen extends Component {
       { 
         id: 123,
         name: 'Panda Express',
-        desc: ['Chinese', 'Takeout', 'Steak'],
+        desc: ['Chinese', 'Takeout'],
         coords: {
           longitude: -122.411461, 
           latitude: 37.777861, 
@@ -53,7 +54,7 @@ export default class MapScreen extends Component {
       {
         id: 234,
         name: 'Modernist Spring Dinner', 
-        desc: ['Chinese', 'Takeout', 'Steak'],
+        desc: ['Sandwiches', 'Burger', 'Dinner'],
         coords: {
           longitude: -122.407942, 
             latitude: 37.77493
@@ -64,7 +65,7 @@ export default class MapScreen extends Component {
       {
         id: 345,
         name: 'Noodle in a Haystack', 
-        desc: ['Chinese', 'Takeout', 'Steak'],
+        desc: ['Noodle', 'Asian'],
         coords: {
           longitude: -122.405009, 
           latitude: 37.772142, 
@@ -75,7 +76,7 @@ export default class MapScreen extends Component {
       {
         id: 456,
         name: 'Northern Iranian Spring Dinner', 
-        desc: ['Chinese', 'Takeout', 'Steak'],
+        desc: ['Iran', 'Dinner', 'Steak'],
         coords: {
           longitude: -122.412327, 
           latitude: 37.772028, 
@@ -86,7 +87,7 @@ export default class MapScreen extends Component {
       {
         id: 567,
         name: 'The Silk Road Tacos', 
-        desc: ['Chinese', 'Takeout', 'Steak'],
+        desc: ['Tacos', 'Mexican'],
         coords: {
           longitude: -122.416916, 
           latitude: 37.775638
@@ -94,43 +95,10 @@ export default class MapScreen extends Component {
         priceRange: '$', 
         type: 'truck' 
       } ,
-      {
-        id: 678,
-        name: 'Vegan Date Night', 
-        desc: ['Chinese', 'Takeout', 'Steak'],
-        coords: {
-          longitude: -122.410972, 
-          latitude: 37.765257
-        }, 
-        priceRange: '$$', 
-        type: 'popup' 
-      } ,
-      {
-        id: 789,
-        name: 'ICHIDO Japanese Omakase', 
-        desc: ['Chinese', 'Takeout', 'Steak'],
-        coords: {
-          longitude: -122.401595, 
-          latitude: 37.783592
-        }, 
-        priceRange: '$$', 
-        type: 'truck' 
-      } ,
-      {
-        id: 890,
-        name: 'Istanbul Modern', 
-        desc: ['Chinese', 'Takeout', 'Steak'],
-        coords: {
-          longitude: -122.401219, 
-          latitude: 37.767852
-        }, 
-        priceRange: '$$$$', 
-        type: 'popup' 
-      } ,
       { 
         id: 901,
-        name: '4-Course Brunch', 
-        desc: ['Chinese', 'Takeout', 'Steak'],
+        name: 'Four Seasons Diner', 
+        desc: ['American', 'Takeout', 'Burger'],
         coords: {
           longitude: -122.41942, 
           latitude: 37.77493
@@ -138,16 +106,16 @@ export default class MapScreen extends Component {
         priceRange: '$$', 
         type: 'truck' 
       } ,
-      {
-        id: 1234,
-        name: 'Eat Stay Love Lafayette Food Tour', 
-        desc: ['Chinese', 'Takeout', 'Steak'],
+      { 
+        id: 90134,
+        name: 'Curry Up Now', 
+        desc: ['Indian', 'Takeout', 'Vegetarian'],
         coords: {
-          longitude: -122.404954, 
-          latitude: 37.781441
-        },
-        priceRange: '$$$$', 
-        type: 'popup' 
+          longitude: -122.407512, 
+          latitude: 37.780236, 
+        }, 
+        priceRange: '$$', 
+        type: 'truck' 
       } ,
     ];
     this.recommendations = [
@@ -219,17 +187,6 @@ export default class MapScreen extends Component {
         priceRange: '$', 
         type: 'truck' 
       } ,
-      {
-        id: 678,
-        name: 'Vegan Date Night', 
-        desc: ['Chinese', 'Takeout', 'Steak'],
-        coords: {
-          longitude: -122.410972, 
-          latitude: 37.765257
-        }, 
-        priceRange: '$$', 
-        type: 'popup' 
-      }
     ];
     this.upcoming = [
       {
@@ -243,6 +200,7 @@ export default class MapScreen extends Component {
         priceRange: '$$', 
         type: 'popup',
         range: 500,
+        date: '2018-05-12'
       } ,
       {
         id: 789,
@@ -253,7 +211,8 @@ export default class MapScreen extends Component {
           latitude: 37.783592
         }, 
         priceRange: '$$', 
-        type: 'truck' 
+        type: 'truck',
+        date: '2018-04-30'
       } ,
       {
         id: 890,
@@ -265,7 +224,8 @@ export default class MapScreen extends Component {
         }, 
         priceRange: '$$$$', 
         type: 'popup',
-        range: 1000
+        range: 700,
+        date: '2018-05-23'
       } ,
       {
         id: 1234,
@@ -276,7 +236,8 @@ export default class MapScreen extends Component {
           latitude: 37.781441
         },
         priceRange: '$$$$', 
-        type: 'popup' 
+        type: 'popup',
+        date: '2018-05-11'
       }
     ]
   }
@@ -386,6 +347,7 @@ export default class MapScreen extends Component {
                           }
                         </View>
                         <Text style={styles.calloutInfo}>{vendor.priceRange} | {vendor.type.toUpperCase()}</Text>
+                        { vendor.date ? <Text style={styles.calloutInfo}>{moment(new Date(vendor.date), 'YYYY-MM-DDThh:mm:ss.SSSZ').format("MMMM D, YYYY")}</Text> : null }
                       </View>
                     </Callout>
                   </Marker>

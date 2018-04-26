@@ -31,8 +31,8 @@ export default class ProfileScreen extends Component {
     return (
       <View style={styles.container}>
         <View style={styles.imgContainer}>
-          <Image source={{uri: 'https://media.licdn.com/dms/image/C5603AQEvcIbPuG1kmA/profile-displayphoto-shrink_800_800/0?e=1529352000&v=beta&t=mnF4g7mKIHmwh26xYnuGTgjC4-rQQcp1_R6F8Rqyc1U'}} style={styles.image} />
-          <Text style={styles.name}>WALL-E</Text>
+          <Image source={require('../assets/userRadar.png')} style={styles.image} />
+          <Text style={styles.name}>@Brian</Text>
         </View>
         <View style={styles.navigation}>
           <View style={styles.navItemContainer}>
@@ -72,12 +72,6 @@ export default class ProfileScreen extends Component {
           </View>
 
           <View style={styles.navItemContainer}>
-            <TouchableOpacity onPress={() => this.redirect('')}>
-              <Text style={styles.navItem}>SUPPORT</Text>
-            </TouchableOpacity>
-          </View>
-
-          <View style={styles.navItemContainer}>
             <TouchableOpacity onPress={() => this.redirect('Welcome')}>
               <Text style={styles.navItem}>LOG OUT</Text>
             </TouchableOpacity>
@@ -99,19 +93,16 @@ const styles = StyleSheet.create({
   imgContainer: {
     display: 'flex',
     alignItems: 'center',
-    paddingVertical: 20,
+    paddingVertical: 10,
     flex: 0.4
   },
   image: {
-    width: 200,
-    height: 200,
-    borderRadius: 100,
+    width: 350,
+    height: 350,
     marginBottom: 20,
-    borderWidth: 2,
-    borderColor: iOSColors.yellow
   },
   name: {
-    fontSize: 30,
+    fontSize: 25,
     fontWeight: 'bold'
   },
   navigation: {
@@ -128,7 +119,7 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     color: iOSColors.yellow,
     fontWeight: 'bold',
-    paddingVertical: 10,
+    paddingVertical: 5,
   },
   nav: {
     display: 'flex',

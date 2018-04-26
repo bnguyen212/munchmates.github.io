@@ -53,5 +53,5 @@ export default StackNavigator({
   UsersMap: {
     screen: UsersMapScreen
   }
-}, {initialRouteName: 'Welcome'});
+}, {initialRouteName: 'Profile'});
 

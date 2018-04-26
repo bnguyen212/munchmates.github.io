@@ -6,7 +6,8 @@ import {
   View, 
   TextInput,
   Button,
-  Alert } from 'react-native';
+  Alert,
+  ScrollView } from 'react-native';
 import { iOSColors } from 'react-native-typography';
 import RNPickerSelect from 'react-native-picker-select';
 import { KeyboardAwareScrollView } from 'react-native-keyboard-aware-scroll-view';
@@ -45,9 +46,9 @@ export default class PreferencesScreen extends Component {
     this.state = {
       budget: 2,
       diet: 4,
-      cuisines: ['Thai', 'Vietnamese'],
-      allergies: ['Wheat'],
-      otherAllergy: 'Finn',
+      cuisines: ['Thai', 'Vietnamese', 'Korean', 'Italian', 'Mediterranean'],
+      allergies: ['Tree Nuts', 'Egg'],
+      otherAllergy: '',
       popularityRating: 4,
       ratingRating: 5,
       proximityRating: 3,
@@ -66,7 +67,7 @@ export default class PreferencesScreen extends Component {
 
   render() {
     return (
-      <KeyboardAwareScrollView style={styles.container}>
+      <ScrollView style={styles.container}>
         <View style={{marginBottom: '20%'}}>
           <Text style={styles.label}>BUDGET</Text>
           <RNPickerSelect
@@ -189,7 +190,7 @@ export default class PreferencesScreen extends Component {
             <Text style={styles.buttonLabel}>Update</Text>
           </TouchableOpacity>
         </View>
-      </KeyboardAwareScrollView>
+      </ScrollView>
     )
   }
 }
