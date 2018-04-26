@@ -20,8 +20,12 @@ var crypto= require("crypto")
 const MongoStore = require('connect-mongo')(session);
 var pg =require ('pg');
 var pool = new pg.Pool({
-
-  connectionSring: process.env.DATABASE_URL
+  host: process.env.DBHOST,
+  port: 5432,
+  user: process.env.USER,
+  password: process.env.PASSWORD,
+  database: process.env.DB,
+  ssl: true,
 });
 if (! process.env.MONGODB_URI) {
   throw new Error("MONGODB_URI is not in the environmental variables. Try running 'source env.sh'");

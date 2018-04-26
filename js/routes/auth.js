@@ -6,7 +6,12 @@ var User=require("../../models/models.js").User
 var pg =require ('pg');
 
 var pool = new pg.Pool({
-  connectionSring: process.env.DATABASE_URL
+  host: process.env.DBHOST,
+  port: 5432,
+  user: process.env.USER,
+  password: process.env.PASSWORD,
+  database: process.env.DB,
+  ssl: true,
 });
 function hashPassword(password){
   var hash= crypto.createHash('sha256');
