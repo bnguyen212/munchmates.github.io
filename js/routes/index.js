@@ -49,7 +49,7 @@ router.get('/user', function(req, res, next){
 //   (result)=>{
 //     res.json(result.rows[0])
 //   })
-})
+//})
 router.post('/user/preference', function(req, res, next){
   pool.query('alter table users budget=$1, diet=$2, cuisines=$3, allergies=$4, otherAllergy=$5, popularityRating=$6, ratingRating=$7, proximityRating=$8, menuRating=$9,  ambienceRating=$11, where _email like $12 ',
    [req.body.budget, req.body.diet, req.body.cuisines, req.body.allergies, req.body.otherAllergy, req.body.popularityRating, req.body.ratingRating, req.body.proximityRating, req.body.menuRating, req.body.ambienceRating, req.body.email],
