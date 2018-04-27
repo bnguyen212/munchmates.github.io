@@ -15,6 +15,11 @@ import { Location, Permissions } from 'expo';
 import Icon from 'react-native-vector-icons/Ionicons';
 import SwitchSelector from 'react-native-switch-selector';
 import moment from 'moment';
+import vendors from '../assets/vendors';
+import upcoming from '../assets/upcoming';
+import recommendations from '../assets/recommendations';
+import favorites from '../assets/favorites';
+// console.log(recommendations);
 
 const options = [
     { label: 'All', value: 0 },
@@ -22,6 +27,8 @@ const options = [
     { label: 'Favorites', value: 2 },
     { label: 'Upcoming', value: 3 }
 ];
+
+const priceRange = [0, '$', '$$', '$$$', '$$$$'];
 
 export default class MapScreen extends Component {
   static navigationOptions = props => ({
@@ -39,207 +46,58 @@ export default class MapScreen extends Component {
       data: []
     };
 
-    this.vendors = [ 
-      { 
-        id: 123,
-        name: 'Panda Express',
-        desc: ['Chinese', 'Takeout'],
-        coords: {
-          longitude: -122.411461, 
-          latitude: 37.777861, 
-        }, 
-        priceRange: '$$', 
-        type: 'popup' 
-      } ,
-      {
-        id: 234,
-        name: 'Modernist Spring Dinner', 
-        desc: ['Sandwiches', 'Burger', 'Dinner'],
-        coords: {
-          longitude: -122.407942, 
-            latitude: 37.77493
-          }, 
-          priceRange: '$$$', 
-          type: 'popup' 
-      } ,
-      {
-        id: 345,
-        name: 'Noodle in a Haystack', 
-        desc: ['Noodle', 'Asian'],
-        coords: {
-          longitude: -122.405009, 
-          latitude: 37.772142, 
-        }, 
-        priceRange: '$', 
-        type: 'truck' 
-      } ,
-      {
-        id: 456,
-        name: 'Northern Iranian Spring Dinner', 
-        desc: ['Iran', 'Dinner', 'Steak'],
-        coords: {
-          longitude: -122.412327, 
-          latitude: 37.772028, 
-        }, 
-        priceRange: '$$$', 
-        type: 'popup' 
-      } ,
-      {
-        id: 567,
-        name: 'The Silk Road Tacos', 
-        desc: ['Tacos', 'Mexican'],
-        coords: {
-          longitude: -122.416916, 
-          latitude: 37.775638
-        }, 
-        priceRange: '$', 
-        type: 'truck' 
-      } ,
-      { 
-        id: 901,
-        name: 'Four Seasons Diner', 
-        desc: ['American', 'Takeout', 'Burger'],
-        coords: {
-          longitude: -122.41942, 
-          latitude: 37.77493
-        }, 
-        priceRange: '$$', 
-        type: 'truck' 
-      } ,
-      { 
-        id: 90134,
-        name: 'Curry Up Now', 
-        desc: ['Indian', 'Takeout', 'Vegetarian'],
-        coords: {
-          longitude: -122.407512, 
-          latitude: 37.780236, 
-        }, 
-        priceRange: '$$', 
-        type: 'truck' 
-      } ,
-    ];
-    this.recommendations = [
-      { 
-        id: 123,
-        name: 'Panda Express',
-        desc: ['Chinese', 'Takeout', 'Steak'],
-        coords: {
-          longitude: -122.411461, 
-          latitude: 37.777861, 
-        }, 
-        priceRange: '$$', 
-        type: 'popup' 
-      } ,
-      {
-        id: 234,
-        name: 'Modernist Spring Dinner', 
-        desc: ['Chinese', 'Takeout', 'Steak'],
-        coords: {
-          longitude: -122.407942, 
-            latitude: 37.77493
-          }, 
-          priceRange: '$$$', 
-          type: 'popup' 
-      } ,
-      {
-        id: 345,
-        name: 'Noodle in a Haystack', 
-        desc: ['Chinese', 'Takeout', 'Steak'],
-        coords: {
-          longitude: -122.405009, 
-          latitude: 37.772142, 
-        }, 
-        priceRange: '$', 
-        type: 'truck' 
-      } ,
-      {
-        id: 456,
-        name: 'Northern Iranian Spring Dinner', 
-        desc: ['Chinese', 'Takeout', 'Steak'],
-        coords: {
-          longitude: -122.412327, 
-          latitude: 37.772028, 
-        }, 
-        priceRange: '$$$', 
-        type: 'popup' 
-      }
-    ];
-    this.favorites = [
-      {
-        id: 456,
-        name: 'Northern Iranian Spring Dinner', 
-        desc: ['Chinese', 'Takeout', 'Steak'],
-        coords: {
-          longitude: -122.412327, 
-          latitude: 37.772028, 
-        }, 
-        priceRange: '$$$', 
-        type: 'popup' 
-      } ,
-      {
-        id: 567,
-        name: 'The Silk Road Tacos', 
-        desc: ['Chinese', 'Takeout', 'Steak'],
-        coords: {
-          longitude: -122.416916, 
-          latitude: 37.775638
-        }, 
-        priceRange: '$', 
-        type: 'truck' 
-      } ,
-    ];
-    this.upcoming = [
-      {
-        id: 678,
-        name: 'Vegan Date Night', 
-        desc: ['Chinese', 'Takeout', 'Steak'],
-        coords: {
-          longitude: -122.410972, 
-          latitude: 37.765257
-        }, 
-        priceRange: '$$', 
-        type: 'popup',
-        range: 500,
-        date: '2018-05-12'
-      } ,
-      {
-        id: 789,
-        name: 'ICHIDO Japanese Omakase', 
-        desc: ['Chinese', 'Takeout', 'Steak'],
-        coords: {
-          longitude: -122.401595, 
-          latitude: 37.783592
-        }, 
-        priceRange: '$$', 
-        type: 'truck',
-        date: '2018-04-30'
-      } ,
-      {
-        id: 890,
-        name: 'Istanbul Modern', 
-        desc: ['Chinese', 'Takeout', 'Steak'],
-        coords: {
-          longitude: -122.401219, 
-          latitude: 37.767852
-        }, 
-        priceRange: '$$$$', 
-        type: 'popup',
-        range: 700,
-        date: '2018-05-23'
-      } ,
-      {
-        id: 1234,
-        name: 'Eat Stay Love Lafayette Food Tour', 
-        desc: ['Chinese', 'Takeout', 'Steak'],
-        coords: {
-          longitude: -122.404954, 
-          latitude: 37.781441
-        },
-        priceRange: '$$$$', 
-        type: 'popup',
-        date: '2018-05-11'
-      }
-    ]
+     this.vendors = vendors.concat(upcoming).map((item, i) => {
+      return {id: item['vendor-name'] + item.latitude,
+              name: item['vendor-name'],
+              desc: item.cuisine,
+              coords: {
+                latitude: item.latitude,
+                longitude: item.longitude
+              },
+              priceRange: priceRange[item.price],
+              type: item.type
+              }
+     })
+
+     this.favorites = favorites.map((item, i) => {
+      return {id: item['vendor-name'] + item.latitude,
+              name: item['vendor-name'],
+              desc: item.cuisine,
+              coords: {
+                latitude: item.latitude,
+                longitude: item.longitude
+              },
+              priceRange: priceRange[item.price],
+              type: item.type
+              }
+     });
+
+    this.recommendations = recommendations.map((item, i) => {
+      return {id: item['vendor-name'] + item.latitude,
+              name: item['vendor-name'],
+              desc: item.cuisine,
+              coords: {
+                latitude: item.latitude,
+                longitude: item.longitude
+              },
+              priceRange: priceRange[item.price],
+              type: item.type
+              }
+     })
+
+    this.upcoming = upcoming.map((item, i) => {
+      return {id: item['vendor-name'] + item.latitude,
+              name: item['vendor-name'],
+              desc: item.cuisine,
+              coords: {
+                latitude: item.latitude,
+                longitude: item.longitude
+              },
+              priceRange: priceRange[item.price],
+              type: item.type,
+              range: 500
+              }
+     })
   }
 
   fetchLocation = async() => {
@@ -248,15 +106,24 @@ export default class MapScreen extends Component {
       return alert('No permission to access current location.')
     }
     let location = await Location.getCurrentPositionAsync({enableHighAccuracy: true});
-    this.setState({ region: {longitude: location.coords.longitude, latitude: location.coords.latitude, latitudeDelta: 0.025, longitudeDelta: 0.025 } });
+    this.setState({ region: {longitude: location.coords.longitude, latitude: location.coords.latitude, latitudeDelta: 0.0663, longitudeDelta: 0.0517 } });
   }
 
   fetchVendors() {
     //send server current region in this.state and get back a list of vendors, favorites, recommended, and upcoming
   }
 
-  setFavorite(vendorId) {
+  setFavorite(vendor) {
     //tells server to check if user favorited this vendor, if yes then unfavorite, if no then add to favorites
+    let result = this.favorites.find(item => {
+      return item.id === vendor.id
+    });
+    if (!result) {
+      this.favorites.push(vendor);
+      Alert.alert('Added to favorites')
+    } else {
+      Alert.alert('Already in favorites')
+    }
   }
 
   setFilter(value) {
@@ -284,34 +151,9 @@ export default class MapScreen extends Component {
   }
 
   componentWillMount(){
-    // navigator.geolocation.getCurrentPosition((success)=>{
-    //   this.setState({
-    //     latitude:success.coords.latitude,
-    //     longitude: success.coords.longitude,
-    //     markers:[{title:"me", latlng:{latitude:success.coords.latitude,
-    //     longitude: success.coords.longitude}}]
-    //   })
-    //   console.log(this.state)
-    // }, (error)=>{})
   }
 
   componentDidMount(){
-    // fetch(`/*ngrok*//places`, {
-    //   method: 'GET',
-    // }).then(response=>response.json()).then(response => {
-    //   //alert(response)
-    //   for(var i = 0; i<response.length; i++ ){
-    //     var place={title:response[i].name,
-    //        latlng:{latitude:response[i].lat,
-    //          longitude: response[i].long}}
-    //     var addto= [...this.state.markers]
-    //     addto.push(place)
-    //     this.setState({
-    //       markers: addto
-    //     })
-    //     console.log(this.state.markers)
-    //   }
-    // })
     this.fetchLocation();
     this.setState({data: this.vendors});
   }
@@ -328,14 +170,13 @@ export default class MapScreen extends Component {
               showsMyLocationButton={true}
               region={this.state.region}
               onRegionChangeComplete={region => this.setState({region})}
-              //onMapReady={() => this.fetchLocation()}
               style={styles.mapView} 
               >
               { 
                 this.state.data.map(vendor => (
                   <Marker key={vendor.id} coordinate={vendor.coords}
                           pinColor={this.state.markerColor} >
-                    <Callout onPress={() => AlertIOS.alert('Favorited!')}>
+                    <Callout onPress={() => this.setFavorite(vendor)}>
                       <View style={styles.calloutView}>
                         <Text style={styles.calloutTitle}>{vendor.name}</Text>
                         <View style={styles.calloutTags}>
@@ -356,7 +197,7 @@ export default class MapScreen extends Component {
               {
                 this.state.filter !== 3 ? null : (this.state.data.map((vendor, i) => {
                   if (vendor.type === 'popup' && vendor.range) {
-                    return (<Circle key={vendor.id + i}
+                    return (<Circle key={vendor.id}
                                     center={vendor.coords}
                                     radius={vendor.range}
                                     strokeWidth={2}

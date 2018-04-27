@@ -19,7 +19,7 @@ export default class RecommendationsHistoryScreen extends Component {
                          {title: 'Popeyes', time: new Date(), image: 'http://restaurantnewsrelease.com/wp-content/uploads/2017/03/Cheryl-Bachelder-to-Step-Down-as-CEO-of-Popeyes-Louisiana-Kitchen-Upon-Closing-of-Transaction-with-Restaurant-Brands-International.gif', desc: 'Popeyes is an American multinational chain of fried chicken fast food restaurants.'}]}
   }
   static navigationOptions = (props) => ({
-    title: 'Recommendations History',
+    title: 'Weekly Top 10',
     gesturesEnabled: false,
   });
 

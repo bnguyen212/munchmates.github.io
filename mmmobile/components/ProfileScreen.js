@@ -4,7 +4,8 @@ import {
   Image,
   Text,
   View,
-  TouchableOpacity } from 'react-native';
+  TouchableOpacity,
+  AsyncStorage } from 'react-native';
 import { iOSColors } from 'react-native-typography';
 import Icon from 'react-native-vector-icons/Ionicons'
 
@@ -27,12 +28,25 @@ export default class ProfileScreen extends Component {
     this.props.navigation.navigate(page)
   }
 
+  componentWillMount() {
+    AsyncStorage.getItem('email')
+    .then(user => {
+      return this.setState({user});
+    })
+    .then(res => fetch("https://munchmates.herokuapp.com/user?email=" + this.state.user))
+    .then(res => res.json())
+    .then(res => {
+      this.setState({firstName: res.fname})
+    })
+  }
+
+
   render() {
     return (
       <View style={styles.container}>
         <View style={styles.imgContainer}>
           <Image source={require('../assets/userRadar.png')} style={styles.image} />
-          <Text style={styles.name}>@Brian</Text>
+          <Text style={styles.name}>{this.state.firstName ? this.state.firstName : this.state.user}</Text>
         </View>
         <View style={styles.navigation}>
           <View style={styles.navItemContainer}>
@@ -48,14 +62,8 @@ export default class ProfileScreen extends Component {
           </View>
 
           <View style={styles.navItemContainer}>
-            <TouchableOpacity onPress={() => this.redirect('Favorites')}>
-              <Text style={styles.navItem}>FAVORITES</Text>
-            </TouchableOpacity>
-          </View>
-
-          <View style={styles.navItemContainer}>
-            <TouchableOpacity onPress={() => this.redirect('RecommendationsHistory')}>
-              <Text style={styles.navItem}>RECOMMENDATIONS HISTORY</Text>
+            <TouchableOpacity onPress={() => this.redirect('WeeklyTop10')}>
+              <Text style={styles.navItem}>WEEKLY TOP 10</Text>
             </TouchableOpacity>
           </View>
 
@@ -119,7 +127,7 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     color: iOSColors.yellow,
     fontWeight: 'bold',
-    paddingVertical: 5,
+    paddingVertical: 8,
   },
   nav: {
     display: 'flex',

@@ -26,7 +26,33 @@ export default class RegisterScreen extends Component {
   });
 
   register() {
-    
+    if (this.state.email.length < 5) {
+      Alert.alert('Email is too short')
+    } else if (this.state.password.length < 5) {
+      Alert.alert('Password is too short')
+    } else if (this.state.password !== this.state.password2) {
+      Alert.alert('Passwords do not match')
+    } else {
+      fetch('https://munchmates.herokuapp.com/register', {
+        method: 'POST',
+        body: JSON.stringify({
+          email: this.state.email,
+          password: this.state.password
+        }),
+        headers: {
+          'Content-Type': 'application/json'
+        }
+      })
+      .then(res => res.json())
+      .then(res => {
+        if (res.success === true) {
+          this.setState({email: '', password: '', password2: ''})
+          this.props.navigation.navigate('Login')
+        } else {
+          Alert.alert(res.err)
+        }
+      })
+    }
   }
 
   render() {

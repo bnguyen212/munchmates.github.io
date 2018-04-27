@@ -4,7 +4,8 @@ import {
   TouchableOpacity,
   Text,
   View, 
-  TextInput } from 'react-native';
+  TextInput,
+  AsyncStorage } from 'react-native';
 import { iOSColors } from 'react-native-typography';
 import RNPickerSelect from 'react-native-picker-select';
 import { KeyboardAwareScrollView } from 'react-native-keyboard-aware-scroll-view'
@@ -34,15 +35,7 @@ const foodieOptions = [
 export default class UpdateProfileScreen extends Component {
   constructor(props) {
     super(props);
-    this.state = {
-      email: 'admin@munchmates.com',
-      firstName: 'Brian',
-      lastName: 'Nguyen',
-      gender: 'Male',
-      ageRange: 3,
-      location: 'San Francisco, CA',
-      expertise: 2
-    }
+    this.state = {}
   }
 
   static navigationOptions = (props) => ({
@@ -50,8 +43,50 @@ export default class UpdateProfileScreen extends Component {
     gesturesEnabled: false,
   });
 
+  componentWillMount() {
+    AsyncStorage.getItem('email')
+    .then(user => {
+      return this.setState({user});
+    })
+    .then(res => fetch("https://munchmates.herokuapp.com/user?email=" + this.state.user))
+    .then(res => res.json())
+    .then(res => {
+      this.setState({
+                     fname: res.fname,
+                     lname: res.lname, 
+                     location: res.location, 
+                     gender: res.gender , 
+                     agerange: res.agerange,
+                     expertise: res.expertise})
+    })
+  }
+
   updateProfile() {
-    this.props.navigation.pop()
+    console.log(this.state);
+    fetch('https://munchmates.herokuapp.com/user/profile', {
+      method: 'POST',
+      body: JSON.stringify({
+        email: this.state.user,
+        fname: this.state.fname,
+        lname: this.state.lname,
+        location: this.state.location,
+        gender: this.state.gender,
+        agerange: this.state.agerange,
+        expertise: this.state.expertise
+      }),
+      headers: {
+        'Content-Type': 'application/json'
+      }
+    })
+    .then(res => res.json())
+    .then(res => {
+      if (res.ok === true) {
+        this.props.navigation.navigate('Profile')
+      }
+    })
+    .catch(err => {
+      Alert.alert('Failed to update')
+    })
   }
 
   render() {
@@ -59,16 +94,16 @@ export default class UpdateProfileScreen extends Component {
       <KeyboardAwareScrollView style={styles.container}>
         <View style={{marginBottom: '20%'}}>
           <Text style={styles.label}>EMAIL</Text>
-          <TextInput value={this.state.email} editable={false} style={[styles.input, styles.disabled]}/>
+          <TextInput value={this.state.user} editable={false} style={[styles.input, styles.disabled]}/>
 
           <Text style={styles.label}>FIRST NAME</Text>
-          <TextInput onChangeText={firstName => this.setState({firstName})} 
-                     value={this.state.firstName} 
+          <TextInput onChangeText={fname => this.setState({fname})} 
+                     value={this.state.fname} 
                      style={styles.input} />
 
           <Text style={styles.label}>LAST NAME</Text>
-          <TextInput onChangeText={lastName => this.setState({lastName})}
-                     value={this.state.lastName} 
+          <TextInput onChangeText={lname => this.setState({lname})}
+                     value={this.state.lname} 
                      style={styles.input} />
 
           <Text style={styles.label}>LOCATION (City & State)</Text>
@@ -83,7 +118,7 @@ export default class UpdateProfileScreen extends Component {
               label: 'Select your gender',
               value: '',
             }}
-            onValueChange={gender => this.setState({gender: gender.value})}
+            onValueChange={gender => this.setState({gender: gender})}
             style={{ ...pickerSelectStyles }}
             value={this.state.gender} />
 
@@ -94,9 +129,9 @@ export default class UpdateProfileScreen extends Component {
               label: 'Select your age range',
               value: 0,
             }}
-            onValueChange={ageRange => this.setState({ageRange: ageRange.value})}
+            onValueChange={agerange => this.setState({agerange})}
             style={{ ...pickerSelectStyles }}
-            value={this.state.ageRange} />
+            value={this.state.agerange} />
 
           <Text style={styles.label}>EXPERTISE</Text>
           <RNPickerSelect
@@ -105,7 +140,7 @@ export default class UpdateProfileScreen extends Component {
               label: 'How well do you know about food?',
               value: 0,
             }}
-            onValueChange={expertise => this.setState({expertise: expertise.value})}
+            onValueChange={expertise => this.setState({expertise: expertise})}
             style={{ ...pickerSelectStyles }}
             value={this.state.expertise} />
 

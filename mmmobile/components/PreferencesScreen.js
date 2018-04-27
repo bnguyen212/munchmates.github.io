@@ -7,7 +7,8 @@ import {
   TextInput,
   Button,
   Alert,
-  ScrollView } from 'react-native';
+  ScrollView,
+  AsyncStorage } from 'react-native';
 import { iOSColors } from 'react-native-typography';
 import RNPickerSelect from 'react-native-picker-select';
 import { KeyboardAwareScrollView } from 'react-native-keyboard-aware-scroll-view';
@@ -40,13 +41,14 @@ const ratingOptions = [
   { label: 'Extremely Important', value: 5}
 ]
 
+
 export default class PreferencesScreen extends Component {
   constructor(props) {
     super(props);
     this.state = {
       budget: 2,
-      diet: 4,
-      cuisines: ['Thai', 'Vietnamese', 'Korean', 'Italian', 'Mediterranean'],
+      diet: 3,
+      cuisines: ['Vietnamese', 'Thai', 'Korean', 'Italian', 'Mediterranean'],
       allergies: ['Tree Nuts', 'Egg'],
       otherAllergy: '',
       popularityRating: 4,
@@ -61,8 +63,9 @@ export default class PreferencesScreen extends Component {
     gesturesEnabled: false,
   });
 
+
   updatePreference() {
-    this.props.navigation.pop()
+    this.props.navigation.navigate('Profile')
   }
 
   render() {

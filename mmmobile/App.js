@@ -38,7 +38,7 @@ export default StackNavigator({
   Favorites: {
     screen: FavoritesScreen
   },
-  RecommendationsHistory: {
+  WeeklyTop10: {
     screen: RecommendationsHistoryScreen
   },
   Preferences: {
@@ -53,5 +53,5 @@ export default StackNavigator({
   UsersMap: {
     screen: UsersMapScreen
   }
-}, {initialRouteName: 'Profile'});
+}, {initialRouteName: 'Welcome'});
 

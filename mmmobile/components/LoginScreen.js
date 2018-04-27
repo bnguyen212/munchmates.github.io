@@ -7,15 +7,16 @@ import { StyleSheet,
   Alert,
   Button,
   Image,
-  KeyboardAvoidingView } from 'react-native';
+  KeyboardAvoidingView,
+  AsyncStorage } from 'react-native';
   import { iOSColors } from 'react-native-typography'
 
 export default class LoginScreen extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      email: '',
-      password: '',
+      email: 'ptnguyen212@gmail.com',
+      password: '12345',
     }
   }
   static navigationOptions = (props) => ({
@@ -23,7 +24,27 @@ export default class LoginScreen extends Component {
   });
 
   login() {
-    this.props.navigation.navigate('Profile')
+    fetch('https://munchmates.herokuapp.com/login', {
+      method: 'POST',
+      body: JSON.stringify({
+        username: this.state.email,
+        password: this.state.password
+      }),
+      headers: {
+        'Content-Type': 'application/json'
+      }
+    })
+    .then(res => res.json())
+    .then(res => {
+      if (res.authenticated === true) {
+        AsyncStorage.setItem('email', this.state.email);
+        this.setState({email: '', password: ''})
+        this.props.navigation.navigate('Profile')
+      }
+    })
+    .catch(err => {
+      Alert.alert('Failed to log in')
+    })
   }
 
   render() {

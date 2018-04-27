@@ -4,19 +4,16 @@ import {
   Text,
   View, 
   Button,
-  Switch } from 'react-native';
+  Switch,
+  AsyncStorage,
+  TouchableOpacity } from 'react-native';
 import { iOSColors } from 'react-native-typography';
 
 
 export default class SettingScreen extends Component {
   constructor(props) {
     super(props);
-    this.state = {
-      daily: true,
-      weekly: false,
-      articles: false,
-      vendor: true
-    }
+    this.state = {}
   }
 
   static navigationOptions = (props) => ({
@@ -24,13 +21,56 @@ export default class SettingScreen extends Component {
     gesturesEnabled: false,
   });
 
+  componentWillMount() {
+    AsyncStorage.getItem('email')
+    .then(user => {
+      return this.setState({user});
+    })
+    .then(res => fetch("https://munchmates.herokuapp.com/user?email=" + this.state.user))
+    .then(res => res.json())
+    .then(res => {
+      this.setState({daily: res.daily,
+                     weekly: res.weekly, 
+                     articles: res.articles, 
+                     vendor: res.vendor})
+    })
+  }
+
+  updateSetting() {
+    console.log(this.state);
+    fetch('https://munchmates.herokuapp.com/user/settings', {
+      method: 'POST',
+      body: JSON.stringify({
+        email: this.state.user,
+        daily: this.state.daily,
+        weekly: this.state.weekly,
+        articles: this.state.articles,
+        vendor: this.state.vendor,
+      }),
+      headers: {
+        'Content-Type': 'application/json'
+      }
+    })
+    .then(res => res.json())
+    .then(res => {
+      if (res.ok === true) {
+        this.props.navigation.navigate('Profile')
+      }
+    })
+    .catch(err => {
+      Alert.alert('Failed to update')
+    })
+  }
+
   render() {
     return (
       <View style={styles.container}>
         <View style={styles.setting}>
           <Text style={styles.text}>Daily Notifications</Text>
           <Switch value={this.state.daily}
-                  onValueChange={value => this.setState({daily: value})}
+                  onValueChange={value => 
+                    {console.log(value);
+                      this.setState({daily: value})}}
                   tintColor={iOSColors.yellow} />
         </View>
         <View style={styles.setting}>
@@ -50,6 +90,11 @@ export default class SettingScreen extends Component {
           <Switch value={this.state.vendor}
                   onValueChange={value => this.setState({vendor: value})}
                   tintColor={iOSColors.yellow} />
+        </View>
+        <View style={styles.setting}>
+          <TouchableOpacity style={styles.button} onPress={ () => this.updateSetting() }>
+            <Text style={styles.buttonLabel}>Update</Text>
+          </TouchableOpacity>
         </View>
       </View>
     )
@@ -76,5 +121,18 @@ const styles = StyleSheet.create({
     fontSize: 25,
     fontWeight: 'bold',
     marginBottom: 20
+  },
+  button: {
+    width: '80%',
+    paddingVertical: 10,
+    marginTop: 30,
+    borderRadius: 5,
+    alignItems: 'center',
+    backgroundColor: iOSColors.green,
+  },
+  buttonLabel: {
+    textAlign: 'center',
+    fontSize: 20,
+    color: 'white'
   }
 });
