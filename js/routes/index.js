@@ -57,9 +57,9 @@ router.post('/user/preference', function(req, res, next){
        res.json({"ok":true})
      }
    })
-  .then(function(result){
-    res.json(result.rows[0])
-  })
+  // .then(function(result){
+  //   res.json(result.rows[0])
+  // })
 })
 router.post('/user/settings', function(req, res, next){
   pool.query('update users set daily=$1, weekly=$2, vendor=$3, articles=$4 where _email like $5 ',
