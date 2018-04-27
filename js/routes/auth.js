@@ -44,7 +44,7 @@ module.exports = function(passport) {
    // }
  ).then((i)=>{if(i.rows.length==0){
     pool.query(
-     'insert into users(email, password) values($1, $2)',
+     'insert into users(email, password, weekly, daily, vendor ,articles) values($1, $2, true, true, true, true)',
      [req.body.email, hashPassword(req.body.password)],
      (err, resp)=> {if(err){
        res.json({success: false,
