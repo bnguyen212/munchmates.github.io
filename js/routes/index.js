@@ -29,7 +29,7 @@ router.get('/places', function(req, res, next) {
   }
 )})
 router.get('/user', function(req, res, next){
-  pool.query('select * from users where email like $1' [req.query.email])
+  pool.query('select * from users where email like $1', [req.query.email])
   .then(function(result){
     res.json(result.rows[0])
   })
