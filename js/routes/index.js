@@ -54,7 +54,7 @@ router.get('/user', function(req, res, next){
 //   })
 //})
 router.post('/user/preference', function(req, res, next){
-  pool.query('update users set budget=$1, diet=$2, cuisines=$3, allergies=$4, otherAllergy=$5, popularityRating=$6, ratingRating=$7, proximityRating=$8, menuRating=$9,  ambienceRating=$11, where _email like $12 ',
+  pool.query('update users set budget=$1, diet=$2, cuisines=$3, allergies=$4, otherAllergy=$5, popularityRating=$6, ratingRating=$7, proximityRating=$8, menuRating=$9,  ambienceRating=$11, where email like $12 ',
    [req.body.budget, req.body.diet, req.body.cuisines, req.body.allergies, req.body.otherAllergy, req.body.popularityRating, req.body.ratingRating, req.body.proximityRating, req.body.menuRating, req.body.ambienceRating, req.body.email],
    (err, resp)=>{
      if(err){
@@ -69,7 +69,7 @@ router.post('/user/preference', function(req, res, next){
   // })
 })
 router.post('/user/settings', function(req, res, next){
-  pool.query('update users set daily=$1, weekly=$2, vendor=$3, articles=$4 where _email like $5 ',
+  pool.query('update users set daily=$1, weekly=$2, vendor=$3, articles=$4 where email like $5 ',
    [req.body.daily, req.body.weekly, req.body.vendor, req.body.articles, req.body.email],
    (err, resp)=>{
      if(err){
