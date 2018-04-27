@@ -68,9 +68,6 @@ module.exports = function(passport) {
     req.logout();
     res.redirect("/login");
   })
-router.post('/login/foobar', passport.authenticate('local'), function(req, res){
-  console.log(req.body)
-  res.json({"authenticated": true})
-})
+
   return router;
 }
