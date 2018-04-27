@@ -84,7 +84,7 @@ router.post('/user/profile', function(req, res, next){
        console.log(err)
      }
      else{
-       console.log()
+       console.log("here", req.body)
        res.json({"ok":true})
      }
    })
