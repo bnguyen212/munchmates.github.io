@@ -134,7 +134,7 @@ app.use(function(err, req, res, next) {
   });
 });
 
-app.listen(process.env.PORT || 3002, function () {
+app.listen(process.env.PORT || 3004, function () {
     console.log('Server listening on:', process.env.PORT);
 });
 module.exports = app;
