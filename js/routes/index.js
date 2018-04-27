@@ -77,8 +77,8 @@ router.post('/user/settings', function(req, res, next){
   })
 })
 router.post('/user/profile', function(req, res, next){
-  pool.query('update users set fname=$1, lname=$2, gender=$3, expertise=$4, location=$5 where email like $6 ',
-   [req.body.fname, req.body.lname, req.body.gender, req.body.expertise, req.body.location, req.body.email],
+  pool.query('update users set fname=$1, lname=$2, gender=$3, expertise=$4, location=$5, agerange=$6 where email like $7 ',
+   [req.body.fname, req.body.lname, req.body.gender, req.body.expertise, req.body.location, req.body.agerange, req.body.email],
    (err, resp)=>{
      if(err){
        console.log(err)
