@@ -20,9 +20,8 @@ if (!pool){
  router.get('/hi', function(req, res, next){
    res.send("hi")
  })
-router.get('/places', function(req, res, next) {
-  pool.query('SELECT * FROM vendors where lat>$1-$2 and lat<$1+$2 and long>$3-$4 and long<$3+$4',
-  [req.query._lat, req.query._latdel, req.query._long, req.query._longdel],
+router.get('/vendors', function(req, res, next) {
+  pool.query('SELECT * FROM vendors',
   (result)=>{
     //console.log(result.rows[0])
     res.json(result.rows)
