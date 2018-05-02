@@ -8,7 +8,29 @@ var emailSchema = mongoose.Schema({
     required: true
   }
 });
+var userSchema = mongoose.Schema({
+  username: {
+    type: String,
+    required: true
+  },
+  password: {
+    type: String,
+    required: true
+  },
+  first:{
+    type: Boolean,
+  },
+  favorites:{
+    type: Object,
+    required: false
+  }
+});
+
+
+
 var Email = mongoose.model('Email', emailSchema);
+var User = mongoose.model("User", userSchema);
 module.exports = {
-  Email:Email
+  Email:Email,
+  User: User
 }

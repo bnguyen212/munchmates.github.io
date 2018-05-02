@@ -8,7 +8,8 @@ import { StyleSheet,
   Button,
   Image,
   KeyboardAvoidingView } from 'react-native';
-import { iOSColors, sanFranciscoWeights } from 'react-native-typography'
+  import AsyncStorage from "AsyncStorage"
+  import { iOSColors, sanFranciscoWeights } from 'react-native-typography'
 
 export default class LoginScreen extends Component {
   constructor(props) {
@@ -21,9 +22,39 @@ export default class LoginScreen extends Component {
   static navigationOptions = (props) => ({
     title: 'Login',
   });
-
+  componentWillMount(){
+    this.props.navigation.navigate('Home')
+  }
   login() {
-    
+    if (this.state.username === '' || this.state.password === '') {
+      alert('Invalid username or password.')
+    } else {
+      fetch(`/*ngrok*//login`, {
+        method: 'POST',
+        headers: {
+          "Content-Type": "application/json"
+        },
+        body: JSON.stringify({
+          username: this.state.email,
+          password: this.state.password,
+        })
+      })
+      .then((response) => {var x= response.json();
+    console.log(response, "response1")
+    console.log(x, "x")
+  return x})
+      .then((responseJson) => {
+        console.log(responseJson, "response")
+        this.props.navigation.navigate('Home')
+      })
+      .then(()=>AsyncStorage.setItem('user', JSON.stringify({
+        username: this.state.email,
+        password: this.state.password
+      })))
+      .catch((err) => {
+        alert( err);
+      });
+    }
   }
 
   render() {
@@ -65,8 +96,8 @@ const styles = StyleSheet.create({
 
   },
   navRight: {
-    fontSize: 20, 
-    color: 'blue', 
+    fontSize: 20,
+    color: 'blue',
     marginRight: 15
   },
   input: {

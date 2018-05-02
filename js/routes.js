@@ -1,7 +1,7 @@
 var express = require('express');
 var router = express.Router();
 var Email = require('../models/models').Email
-
+//landing page
 router.post('/signup', function(req, res) {
   console.log("REQ: ", req.body)
   var newem = new Email({

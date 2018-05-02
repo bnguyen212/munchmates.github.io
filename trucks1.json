@@ -1,0 +1,3491 @@
+[
+  {
+    "vendor-name": "Kara's Cupcakes",
+    "type": "truck",
+    "price": 1,
+    "attribute": {
+      "savory": 0,
+      "sweet": 1,
+      "vegetarian": 1
+    },
+    "about": "Kara's Cupcakes is the vision of executive pastry chef, Kara Lind. A somewhat rebellious child, Kara's sweet tooth is almost legendary in her family. The daughter of a dentist, Kara's love for sweet treats was discouraged by her parents. She learned early in childhood to hide candy and other sweets throughout her family home.This appreciation of sweets is among Kara's earliest and strongest memories. As an advertising sales executive and passionate home baker, Kara realized the importance of following her dreams and enrolled in pastry school. With the goal of furthering her baking skill set, she diligently embraced this program. A small word of mouth cupcake catering business soon was born. It quickly became so popular that demand for her cupcakes exceeded her ability to fill the orders. Before long the first Kara's Cupcakes bakery and retail store opened in San Francisco, followed by a retail outlet in historic Ghirardelli Square.Even now, a mom with nine busy stores selling her famous cupcakes, Kara can still be found most mornings working in the kitchen with her dedicated pastry staff. She visits the farmers markets regularly, looking for inspiration, and sourcing seasonal items for upcoming cupcakes flavors. Thankfully, as the owner of a cupcake bakery she no longer needs to hide sweets, preferring to share her new finds.",
+    "menu": " Cupcakes Baked fresh daily using local, sustainable, and when available, organic ingredients. Variety of flavors, including seasonal and gluten-free options.",
+    "schedule": [],
+    "chef-info": "",
+    "stars-count": 0,
+    "review-count": 0,
+    "cuisine": [
+      "Dessert"
+    ],
+    "cuisine-map": null
+  },
+  {
+    "vendor-name": "Lady Falcon Coffee Club",
+    "type": "truck",
+    "price": 1,
+    "attribute": {
+      "savory": 0,
+      "sweet": 1,
+      "vegetarian": 1
+    },
+    "about": "Lady Falcon Coffee Club is roasting up a fresh batch of beans to brew you the best cup of coffee you could ever ask for.",
+    "menu": " Coffee!! Coffee!!",
+    "schedule": [],
+    "chef-info": "",
+    "stars-count": 0,
+    "review-count": 0,
+    "cuisine": [
+      "Coffee",
+      "Breakfast",
+      "Baked Goods"
+    ],
+    "cuisine-map": null
+  },
+  {
+    "vendor-name": "Licensed 2 Grill",
+    "type": "truck",
+    "price": 1,
+    "attribute": {
+      "savory": 1,
+      "sweet": 0,
+      "vegetarian": 0
+    },
+    "about": "World-inspired street eats with a great theme! Licensed 2 Grill is serving up fries, sandwiches, tacos, and more from it's pop-culture-themed truck on the streets of the Bay Area. Fan-favorites include the \"Pacman tacos\" \"Cheat Day Fries\" & \"The Raider\", but the menu rotates, so don't miss out on what may become your favorite dish!",
+    "menu": " Portobello Cubano Pig Papa Pacman Secret Agent Gangnam Style Cali Taco Street Taco Raider Warrior Ono Portobello Cubano Pig Papa Pacman Secret Agent Gangnam Style Cali Taco Street Taco Entrees Grilled portobello mushrooms, onions, garlic, bell peppers, arugula, tomato, mayo, Swiss Entrees Roasted pork, ham, Swiss, dill pickles, mayo, mustard, grilled press Entrees Roasted pulled pork, bacon, cheddar jack cheese, pineapple, tomato, onions, cilantro, chipotle BBQ sauce Entrees Filipino pork or chicken sisig, red onions, cilantro, pineapple, Firecrackin sauce, chicharr\\u00f3n Entrees Seasoned steak, grilled onions, pico de gallo, chimichurri, cotija Entrees Beef short ribs, romaine, Korean slaw, gojuchang sauce, sesame seeds Entrees Choice of protein, salsa verde, pico, sour cream, cheese, flour tortilla Entrees Choice of protein, salsa verde, onions, cilantro, cotija cheese Entrees Grilled steak, arugula, grilled onions, mushrooms, Swiss, garlic, mayo Entrees Seasoned steak, grilled onions, green bell peppers, cherry peppers, Swiss Entrees Teriyaki beef, pineapple, romaine, cheddar jack cheese, pico Entrees Grilled portobello mushrooms, onions, garlic, bell peppers, arugula, tomato, mayo, Swiss Entrees Roasted pork, ham, Swiss, dill pickles, mayo, mustard, grilled press Entrees Roasted pulled pork, bacon, cheddar jack cheese, pineapple, tomato, onions, cilantro, chipotle BBQ sauce Entrees Filipino pork or chicken sisig, red onions, cilantro, pineapple, Firecrackin sauce, chicharr\\u00f3n Entrees Seasoned steak, grilled onions, pico de gallo, chimichurri, cotija Entrees Beef short ribs, romaine, Korean slaw, gojuchang sauce, sesame seeds Entrees Choice of protein, salsa verde, pico, sour cream, cheese, flour tortilla Entrees Choice of protein, salsa verde, onions, cilantro, cotija cheese",
+    "schedule": [],
+    "chef-info": "",
+    "stars-count": 0,
+    "review-count": 0,
+    "cuisine": [
+      "American"
+    ],
+    "cuisine-map": null
+  },
+  {
+    "vendor-name": "Hedge Coffee",
+    "type": "truck",
+    "price": 1,
+    "attribute": {
+      "savory": 0,
+      "sweet": 0,
+      "vegetarian": 0
+    },
+    "about": "When it comes to the best coffee in the Bay Area, you can bet that Hedge Coffee is brewing it up at their badass bar. You can find this cool crew popping up all around San Fran, at all the coolest events in town. All of their drinks are of utmost quality and exclusively made with local products, so just one sip will send you on one deliciously caffeinated trip. For espresso-based beverages, nitro cold brew, and manually brewed coffees with a delectable edge, be sure to head straight to Hedge. ",
+    "menu": " Espresso Cappuccino Latte Cortado Macchiato Quick Cup Pour-Over Coffee Flat g Nitro Cold Brew Drinks  Drinks  Drinks  Drinks  Drinks  Drinks  Drinks  Drinks ",
+    "schedule": [],
+    "chef-info": "",
+    "stars-count": 0,
+    "review-count": 0,
+    "cuisine": [
+      "Breakfast",
+      "Beverage",
+      "Coffee"
+    ],
+    "cuisine-map": null
+  },
+  {
+    "vendor-name": "North Border Taco",
+    "type": "truck",
+    "price": 1,
+    "attribute": {
+      "savory": 1,
+      "sweet": 0,
+      "vegetarian": 0
+    },
+    "about": "The best Tex-Mex truck from Sacramento to the Bay? You must be looking for North Border Taco! Traditional Tex-Mex taste combined with more modern fare is an eating experience that you just can't miss. Get a taste of Nor Cal's Best Mex, with the fantastic food of North Border Taco!",
+    "menu": " Street Tacos (3) North Border Tacos Super Burrito Spanish Rice Cilantro Lime Rice Pinto Beans Black Beans Salad Entrees Choice of meat, onions, and cilantro on a warm 100% corn tortilla Entrees Crispy, grilled yellow 100% corn tortilla stuffed with meat, romaine lettuce, jack cheese, pico, and sprinkled cotija cheese. Entrees Stuffed with meat, black or pinto beans, Spanish or cilantro lime rice, romaine lettuce, pico, guac, sour cream, and jack cheese. Sides  Sides  Sides  Sides  Sides ",
+    "schedule": [],
+    "chef-info": "",
+    "stars-count": 0,
+    "review-count": 0,
+    "cuisine": [
+      "Mexican"
+    ],
+    "cuisine-map": null
+  },
+  {
+    "vendor-name": "Mayo & Mustard",
+    "type": "truck",
+    "price": 1,
+    "attribute": {
+      "savory": 1,
+      "sweet": 0,
+      "vegetarian": 1
+    },
+    "about": "Mayo and Mustard serves hot & fresh, made-to-order sandwiches.We are a new gourmet food truck offering delicious hot deli-style sandwiches to the Bay Area. Our mission is to spread the \\u201cMayo & Mustard sandwich experience\\u201d and captivate the appetites of those who love sandwiches. We put our love into every sandwich we make.Learn more about where our truck will be stationed next by finding us using the Roaming Hunger app!",
+    "menu": " Veggie Delight Avocado, mushrooms, artichoke, 3 beans Hot Link BBQ Sauce BBQ Chicken Club Bacon and avocado Pastrami Reuben  Mayo & Mustard mix and sauerkraut Tony's Tri-Tip BBQ and Horseradish BBQ Roast Beef Roast beef wg BBQ sauce Turkey Club Bacon and avocado Southwestern Turkey Variety of spices Mike's Special Pastrami w/ bacon and avocado  Pastrami & Turkey Perfect combination Roast Chicken Chipotle garlic mayo Pastrami & Chicken Chipotle garlic mayo Peppers Turkey Club Bacon and avocado Buffalo Chicken  Chipotle garlic mayo w/ buffalo sauce",
+    "schedule": [
+      {
+        "location": "5M: 5th & Minna",
+        "address": "410 Minna St",
+        "city": "San Francisco",
+        "state": "CA",
+        "latitude": 37.782116,
+        "longitude": -122.406235,
+        "times": {
+          "month": 5,
+          "day": 4,
+          "startTime": 11,
+          "endTime": 14
+        }
+      }
+    ],
+    "chef-info": "",
+    "stars-count": 0,
+    "review-count": 0,
+    "cuisine": [
+      "Sandwiches"
+    ],
+    "cuisine-map": null
+  },
+  {
+    "vendor-name": "Canasta Kitchen",
+    "type": "truck",
+    "price": 1,
+    "attribute": {
+      "savory": 1,
+      "sweet": 1,
+      "vegetarian": 1
+    },
+    "about": "Canasta Kitchen brings real, authentic Latin food to Concord! Try their Canastaco or their Huarache, crowd favorites. Stop by for a delicious and fulfilling Latin meal at Canasta Kitchen!",
+    "menu": " Nacho Macho Taterrito Burrito Canastaco (Fish Taco) Huarache Street Tacos Empanadas Latin Wrap Quesadilla Flautas Jalape\\u00c3\\u00b1o Flautas Taquitos Horchata Jamaica Iced Tea Lemonade Entrees Crispy tortilla chips topped with tater tots, black beans, pinto beans, Oaxaca/jack cheese, chicken and pork, tomatillo salsa, shredded lettuce, pico de gallo, sour cream, chipotle sauce, and cotija cheese Entrees Flour tortilla, your choice of meat, tater tots, melted Oaxaca/jack cheese, pico de gallo, lettuce, tomatillo salsa and sour cream Entrees Flour tortilla, your choice of meat, rice, beans, melted Oaxaca/jack cheese, pico de gallo, shredded lettuce, tomatillo salsa, and sour cream Entrees A big, crunchy corn tortilla, wrapped in a soft corn tortilla and filled with crispy fish, melted Oaxaca/jack cheese, fresh avocado, pico de gallo, tomatillo salsa, shredded lettuce, and topped with chipotle aioli Entrees Oblong, handmade corn masa (dough) fried, then topped with Oaxaca/jack cheese, beans, your choice of meat, shredded lettuce, pico de gallo, tomatillo salsa, sour cream and cotija cheese Entrees Soft corn tortillas topped with your choice of meat, chopped onions, tomatillo salsa, radishes, and cilantro Entrees Fresh, handmade corn masa (dough) filled with poblano chicken or carnitas and Oaxaca/jack melted cheese, then fried until crispy then topped with lettuce, pico de gallo, sour cream and cotija cheese Entrees Large flour tortilla, your choice of meat, black beans, Oaxaca/jack cheese, shredded lettuce, pico de gallo, tomatillo salsa, then drizzled with sour cream and chipotle sauce Entrees Large flour tortilla, melted Oaxaca/jack cheese, your choice of meat, pico de gallo, tomatillo salsa and sour cream Entrees Rolled flour tortilla filled with poblano chicken and melted Oaxaca/jack cheese, then fried to perfection and topped with chipotle sauce, shredded lettuce, sour cream, pico de gallo and cotija cheese Entrees Rolled flour tortilla filled with cochinita (pork), roasted jalape\\u00f1o and melted Oaxaca/jack cheese, then fried to perfection and topped with chipotle sauce, shredded lettuce, sour cream, pico de gallo and cotija cheese Entrees Tightly rolled corn tortilla filled with poblano chicken and fried to a golden delicious crisp. Topped with lettuce, pico de gallo, tomatillo salsa, sour cream and cotija cheese Drinks Rice & cinnamon drink served over ice Drinks Hibiscus flower tea served over ice Drinks Unsweetened or flavored with passion fruit Drinks ",
+    "schedule": [
+      {
+        "location": "Pleasant Hill",
+        "address": "138 Trelany Road ",
+        "city": "Pleasant Hill",
+        "state": "CA",
+        "latitude": 37.947578,
+        "longitude": -122.062576,
+        "times": {
+          "month": 5,
+          "day": 2,
+          "startTime": 17,
+          "endTime": 21
+        }
+      }
+    ],
+    "chef-info": "",
+    "stars-count": 0,
+    "review-count": 0,
+    "cuisine": [
+      "Latin",
+      "Mexican"
+    ],
+    "cuisine-map": null
+  },
+  {
+    "vendor-name": "Don Pablo",
+    "type": "truck",
+    "price": 1,
+    "attribute": {
+      "savory": 1,
+      "sweet": 0,
+      "vegetarian": 0
+    },
+    "about": "Don Pablo makes a fusion of Peruvian/Asian food maintaining the authentic Peruvian flavors and giving costumers different choices to enjoy their food. Our menu have sandwiches and wraps inspired by classic Peruvian plates. Our sandwiches and wraps joint makes fast food fancy!",
+    "menu": " Don Pablo menu Entrees Lomo Saltado\\nStir fried steak with onions, tomatoes, cilantro marinated with Peruvian-Asian sauce topped with fries\\n\\n\\nBroccoli Saltado\\nStir fried steak or chicken with onions, tomatoes, cilantro and broccoli marinated with Peruvian-Asian sauce \\n\\n\\nPollo Saltado\\nStir fried chicken breast with onions, tomatoes, cilantro marinated with Peruvian-Asian sauce, topped with fries\\n\\nAdobo \\nSlow-cooked pork loin marinated with Peruvian spices \\nMushrooms Saltado (V)\\nStir fried mushrooms with onions, tomatoes, cilantro marinated with Peruvian-Asian sauce topped with fries\\n\\n\\n\\n\\nServed in:\\n\\n\\nRice Bowl or Wrap\\nLomo Saltado \\nPollo Saltado \\nAdobo \\nBroccoli Saltado Pollo/Lomo \\nMushroom Saltado (V) \\n\\n\\nTallarin Saltado\\nSpaghetti saut\\u00e9ed served with\\nLomo Saltado \\nPollo Saltado \\nBroccoli Saltado Pollo/Lomo \\nMushroom Saltado (V) \\n\\n\\nPeruvian Burrito or Peruvian Burrito Bowl\\nw/steamed garlic rice, beans, salad, and Peruvian pepper sauce \\nPollo Saltado w/fries\\nAdobo (Peruvian) \\nChicharron w/sweet potatoes fries\\nMushroom Saltado (V) w/fries\\nLomo Saltado w/fries\\n ",
+    "schedule": [
+      {
+        "location": "San Carlos @ Devils Canyon Brewery",
+        "address": "935 Washington Street",
+        "city": "San Carlos",
+        "state": "CA",
+        "latitude": 37.498348,
+        "longitude": -122.244034,
+        "times": {
+          "month": 5,
+          "day": 4,
+          "startTime": 17,
+          "endTime": 21
+        }
+      }
+    ],
+    "chef-info": "",
+    "stars-count": 0,
+    "review-count": 0,
+    "cuisine": [
+      "Peruvian"
+    ],
+    "cuisine-map": null
+  },
+  {
+    "vendor-name": "Little Green Cyclo",
+    "type": "truck",
+    "price": 1,
+    "attribute": {
+      "savory": 1,
+      "sweet": 0,
+      "vegetarian": 1
+    },
+    "about": "Little Green Cyclo brings fresh, delicious, Vietnamese street food to the people of the Bay Area. Founders - Chef Quynh Nguyen, Monica Wong and Susie Pham - can be found serving up a menu that showcases all the great flavors of Vietnam. From baguettes topped with homemade organic pate & packed with lemongrass grilled pork to coconut rice box with tamarind organic tofu and organic baby bok choy. They offer a variety of affordable choices for both meat lovers, vegetarians and vegans.They strive to source our ingredients from local and organic farms and pay attention to their seasonings, preferring sea salt, fresh ground pepper and brown sugar. As for drinks, they use filtered water to make unforgettable mint-infused iced coffee and specialty teas.Out of love and respect for our planet, they use only reusable, recyclable or compostable products, which means no Styrofoam or plastic bags can be found on this truck. With a strong belief in giving back to the community, a percentage of their  proceeds are donated to a different charity each month, and they make frequent drop-offs at the local food banks.To discover more of the exciting story behind Little Green Cyclo, check out our blog post here.",
+    "menu": " Banh Mi Garlic Noodles Jasmine Rice (GF, V) Rice Vermicelli (GF, V) Fresh Salad (GF, V) Pho Banh Mi Vietnamese Chicken Pho Fresh Pineapple Lychee Lemonade Vietnamese Coffee Thai Iced Tea Shut Eyes Wide Fresh Shrimp & Pork Spring Rolls Fresh Organic Tofu Spring Rolls Sweet Potato Tater Tots Sriracha Fries Fresh Shrimp & Pork Spring Rolls Entrees French baguette with pickled carrots & daikon, cucumbers, cilantro, pickled red onions, jalape\\u00f1os, mayonnaise, & soy sauce. Entrees Green onion oil, Vietnamese kimchi, and roasted crushed peanuts. Entrees Lettuce, pickled carrots & daikon, cucumbers, cilantro, bean sprouts, green onion oil, and a gluten-free soy sauce vinaigrette on the side. Entrees Lettuce, pickled carrots & daikon, cucumbers, cilantro, bean sprouts, fried shallots, green onion oil, roasted crushed peanuts, fish sauce vinaigrette or gluten-free soy vinaigrette (V) on the side. Entrees Lettuce, pickled carrots & daikon, cucumbers, cilantro, bean sprouts, fried shallots, green onion oil, roasted crusted peanuts, crispy noodles, gluten-free soy sauce vinaigrette & fish sauce vinaigrette. Entrees Braised beef brisket, French baguette with pickled carrots & daikon, basil, cucumbers, cilantro, pickled red onions, jalape\\u00f1os, mayonnaise, Vietnamese pesto sauce, and pho soup on the side. Entrees Poached chicken, flat rice noodles, and side of basil, bean sprouts, lime/lemon wedge, hoisin & Sriracha sauces. Drinks  Drinks  Drinks  Drinks Perfect combo of Thai iced tea & Vietnamese iced coffee Sides Fresh vermicelli, lettuce, cucumbers, pickled carrots & daikon, bean sprouts, mint. Sides With your choice of dipping sauce: gluten-free soy sauce vinaigrette, fish sauce, vinaigrette, peanut sauce. Sides Dipping sauce: tamarind plum Sides 1/4\" shoestring fries tossed in Sriracha salt, mint & Sriracha Sides Fresh vermicelli, lettuce, cucumbers, pickled carrots & daikon, bean sprouts, mint.",
+    "schedule": [
+      {
+        "location": "Vallejo & Front",
+        "address": "850 Front St. ",
+        "city": "San Francisco",
+        "state": "CA",
+        "latitude": 37.799164,
+        "longitude": -122.399971,
+        "times": {
+          "month": 4,
+          "day": 25,
+          "startTime": 11,
+          "endTime": 14
+        }
+      },
+      {
+        "location": "Presidio Picnic",
+        "address": "Main Parade Ground",
+        "city": "San Francisco",
+        "state": "CA",
+        "latitude": 37.800739,
+        "longitude": -122.458237,
+        "times": {
+          "month": 4,
+          "day": 29,
+          "startTime": 11,
+          "endTime": 16
+        }
+      },
+      {
+        "location": "Vallejo & Front",
+        "address": "850 Front St. ",
+        "city": "San Francisco",
+        "state": "CA",
+        "latitude": 37.799164,
+        "longitude": -122.399971,
+        "times": {
+          "month": 5,
+          "day": 4,
+          "startTime": 11,
+          "endTime": 14
+        }
+      },
+      {
+        "location": "Presidio Picnic",
+        "address": "Main Parade Ground",
+        "city": "San Francisco",
+        "state": "CA",
+        "latitude": 37.800739,
+        "longitude": -122.458237,
+        "times": {
+          "month": 5,
+          "day": 6,
+          "startTime": 11,
+          "endTime": 16
+        }
+      }
+    ],
+    "chef-info": "",
+    "stars-count": 0,
+    "review-count": 0,
+    "cuisine": [
+      "Vietnamese"
+    ],
+    "cuisine-map": null
+  },
+  {
+    "vendor-name": "Happy Dumplings",
+    "type": "truck",
+    "price": 1,
+    "attribute": {
+      "savory": 1,
+      "sweet": 0,
+      "vegetarian": 0
+    },
+    "about": "Happy Dumplings is the happy provider of dumplings to the happy dumpling lovers of San Francisco. But these aren't just any dumplings. Of course, you could describe them as happy, but they're also 100% authentic, cooked in the Shandong style culled from time tested Chinese recipes.The happy couple that makes the happy dumplings take pride in hand-making every bite sized bao. It's a two person job, and they're happy to do it.  First, the dough is rolled flat by James as Shuhi stands over the grill, smoking the pork belly to tenderized perfection. A myriad of ingredients make up each original homemade dumpling, from the traditional cabbage and pork to the sweet and savory vegetarian chili. Everyone can be made happy from a menu that's accommodating to everyone's tastes. You'll find Happy Dumplings popping up at local farmer's markets, but why not spread the joy to your next event? James and Shuhi are happy to serve, and even happier doing the work to make sure you and your guests are the happiest you're ever gonna be. At least, when you're eating their happy dumplings. MUST TRYChive, Egg & Shrimp Dumpling - a thick bread like dough encases fresh chives, scrambled eggs and fresh caught bay shrimp for a dumpling that delivers on tradition and extraordinary taste",
+    "menu": "",
+    "schedule": [
+      {
+        "location": "UN Plaza",
+        "address": "10 United Nations Plaza ",
+        "city": "San Francisco",
+        "state": "CA",
+        "latitude": 37.7804816,
+        "longitude": -122.4131768,
+        "times": {
+          "month": 4,
+          "day": 24,
+          "startTime": 11,
+          "endTime": 14
+        }
+      },
+      {
+        "location": "Civic Center Truck Spot",
+        "address": "355 McAllister",
+        "city": "san francisco",
+        "state": "CA",
+        "latitude": 37.7794918,
+        "longitude": -122.417618,
+        "times": {
+          "month": 4,
+          "day": 26,
+          "startTime": 11,
+          "endTime": 14
+        }
+      },
+      {
+        "location": "5th & Townsend",
+        "address": "699 5th St.",
+        "city": "San Francisco",
+        "state": "CA",
+        "latitude": 37.7755303,
+        "longitude": -122.3974504,
+        "times": {
+          "month": 4,
+          "day": 27,
+          "startTime": 11,
+          "endTime": 14
+        }
+      },
+      {
+        "location": "Lake Merritt",
+        "address": "1000 Oak St",
+        "city": "Oakland",
+        "state": "CA",
+        "latitude": 37.798618,
+        "longitude": -122.264191,
+        "times": {
+          "month": 4,
+          "day": 27,
+          "startTime": 17,
+          "endTime": 21
+        }
+      },
+      {
+        "location": "Alameda @ South Shore Center",
+        "address": "535 South Shore Center",
+        "city": "Alameda",
+        "state": "CA",
+        "latitude": 37.756599,
+        "longitude": -122.252953,
+        "times": {
+          "month": 4,
+          "day": 28,
+          "startTime": 11,
+          "endTime": 15
+        }
+      },
+      {
+        "location": "Vallejo & Front",
+        "address": "850 Front St. ",
+        "city": "San Francisco",
+        "state": "CA",
+        "latitude": 37.799164,
+        "longitude": -122.399971,
+        "times": {
+          "month": 4,
+          "day": 30,
+          "startTime": 11,
+          "endTime": 14
+        }
+      },
+      {
+        "location": "Civic Center Truck Spot",
+        "address": "355 McAllister",
+        "city": "san francisco",
+        "state": "CA",
+        "latitude": 37.7794918,
+        "longitude": -122.417618,
+        "times": {
+          "month": 5,
+          "day": 3,
+          "startTime": 11,
+          "endTime": 14
+        }
+      },
+      {
+        "location": "5M: 5th & Minna",
+        "address": "410 Minna St",
+        "city": "San Francisco",
+        "state": "CA",
+        "latitude": 37.782116,
+        "longitude": -122.406235,
+        "times": {
+          "month": 5,
+          "day": 4,
+          "startTime": 11,
+          "endTime": 14
+        }
+      }
+    ],
+    "chef-info": "",
+    "stars-count": 0,
+    "review-count": 0,
+    "cuisine": [
+      "Chinese"
+    ],
+    "cuisine-map": null
+  },
+  {
+    "vendor-name": "Bowl'd Acai",
+    "type": "truck",
+    "price": 1,
+    "attribute": {
+      "savory": 0,
+      "sweet": 1,
+      "vegetarian": 1
+    },
+    "about": "You'll be bowled over with how good Bowl'd Acai is! Serving fresh and healthy acai bowls with fresh fruit and granola, smoothies and juices you'll feel good about what you put inside you. Bowl'd Acai is here to make it easy to get healthy, nutritious food anywhere.",
+    "menu": "",
+    "schedule": [],
+    "chef-info": "",
+    "stars-count": 0,
+    "review-count": 0,
+    "cuisine": [
+      "Beverage",
+      "Acai Bowls"
+    ],
+    "cuisine-map": null
+  },
+  {
+    "vendor-name": "Bonito Poke",
+    "type": "truck",
+    "price": 1,
+    "attribute": {
+      "savory": 1,
+      "sweet": 0,
+      "vegetarian": 0
+    },
+    "about": "Bonito Poke is brought to you by two Bay Area natives with a passion for crafting Hawaiian flavors with a chef-inspired twist. They exclusively use the highest-quality organic, biodynamic, and all-natural ingredients, including sustainable line-caught fish, to prepare their signature Pok\\u00e9 offerings. A few of their gourmet fusion toppings include mango, jicama, cilantro, onion, and spicy aioli, as well as cucumber, avocado, crab salad, nori furikake, and a tangy wasabi aioli. You just choose between fresh Tuna or Salmon and they\\u2019ll hand-cut your selection and dress it to order, guaranteeing maximum deliciousness in every bite. For all this and more, including delightfully refreshing specialty drinks, come by Bonito Poke and indulge in tasty seafood bliss!",
+    "menu": "",
+    "schedule": [
+      {
+        "location": "Lake Merritt",
+        "address": "1000 Oak St",
+        "city": "Oakland",
+        "state": "CA",
+        "latitude": 37.798618,
+        "longitude": -122.264191,
+        "times": {
+          "month": 4,
+          "day": 27,
+          "startTime": 17,
+          "endTime": 21
+        }
+      },
+      {
+        "location": "UN Plaza",
+        "address": "10 United Nations Plaza ",
+        "city": "San Francisco",
+        "state": "CA",
+        "latitude": 37.7804816,
+        "longitude": -122.4131768,
+        "times": {
+          "month": 5,
+          "day": 3,
+          "startTime": 11,
+          "endTime": 14
+        }
+      },
+      {
+        "location": "Fort Mason Center",
+        "address": "2 Marina Blvd",
+        "city": "San Francisco",
+        "state": "CA",
+        "latitude": 37.80573940449265,
+        "longitude": -122.43161905886075,
+        "times": {
+          "month": 5,
+          "day": 4,
+          "startTime": 17,
+          "endTime": 22
+        }
+      }
+    ],
+    "chef-info": "",
+    "stars-count": 0,
+    "review-count": 0,
+    "cuisine": [
+      "Hawaiian",
+      "Poke",
+      "Seafood"
+    ],
+    "cuisine-map": null
+  },
+  {
+    "vendor-name": "Kabob Trolley",
+    "type": "truck",
+    "price": 1,
+    "attribute": {
+      "savory": 1,
+      "sweet": 1,
+      "vegetarian": 1
+    },
+    "about": "The Kab\\u00f6b Tr\\u00f6lley is serving some craveable Middle Eastern street cuisine with an all-American twist!Their authentic menu offers something tasty for everyone, with a menu that is entirely made with gluten-free, Halal, and Kosher ingredients. You can taste the caliber of quality in every bite of their gyros, cheesesteaks, salads, sliders, fries, and much more!Whether you\\u2019re seeking your next meal or catering for your next event, you can always count on the The Kab\\u00f6b Tr\\u00f6lley for hearty, healthy, and delicious feasts served fast. ",
+    "menu": " Gyro Gyro Fries Gyro Salad Cheesesteak Slider Falafel Fries Pita Bread Entrees Served on soft pita bread with grilled onions, lettuce, tomatoes, and cucumbers topped with homemae tzatziki or spicy tzatziki. Entrees Beef/lamb gyro over golden brown fries topped with lettuce, grilled onions, and homemade tzatziki or spicy tzatziki. Entrees Served over romaine lettuce, tomatoes, and cucumbers, topped with homemade tzatziki or spicy tzatziki. Entrees Served on a sweet roll with grilled onions, cheese, lettuce, tomatoes, and cherry peppers topped with homemade tzatziki or spicy tzatziki. Entrees Served on a brioche roll with grilled onions, cheese, mixed greens, tomatoes, and cherry peppers topped with homemade tzatziki or spicy tzatziki. Sides  Sides  Sides ",
+    "schedule": [],
+    "chef-info": "",
+    "stars-count": 0,
+    "review-count": 0,
+    "cuisine": [
+      "Afghan",
+      "Halal",
+      "Mediterranean",
+      "Middle Eastern"
+    ],
+    "cuisine-map": null
+  },
+  {
+    "vendor-name": "The Chairman",
+    "type": "truck",
+    "price": 1,
+    "attribute": {
+      "savory": 1,
+      "sweet": 0,
+      "vegetarian": 1
+    },
+    "about": "San Francisco Magazine rated The Chairman as the best food truck in SF. In a city that is bustling with some of the most delicious and innovative food trucks in the country, this title truly means something. When you take one look at the vibrant baos being served at The Chairman, with soft plump buns (either baked or steamed), beautifully glazed meats, and bright pickled veggies, you instantly feel that you\\u2019re in the presence of a winning meal. Take one bite and you\\u2019ll find yourself uniting with the thousands of other loyal local fans. To read about the master behind these marvelous meals and fine wheels, Chef Hiroo, and the story of how The Chairman came to be, check out the Roaming Hunger blog here: http://roaminghunger.com/blog/7865/chef-hiroo-of-the-chairman-truck",
+    "menu": "",
+    "schedule": [
+      {
+        "location": "5M: 5th & Minna",
+        "address": "410 Minna St",
+        "city": "San Francisco",
+        "state": "CA",
+        "latitude": 37.782116,
+        "longitude": -122.406235,
+        "times": {
+          "month": 4,
+          "day": 25,
+          "startTime": 11,
+          "endTime": 14
+        }
+      },
+      {
+        "location": "El Cerrito",
+        "address": "6159 Fairmount Ave.",
+        "city": "El Cerrito",
+        "state": "CA",
+        "latitude": 37.900505,
+        "longitude": -122.303207,
+        "times": {
+          "month": 4,
+          "day": 25,
+          "startTime": 17,
+          "endTime": 21
+        }
+      },
+      {
+        "location": "Upper Haight",
+        "address": "Stanyan St & Waller St",
+        "city": "San Francisco",
+        "state": "CA",
+        "latitude": 37.768246,
+        "longitude": -122.453377,
+        "times": {
+          "month": 4,
+          "day": 26,
+          "startTime": 17,
+          "endTime": 21
+        }
+      },
+      {
+        "location": "Fort Mason Center",
+        "address": "2 Marina Blvd",
+        "city": "San Francisco",
+        "state": "CA",
+        "latitude": 37.80573940449265,
+        "longitude": -122.43161905886075,
+        "times": {
+          "month": 4,
+          "day": 27,
+          "startTime": 17,
+          "endTime": 22
+        }
+      },
+      {
+        "location": "Lake Merritt",
+        "address": "1000 Oak St",
+        "city": "Oakland",
+        "state": "CA",
+        "latitude": 37.798618,
+        "longitude": -122.264191,
+        "times": {
+          "month": 4,
+          "day": 27,
+          "startTime": 17,
+          "endTime": 21
+        }
+      },
+      {
+        "location": "Larkspur",
+        "address": "2401 Larkspur Landing Circle ",
+        "city": "Larkspur",
+        "state": "CA",
+        "latitude": 37.946579,
+        "longitude": -122.508522,
+        "times": {
+          "month": 4,
+          "day": 29,
+          "startTime": 11,
+          "endTime": 15
+        }
+      },
+      {
+        "location": "Serramonte",
+        "address": "39 Serramonte Center",
+        "city": "Daly City",
+        "state": "CA",
+        "latitude": 37.672977,
+        "longitude": -122.468491,
+        "times": {
+          "month": 5,
+          "day": 1,
+          "startTime": 17,
+          "endTime": 21
+        }
+      },
+      {
+        "location": "Vallejo & Front",
+        "address": "850 Front St. ",
+        "city": "San Francisco",
+        "state": "CA",
+        "latitude": 37.799164,
+        "longitude": -122.399971,
+        "times": {
+          "month": 5,
+          "day": 2,
+          "startTime": 11,
+          "endTime": 14
+        }
+      },
+      {
+        "location": "Civic Center",
+        "address": "355 McAllister ",
+        "city": "San Francisco",
+        "state": "CA",
+        "latitude": 37.779491,
+        "longitude": -122.417618,
+        "times": {
+          "month": 5,
+          "day": 4,
+          "startTime": 11,
+          "endTime": 14
+        }
+      },
+      {
+        "location": "Fort Mason Center",
+        "address": "2 Marina Blvd",
+        "city": "San Francisco",
+        "state": "CA",
+        "latitude": 37.80573940449265,
+        "longitude": -122.43161905886075,
+        "times": {
+          "month": 5,
+          "day": 4,
+          "startTime": 17,
+          "endTime": 22
+        }
+      },
+      {
+        "location": "Alameda @ South Shore Center",
+        "address": "535 South Shore Center",
+        "city": "Alameda",
+        "state": "CA",
+        "latitude": 37.756599,
+        "longitude": -122.252953,
+        "times": {
+          "month": 5,
+          "day": 5,
+          "startTime": 11,
+          "endTime": 15
+        }
+      }
+    ],
+    "chef-info": "",
+    "stars-count": 0,
+    "review-count": 0,
+    "cuisine": [
+      "Asian Fusion",
+      "Chinese"
+    ],
+    "cuisine-map": null
+  },
+  {
+    "vendor-name": "Kome Sushi Burrito",
+    "type": "truck",
+    "price": 1,
+    "attribute": {
+      "savory": 1,
+      "sweet": 0,
+      "vegetarian": 1
+    },
+    "about": "What's in a name? In this case, pretty much everything you need to know. Kome Sushi Burrito is a food truck with a singular mission: deliver the best sushi burritos to Mission Street in San Francisco and beyond. They're keeping things simple with a menu that's built to satisfy. Choose from Kome's specialty burritos, or build yours with customizable fillings. Each sushi burrito is wrapped in light soy paper, with vinegar-y rice cushioning a center filled with seafood and fresh vegetables alike. It's a supersized sushi roll that brings big time flavor to an even bigger burrito, delivering a handful of yum. Find Kome Sushi Burrito in the Bay Area, and thank them for keeping your monstrous hunger at bay. MUST TRYGodzilla Burrito - because obviously. A monster sized burrito is packed full of tuna, eel, shrimp tempura, crab meat and avocado, with a bevy of fresh avocado, daikon, romaine lettuce, cucumber and carrots and drizzled with Kome's own Godzilla sauce",
+    "menu": "",
+    "schedule": [
+      {
+        "location": "Serramonte",
+        "address": "39 Serramonte Center",
+        "city": "Daly City",
+        "state": "CA",
+        "latitude": 37.672977,
+        "longitude": -122.468491,
+        "times": {
+          "month": 4,
+          "day": 24,
+          "startTime": 17,
+          "endTime": 21
+        }
+      },
+      {
+        "location": "Vallejo & Front",
+        "address": "850 Front St. ",
+        "city": "San Francisco",
+        "state": "CA",
+        "latitude": 37.799164,
+        "longitude": -122.399971,
+        "times": {
+          "month": 4,
+          "day": 25,
+          "startTime": 11,
+          "endTime": 14
+        }
+      },
+      {
+        "location": "Foster City",
+        "address": "650 Shell Blvd",
+        "city": "Foster City",
+        "state": "CA",
+        "latitude": 37.557137,
+        "longitude": -122.270088,
+        "times": {
+          "month": 4,
+          "day": 25,
+          "startTime": 17,
+          "endTime": 21
+        }
+      },
+      {
+        "location": "UN Plaza",
+        "address": "10 United Nations Plaza ",
+        "city": "San Francisco",
+        "state": "CA",
+        "latitude": 37.7804816,
+        "longitude": -122.4131768,
+        "times": {
+          "month": 4,
+          "day": 26,
+          "startTime": 11,
+          "endTime": 14
+        }
+      },
+      {
+        "location": "Upper Haight",
+        "address": "Stanyan St & Waller St",
+        "city": "San Francisco",
+        "state": "CA",
+        "latitude": 37.768246,
+        "longitude": -122.453377,
+        "times": {
+          "month": 4,
+          "day": 26,
+          "startTime": 17,
+          "endTime": 21
+        }
+      },
+      {
+        "location": "Lake Merritt",
+        "address": "1000 Oak St",
+        "city": "Oakland",
+        "state": "CA",
+        "latitude": 37.798618,
+        "longitude": -122.264191,
+        "times": {
+          "month": 4,
+          "day": 27,
+          "startTime": 17,
+          "endTime": 21
+        }
+      },
+      {
+        "location": "Serramonte",
+        "address": "39 Serramonte Center",
+        "city": "Daly City",
+        "state": "CA",
+        "latitude": 37.672977,
+        "longitude": -122.468491,
+        "times": {
+          "month": 5,
+          "day": 1,
+          "startTime": 17,
+          "endTime": 21
+        }
+      },
+      {
+        "location": "Menlo Park",
+        "address": "1120 Merrill St",
+        "city": "Menlo Park",
+        "state": "CA",
+        "latitude": 37.453712,
+        "longitude": -122.181122,
+        "times": {
+          "month": 5,
+          "day": 2,
+          "startTime": 17,
+          "endTime": 21
+        }
+      },
+      {
+        "location": "South Park",
+        "address": "340 Brannan St.",
+        "city": "San Francisco",
+        "state": "CA",
+        "latitude": 37.781174,
+        "longitude": -122.392975,
+        "times": {
+          "month": 5,
+          "day": 3,
+          "startTime": 11,
+          "endTime": 14
+        }
+      },
+      {
+        "location": "5M: 5th & Minna",
+        "address": "410 Minna St",
+        "city": "San Francisco",
+        "state": "CA",
+        "latitude": 37.782116,
+        "longitude": -122.406235,
+        "times": {
+          "month": 5,
+          "day": 4,
+          "startTime": 11,
+          "endTime": 14
+        }
+      },
+      {
+        "location": "San Carlos @ Devils Canyon Brewery",
+        "address": "935 Washington Street",
+        "city": "San Carlos",
+        "state": "CA",
+        "latitude": 37.498348,
+        "longitude": -122.244034,
+        "times": {
+          "month": 5,
+          "day": 4,
+          "startTime": 17,
+          "endTime": 21
+        }
+      },
+      {
+        "location": "Alameda @ South Shore Center",
+        "address": "535 South Shore Center",
+        "city": "Alameda",
+        "state": "CA",
+        "latitude": 37.756599,
+        "longitude": -122.252953,
+        "times": {
+          "month": 5,
+          "day": 5,
+          "startTime": 11,
+          "endTime": 15
+        }
+      }
+    ],
+    "chef-info": "",
+    "stars-count": 0,
+    "review-count": 0,
+    "cuisine": [
+      "Asian Fusion",
+      "Sushi",
+      "Japanese"
+    ],
+    "cuisine-map": null
+  },
+  {
+    "vendor-name": "Curry Up Now",
+    "type": "truck",
+    "price": 1,
+    "attribute": {
+      "savory": 1,
+      "sweet": 0,
+      "vegetarian": 1
+    },
+    "about": "Back in 2009, Curry Up Now truck appeared on the streets, San Francisco\\u2019s first and only Indian food truck. Inspired by the tasty street cuisine found all throughout India, Curry Up Now takes ever-so-savory and authentic Indian flavors, and wraps them up in on-the-go friendly tacos, quesadillas, burgers, burritos, bowls, and more. The food is so wonderfully delicious, the foodie love was quickly contagious. Now there are over four Curry Up Now trucks roaming through North California, serving everyone their scrumptious, affordable, and accessible menu. Their offerings include Burritos with creamy, tangy tikka masala, burgers with buttered buns, your choice of meat or veggies, and Maggi ketchup, chutney, and onions. Their Sexy Fries are certainly a hot item, with criss-cross sweet potato fries dressed with cheese and fried leek, and topped with a heap of juicy meat or veggies. And there\\u2019s so much more on their menu that\\u2019s sure to satisfy your curry cravings. So next time you\\u2019re hungry, you gotta hurry over to Curry Up Now. ",
+    "menu": " TIKKA MASALA Entrees \\nOur iconic tikka masala, turmeric rice, chana masala, onions, house pickles with a choice of chicken or paneer, turmeric white rice or riced cauliflower, chana garbanzo masala or daal lentils, with pico kachumber",
+    "schedule": [],
+    "chef-info": "",
+    "stars-count": 0,
+    "review-count": 0,
+    "cuisine": [
+      "Indian"
+    ],
+    "cuisine-map": null
+  },
+  {
+    "vendor-name": "Got Plate Lunch",
+    "type": "truck",
+    "price": 1,
+    "attribute": {
+      "savory": 1,
+      "sweet": 0,
+      "vegetarian": 0
+    },
+    "about": "Got Plate Lunch is bringing authentic Island flavors to the lucky foodies of the Bay Area!Their selection of Hawaiian-style plate lunches include 2 scoops of rice, a scoop of creamy macaroni salad, and an entree of your choice; Chicken Katsu, Garlic Shrimp Tacos, Kalua Pig, and so much more. Come on out to Got Plate Lunch for some of the most \\u201cOnolicious\\u201d comfort food you can find on the Mainland!",
+    "menu": " Kalua Pork and Cabbage BBQ Chicken Chicken Katsu BBQ Pork Kalbi Beef Short Ribs Hawaiian Style Mac Salad Tropical Slaw Pineapple/Cabbage Green Salad Garlic Saut\\u00c3\\u00a9ed Edamame Soy Beans White Rice Brown Rice Kimchi Fried Rice Garlic/Shoyu Chicken Wing Spam Musubi Blue Hawaiian Sliders BBQ Chicken Skewers Volcano Chicken w/ Fresh Tortilla Chips Spicy Cucumber Salad Entrees Slow cooked for 20 hours, then served with green cabbage Entrees Boneless, skinless chicken thighs marinated in our special BBQ sauce - soy sauce base, then grilled to perfection.  It\\u2019s so \\u201cono.  Served with dipping sauce. Entrees Seasoned and lighted breaded chicken thighs then fried to a golden crisp. With house katsu sauce. Entrees Thinly sliced pork, marinated in our special BBQ sauce - soy sauce base, then grilled with onions Entrees Approximately 45 pieces of Korean style 3-bone short ribs marinated in soy sauce base Entrees No filler, just mac noodles, seasoning, little bit of vegetables and Best Foods mayonnaise Entrees Cabbage, red bell peppers, fruits, and Asian/Fusion dressing Entrees Romaine lettuce, green cabbage, carrots, cucumbers and pineapple, served with our famous pineapple dressing Sides  Sides Premium Calrose rice Sides  Sides  Sides  Sides Grilled SPAM in between seasoned rice and wrapped in premium grade Nori. Topped with Furikaki. Sides 12 Hawaiian sweet roll, kalua pork, tropical slaw and blue sauce Sides 24 skewers: BBQ chicken, pineapples, onions, bell peppers Sides  Sides ",
+    "schedule": [
+      {
+        "location": "Pleasant Hill",
+        "address": "138 Trelany Road ",
+        "city": "Pleasant Hill",
+        "state": "CA",
+        "latitude": 37.947578,
+        "longitude": -122.062576,
+        "times": {
+          "month": 5,
+          "day": 2,
+          "startTime": 17,
+          "endTime": 21
+        }
+      }
+    ],
+    "chef-info": "",
+    "stars-count": 0,
+    "review-count": 0,
+    "cuisine": [
+      "Asian Fusion",
+      "Hawaiian"
+    ],
+    "cuisine-map": null
+  },
+  {
+    "vendor-name": "Lobsta Truck",
+    "type": "truck",
+    "price": 1,
+    "attribute": {
+      "savory": 1,
+      "sweet": 0,
+      "vegetarian": 0
+    },
+    "about": "The Lobsta Truck is the premier LA provider of the ocean's most prized crustacean. Get a taste and find them to have a lobster dinner or lunch.A few weeks after a wonderful trip to the east coast, we decided that we were going to open the Lobsta Truck. With the lobster shacks in Maine similar to the taco shacks in LA, it seemed like the perfect fit. We proceeded to find a supplier that could deliver us fresh lobster and worked on developing our own lobster rolls. We tried a few types of bread, as we couldn't find the traditional split top New England rolls in LA, but it just wasn't right. As a result, like the lobster, we get our bread fresh from New England. We couldn't just have lobster rolls as our only menu item, so we decided to also add crab rolls, New England clam chowder, Cape Cod chips, and fresh squeezed lemonade. With all the pieces in place, we were ready to roll!",
+    "menu": " Shrimp & Chips (LA/OC Only) Shrimp & Chips (LA/OC Only) Fresh Squeezed Lemonade Fresh Squeezed Lemonade Fish & Chips (LA/OC Only) Fish & Chips (LA/OC Only) Clam Chowder (cup/pint) Clam Chowder (cup/pint) Lobsta Roll Fresh Maine Lobster on a toasted split top roll with Butter or seasoned mayo.  Whoopie Pie Whoopie Pie Lobster Bisque (cup/pint) Lobster Bisque (cup/pint) Cape Cod Potato Chips Cape Cod Potato Chips Crab Roll Fresh Dungeness crab on a toasted split top roll with butter or seasoned mayo. French Fries (LA/OC Only) French Fries (LA/OC Only)",
+    "schedule": [
+      {
+        "location": "Vallejo & Front",
+        "address": "850 Front St. ",
+        "city": "San Francisco",
+        "state": "CA",
+        "latitude": 37.799164,
+        "longitude": -122.399971,
+        "times": {
+          "month": 4,
+          "day": 23,
+          "startTime": 11,
+          "endTime": 14
+        }
+      },
+      {
+        "location": "El Cerrito",
+        "address": "6159 Fairmount Ave.",
+        "city": "El Cerrito",
+        "state": "CA",
+        "latitude": 37.900505,
+        "longitude": -122.303207,
+        "times": {
+          "month": 4,
+          "day": 25,
+          "startTime": 17,
+          "endTime": 21
+        }
+      },
+      {
+        "location": "Fort Mason Center",
+        "address": "2 Marina Blvd",
+        "city": "San Francisco",
+        "state": "CA",
+        "latitude": 37.80573940449265,
+        "longitude": -122.43161905886075,
+        "times": {
+          "month": 4,
+          "day": 27,
+          "startTime": 17,
+          "endTime": 22
+        }
+      },
+      {
+        "location": "Alameda @ South Shore Center",
+        "address": "535 South Shore Center",
+        "city": "Alameda",
+        "state": "CA",
+        "latitude": 37.756599,
+        "longitude": -122.252953,
+        "times": {
+          "month": 4,
+          "day": 28,
+          "startTime": 11,
+          "endTime": 15
+        }
+      },
+      {
+        "location": "Pleasant Hill",
+        "address": "138 Trelany Road ",
+        "city": "Pleasant Hill",
+        "state": "CA",
+        "latitude": 37.947578,
+        "longitude": -122.062576,
+        "times": {
+          "month": 5,
+          "day": 2,
+          "startTime": 17,
+          "endTime": 21
+        }
+      },
+      {
+        "location": "Lake Merritt",
+        "address": "1000 Oak St",
+        "city": "Oakland",
+        "state": "CA",
+        "latitude": 37.798618,
+        "longitude": -122.264191,
+        "times": {
+          "month": 5,
+          "day": 4,
+          "startTime": 17,
+          "endTime": 21
+        }
+      },
+      {
+        "location": "Larkspur",
+        "address": "2401 Larkspur Landing Circle ",
+        "city": "Larkspur",
+        "state": "CA",
+        "latitude": 37.946579,
+        "longitude": -122.508522,
+        "times": {
+          "month": 5,
+          "day": 6,
+          "startTime": 11,
+          "endTime": 15
+        }
+      }
+    ],
+    "chef-info": "",
+    "stars-count": 0,
+    "review-count": 0,
+    "cuisine": [
+      "Seafood"
+    ],
+    "cuisine-map": null
+  },
+  {
+    "vendor-name": "Cochinita",
+    "type": "truck",
+    "price": 1,
+    "attribute": {
+      "savory": 1,
+      "sweet": 0,
+      "vegetarian": 0
+    },
+    "about": "Straight from Yucatan to your plate, Cochinita is serving up authentic Mayan cuisine that will surely have you coming back for more!",
+    "menu": " Cochinita Pibil Relleno Negro Pollo Achiote Poc Chuc Picadillo Veggies Vaporcitos Traditional Combo Super Traditional Combo 4 Taco Special Can't Decide Taco Combo Water Panucho Salbute Taco Torta Quesadilla Entrees Pulled pork marinated in achiote paste, citrus juices, and baked in banana leaves topped with pickled onions Entrees Chicken cooked in a dark charred chiles sauce topped with a hard boiled egg slice and pickled onions Entrees Baked chicken marinated in achiote paste and citrus juices topped with cabbage, pickled onions, tomato slice, and avocado Entrees Grilled pork marinated in citrus juices and pepper topped with cabbage, tomato sauce, pickled onions, and avocado Entrees Ground beef with spices, chopped carrots, raisins, and potatoes topped with tomato sauce, hard boiled egg slice, and pickled onions Entrees Cabbage, tomato sauce, pickled onions, and avocado Entrees Two traditional Yucatan tamale made with pork and chicken, steamed to perfection in banana leaves topped with tomato sauce and pickled onions Entrees One panucho de pollo achiote and one salbute de cochinita pibil Entrees One panucho de pollo achiote, one salbute de cochinita pibil, and one vaporcito Entrees Four tacos de cochinita pibil Entrees Four Taco combo with pollo achiote, cochinita pibil, picadillo and relleno Negro Drinks Bottled water Sides Fried handmade corn tortilla stuffed with black beans and topped with your choice of meat Sides Puffy fried corn handmade tortilla  Sides Soft corn tortilla Sides Toasted sandwich roll Sides Flour tortilla with cheese and your choice of meat",
+    "schedule": [
+      {
+        "location": "5th & Townsend",
+        "address": "699 5th St.",
+        "city": "San Francisco",
+        "state": "CA",
+        "latitude": 37.7755303,
+        "longitude": -122.3974504,
+        "times": {
+          "month": 4,
+          "day": 23,
+          "startTime": 11,
+          "endTime": 14
+        }
+      },
+      {
+        "location": "South Park",
+        "address": "340 Brannan St.",
+        "city": "San Francisco",
+        "state": "CA",
+        "latitude": 37.781174,
+        "longitude": -122.392975,
+        "times": {
+          "month": 4,
+          "day": 24,
+          "startTime": 11,
+          "endTime": 14
+        }
+      },
+      {
+        "location": "UN Plaza",
+        "address": "10 United Nations Plaza ",
+        "city": "San Francisco",
+        "state": "CA",
+        "latitude": 37.7804816,
+        "longitude": -122.4131768,
+        "times": {
+          "month": 5,
+          "day": 1,
+          "startTime": 11,
+          "endTime": 14
+        }
+      },
+      {
+        "location": "Civic Center Truck Spot",
+        "address": "355 McAllister",
+        "city": "san francisco",
+        "state": "CA",
+        "latitude": 37.7794918,
+        "longitude": -122.417618,
+        "times": {
+          "month": 5,
+          "day": 2,
+          "startTime": 11,
+          "endTime": 14
+        }
+      },
+      {
+        "location": "Menlo Park",
+        "address": "1120 Merrill St",
+        "city": "Menlo Park",
+        "state": "CA",
+        "latitude": 37.453712,
+        "longitude": -122.181122,
+        "times": {
+          "month": 5,
+          "day": 2,
+          "startTime": 17,
+          "endTime": 21
+        }
+      },
+      {
+        "location": "Upper Haight",
+        "address": "Stanyan St & Waller St",
+        "city": "San Francisco",
+        "state": "CA",
+        "latitude": 37.768246,
+        "longitude": -122.453377,
+        "times": {
+          "month": 5,
+          "day": 3,
+          "startTime": 17,
+          "endTime": 21
+        }
+      },
+      {
+        "location": "5th & Townsend",
+        "address": "699 5th St.",
+        "city": "San Francisco",
+        "state": "CA",
+        "latitude": 37.7755303,
+        "longitude": -122.3974504,
+        "times": {
+          "month": 5,
+          "day": 4,
+          "startTime": 11,
+          "endTime": 14
+        }
+      },
+      {
+        "location": "San Carlos @ Devils Canyon Brewery",
+        "address": "935 Washington Street",
+        "city": "San Carlos",
+        "state": "CA",
+        "latitude": 37.498348,
+        "longitude": -122.244034,
+        "times": {
+          "month": 5,
+          "day": 4,
+          "startTime": 17,
+          "endTime": 21
+        }
+      }
+    ],
+    "chef-info": "",
+    "stars-count": 0,
+    "review-count": 0,
+    "cuisine": [
+      "Latin",
+      "Mayan"
+    ],
+    "cuisine-map": null
+  },
+  {
+    "vendor-name": "United Bites",
+    "type": "truck",
+    "price": 1,
+    "attribute": {
+      "savory": 0,
+      "sweet": 0,
+      "vegetarian": 0
+    },
+    "about": "United Bites is a combined catering and gourmet mobile food vending business, based in Antioch, CA and is owned, operated and managed by Adam Gross. United Bites provides a Globally-Inspired twist on Comfort Foods to the San Francisco Bay Area and beyond. Yummy Comfort foods with a unique global twist!",
+    "menu": " HICKORY SMOKED PULLED PORK TACOS Handmade style corn & wheat tortillas filled with sweet & smoky hickory smoked pulled pork and our veggie-apple slaw & our UB sauce CHICKEN WANGS All-Natural chicken wings roasted then fried & topped with our topping sauce (CHIPOTLE-PEACH \\u2022 HONEY-SRIRACHA \\u2022 BBQ) JAMAICAN JERK CHICKEN TACOS Handmade style corn & wheat tortillas filled with spicy Jamaican jerk grilled chicken and topped with our veggie-apple slaw & our UB sauce MEDITERRANEAN VEGGIE WRAP Tandori naan flatbread filled with grilled eggplant, zucchini and onions, fresh lettuce mix, cucumber, tomato & our cucumber-feta yogurt sauce THAI CHICKEN WRAP Tandori naan flatbread filled with spicy grilled chicken, fresh lettuce mix, cucumber, tomato & our Thai-coconut sauce PORKY CHEESE FRIES French fries topped with hickory smoked pulled pork, shredded cheddar-jack cheese & your choice of our BBQ sauce, UB sauce or both",
+    "schedule": [],
+    "chef-info": "",
+    "stars-count": 0,
+    "review-count": 0,
+    "cuisine": [
+      "World Fusion"
+    ],
+    "cuisine-map": null
+  },
+  {
+    "vendor-name": "Little Red Riding Truck",
+    "type": "truck",
+    "price": 1,
+    "attribute": {
+      "savory": 1,
+      "sweet": 0,
+      "vegetarian": 0
+    },
+    "about": "The Little Red Riding Truck is serving up authentic and traditional German dishes. Their signature dish is the Currywurst, a bratwurst cooked until tender that is then sliced and topped with tomato based curry sauce and served with a side of fries. The Little Red Riding Truck menu also includes Bratwurst, Schnitzel and Sp\\u00c3\\u00a4tzle, recipes coming straight from Germany to San Francisco's streets.Read about how this truck came to be, Viktoria's decision to stay in SF and bring this great truck to the streets, and why this is probably the most authentic German food you'll get outside of Germany: http://roaminghunger.com/blog/8463/the-little-truck-keeping-tradition-alive",
+    "menu": " Schnitzel with fries  Bratwurst with Sauerkraut and bacon fried potatoes  Currywurst with fries Cheese Sp\\u00e4tzle with a side salad Entrees Tenderized and breaded pork chop  Entrees  Entrees A cut up Bratwurst with tomato based Currysauce, very famous street food dish in Germany Entrees The German version of mac and cheese with homemade noodles",
+    "schedule": [
+      {
+        "location": "San Carlos @ Devils Canyon Brewery",
+        "address": "935 Washington Street",
+        "city": "San Carlos",
+        "state": "CA",
+        "latitude": 37.498348,
+        "longitude": -122.244034,
+        "times": {
+          "month": 4,
+          "day": 27,
+          "startTime": 17,
+          "endTime": 22
+        }
+      },
+      {
+        "location": "Lake Merritt",
+        "address": "1000 Oak St",
+        "city": "Oakland",
+        "state": "CA",
+        "latitude": 37.798618,
+        "longitude": -122.264191,
+        "times": {
+          "month": 5,
+          "day": 4,
+          "startTime": 17,
+          "endTime": 21
+        }
+      }
+    ],
+    "chef-info": "",
+    "stars-count": 0,
+    "review-count": 0,
+    "cuisine": [
+      "German"
+    ],
+    "cuisine-map": null
+  },
+  {
+    "vendor-name": "Chomp Station",
+    "type": "truck",
+    "price": 1,
+    "attribute": {
+      "savory": 1,
+      "sweet": 1,
+      "vegetarian": 1
+    },
+    "about": "Chomp Station is charging down a street near you with the tastiest tri-tip dishes in town! Sandwiches, salads, rice bowls, and beyond, Chomp Station is serving up something for any appetite. Together with their desserts and milk tea drinks, this is your one-stop-shop for all your culinary cravings!",
+    "menu": " Tri Tip Sandwich Tri Tip Salad Tri Tip Ricebowl Tater Tips Tofu Tots Hong Kong Milk Tea Cold Brew Minty Lemon Early Grey Thai Iced Tea Entrees Tri tips, caramelized onions, crispy Sriracha pepper jack, BBQ sauce, butter toasted soft roll Entrees Tri tips, spring mix, avocado, cherry tomatoes, cucumber, cranberries, cilantro, fried onions, almonds, ginger sesame dressing Entrees Tri tips, brown rice, vegetables, caramelized onions, crispy Sriracha pepper jack, fried onions, pickled radish, house-made plum teriyaki sauce Entrees Tri tips, tater tots, chimichurri, mayo, hoisin sauce, cilantro, green onions, fried onions Entrees Tater tots, fried tofu, pickled radish, mayo, sweet chili sauce, cilantro, green onions, fried onions Drinks  Drinks  Drinks ",
+    "schedule": [
+      {
+        "location": "UN Plaza",
+        "address": "10 United Nations Plaza ",
+        "city": "San Francisco",
+        "state": "CA",
+        "latitude": 37.7804816,
+        "longitude": -122.4131768,
+        "times": {
+          "month": 5,
+          "day": 1,
+          "startTime": 11,
+          "endTime": 14
+        }
+      }
+    ],
+    "chef-info": "",
+    "stars-count": 0,
+    "review-count": 0,
+    "cuisine": [
+      "American",
+      "Asian Fusion"
+    ],
+    "cuisine-map": null
+  },
+  {
+    "vendor-name": "Senor Sisig",
+    "type": "truck",
+    "price": 1,
+    "attribute": {
+      "savory": 1,
+      "sweet": 0,
+      "vegetarian": 0
+    },
+    "about": "Pronounced [see-sig]Sisig is a traditional Filipino method of preparing meat. The meat is diced and saut\\u00e9ed with onions, soy sauce, vinegar, lemon juice, jalape\\u00f1os and seasoned with salt, pepper, and other spices. Sisig is truly one of the Philippines most delicious dishes and we at Se\\u00f1or Sisig taco truck take pride in serving its addicting flavor to the Bay Area. Plus it\\u2019s great in a taco!Founded by Daly City natives Gil and Evan, one of whom went to a culinary academy, the other of whom got his MBA, this truck seems an unlikely creation. To the childhood friends, however, it just made sense. A way to share an amazing food that just doesn't see enough attention? How could they not! To read more about the inception of this truck, check out the Roaming Hunger blog here: http://roaminghunger.com/blog/7678/senor-sisig-a-filipino-fusion",
+    "menu": " Sisig Taco Choice of Pork, Chicken or Tofu on a 6 corn tortilla topped with onions, lettuce & our cilantro cream sauce The Senor Sisig Burrito Choice of Pork, Chicken or Tofu with adobo garlic rice, pinto beans, lettuce, pico de gallo & our cilantro-cream sauce Sisig Nachos Choice of Pork, Chicken or Tofu on corn tortilla chips topped with nacho cheese, sour cream, guacamole, pico de gallo and pickled jalape\\u00f1os Sisig Fries Choice of Pork, Chicken or Tofu on crispy shoestring french fries topped with nacho cheese, sour cream, guacamole, pico de gallo and pickled jalape\\u00f1os Sisig w/ Steamed Rice Choice of Pork, Chicken or Tofu topped with diced onions, diced jalape\\u00f1os and a side of achara California Sisig Burrito Choice of Pork, Chicken, or Tofu with french fries inside, shredded cheese, sour cream, guacamole & pico de gallo Sisig Salad Choice of Pork, Chicken or Tofu on shredded lettuce then topped with pico de gallo, our cilantro cream sauce and shredded cheese",
+    "schedule": [
+      {
+        "location": "Vallejo & Front",
+        "address": "850 Front St. ",
+        "city": "San Francisco",
+        "state": "CA",
+        "latitude": 37.799164,
+        "longitude": -122.399971,
+        "times": {
+          "month": 4,
+          "day": 23,
+          "startTime": 11,
+          "endTime": 14
+        }
+      },
+      {
+        "location": "Serramonte",
+        "address": "39 Serramonte Center",
+        "city": "Daly City",
+        "state": "CA",
+        "latitude": 37.672977,
+        "longitude": -122.468491,
+        "times": {
+          "month": 4,
+          "day": 24,
+          "startTime": 17,
+          "endTime": 21
+        }
+      },
+      {
+        "location": "UN Plaza",
+        "address": "10 United Nations Plaza ",
+        "city": "San Francisco",
+        "state": "CA",
+        "latitude": 37.7804816,
+        "longitude": -122.4131768,
+        "times": {
+          "month": 4,
+          "day": 26,
+          "startTime": 11,
+          "endTime": 14
+        }
+      },
+      {
+        "location": "Upper Haight",
+        "address": "Stanyan St & Waller St",
+        "city": "San Francisco",
+        "state": "CA",
+        "latitude": 37.768246,
+        "longitude": -122.453377,
+        "times": {
+          "month": 4,
+          "day": 26,
+          "startTime": 17,
+          "endTime": 21
+        }
+      },
+      {
+        "location": "Fort Mason Center",
+        "address": "2 Marina Blvd",
+        "city": "San Francisco",
+        "state": "CA",
+        "latitude": 37.80573940449265,
+        "longitude": -122.43161905886075,
+        "times": {
+          "month": 4,
+          "day": 27,
+          "startTime": 17,
+          "endTime": 22
+        }
+      },
+      {
+        "location": "Lake Merritt",
+        "address": "1000 Oak St",
+        "city": "Oakland",
+        "state": "CA",
+        "latitude": 37.798618,
+        "longitude": -122.264191,
+        "times": {
+          "month": 4,
+          "day": 27,
+          "startTime": 17,
+          "endTime": 21
+        }
+      },
+      {
+        "location": "Alameda @ South Shore Center",
+        "address": "535 South Shore Center",
+        "city": "Alameda",
+        "state": "CA",
+        "latitude": 37.756599,
+        "longitude": -122.252953,
+        "times": {
+          "month": 4,
+          "day": 28,
+          "startTime": 11,
+          "endTime": 15
+        }
+      },
+      {
+        "location": "Presidio Picnic",
+        "address": "Main Parade Ground",
+        "city": "San Francisco",
+        "state": "CA",
+        "latitude": 37.800739,
+        "longitude": -122.458237,
+        "times": {
+          "month": 4,
+          "day": 29,
+          "startTime": 11,
+          "endTime": 16
+        }
+      },
+      {
+        "location": "Serramonte",
+        "address": "39 Serramonte Center",
+        "city": "Daly City",
+        "state": "CA",
+        "latitude": 37.672977,
+        "longitude": -122.468491,
+        "times": {
+          "month": 5,
+          "day": 1,
+          "startTime": 17,
+          "endTime": 21
+        }
+      },
+      {
+        "location": "5M: 5th & Minna",
+        "address": "410 Minna St",
+        "city": "San Francisco",
+        "state": "CA",
+        "latitude": 37.782116,
+        "longitude": -122.406235,
+        "times": {
+          "month": 5,
+          "day": 2,
+          "startTime": 11,
+          "endTime": 14
+        }
+      },
+      {
+        "location": "Upper Haight",
+        "address": "Stanyan St & Waller St",
+        "city": "San Francisco",
+        "state": "CA",
+        "latitude": 37.768246,
+        "longitude": -122.453377,
+        "times": {
+          "month": 5,
+          "day": 3,
+          "startTime": 17,
+          "endTime": 21
+        }
+      },
+      {
+        "location": "Civic Center",
+        "address": "355 McAllister ",
+        "city": "San Francisco",
+        "state": "CA",
+        "latitude": 37.779491,
+        "longitude": -122.417618,
+        "times": {
+          "month": 5,
+          "day": 4,
+          "startTime": 11,
+          "endTime": 14
+        }
+      },
+      {
+        "location": "Fort Mason Center",
+        "address": "2 Marina Blvd",
+        "city": "San Francisco",
+        "state": "CA",
+        "latitude": 37.80573940449265,
+        "longitude": -122.43161905886075,
+        "times": {
+          "month": 5,
+          "day": 4,
+          "startTime": 17,
+          "endTime": 22
+        }
+      },
+      {
+        "location": "Lake Merritt",
+        "address": "1000 Oak St",
+        "city": "Oakland",
+        "state": "CA",
+        "latitude": 37.798618,
+        "longitude": -122.264191,
+        "times": {
+          "month": 5,
+          "day": 4,
+          "startTime": 17,
+          "endTime": 21
+        }
+      },
+      {
+        "location": "Alameda @ South Shore Center",
+        "address": "535 South Shore Center",
+        "city": "Alameda",
+        "state": "CA",
+        "latitude": 37.756599,
+        "longitude": -122.252953,
+        "times": {
+          "month": 5,
+          "day": 5,
+          "startTime": 11,
+          "endTime": 15
+        }
+      },
+      {
+        "location": "Presidio Picnic",
+        "address": "Main Parade Ground",
+        "city": "San Francisco",
+        "state": "CA",
+        "latitude": 37.800739,
+        "longitude": -122.458237,
+        "times": {
+          "month": 5,
+          "day": 6,
+          "startTime": 11,
+          "endTime": 16
+        }
+      }
+    ],
+    "chef-info": "",
+    "stars-count": 0,
+    "review-count": 0,
+    "cuisine": [
+      "California Cuisine",
+      "Mexican",
+      "Filipino"
+    ],
+    "cuisine-map": null
+  },
+  {
+    "vendor-name": "Upper Cut",
+    "type": "truck",
+    "price": 1,
+    "attribute": {
+      "savory": 1,
+      "sweet": 0,
+      "vegetarian": 0
+    },
+    "about": "Sous-vide cuisine can finally be enjoyed on the San Francisco streets, all thanks to the ever-scenic Upper Cut truck!Having mastered the art of sous-vide cooking (sealing ingredients in airtight bags which allows them to develop optimal flavor as they bathe in hot water or steam), Chef Marty Damyan has made it his mission to make his unbelievably delicious, gourmet creations available curbside. His beautifully crafted selection features tacos (with fillings like fragrantly seasoned duck confit), sliders (served between two scrumptious ramen noodle buns), bowls (with your choice of meat, savory brown rice and grilled veggies), and much more. Everything is prepared so perfectly, your taste buds are in for the ultimate treat. If you wish to provide your guests at your next event with mobile creations that are a cut above the rest, invite Upper Cut to come cater!",
+    "menu": " Oinkster Chick Gone Greek Double Down Tacos Bowls Grilled Cadillac Cheese Kid's Cut Grilled Cheese Kid's Cut Grilled Cadillac Cheese Kid's Cut Grilled  Cheese Kid's Cut Grilled Cadillac Cheese Kid's Cut Fries Garlic Parmesan Fries Candied Jalape\\u00c3\\u00b1os Entrees Pork shoulder, candied jalape\\u00f1os, and southeast Carolina sauce Entrees Chicken breast, roasted bell peppers, goat cheese, yogurt, Sriracha and olive tapenade Entrees Brisket, summer slaw, sirloin patty, cheddar cheese, and sweet-tangy sauce Entrees One taco per order on a corn tortilla Entrees Served on brown rice with grilled veggies Entrees Fig, sharp cheddar, white cheddar, truffle oil, and a side of tomato bisque Entrees Cheeseburger Slider Entrees Fig, sharp cheddar, white cheddar, truffle oil, and a side of tomato bisque Entrees Cheeseburger Slider Entrees Fig, sharp cheddar, white cheddar, truffle oil, and a side of tomato bisque Entrees Cheeseburger Slider Entrees Fig, sharp cheddar, white cheddar, truffle oil, and a side of tomato bisque Entrees Cheeseburger Slider Entrees Fig, sharp cheddar, white cheddar, truffle oil, and a side of tomato bisque Entrees Cheeseburger Slider Sides  Sides  Sides Aged 4 weeks",
+    "schedule": [],
+    "chef-info": "",
+    "stars-count": 0,
+    "review-count": 0,
+    "cuisine": [
+      "New American",
+      "American"
+    ],
+    "cuisine-map": null
+  },
+  {
+    "vendor-name": "Red Sauce Meatballs",
+    "type": "truck",
+    "price": 1,
+    "attribute": {
+      "savory": 1,
+      "sweet": 0,
+      "vegetarian": 1
+    },
+    "about": "Red Sauce Meatballs is an Italian American food truck specializing in delicious meatballs made from grass-fed beef- veal, natural pork, or organic turkey, and including veggie & gluten free options. Check out their daily pastas & sandwiches, and if you don't want all the carbs, there's a bowl option! Red Sauce Meatballs keeps it fresh, organic, and simple by only using the best ingredients. Fatto con amore-- Made with love. Ciao!",
+    "menu": "",
+    "schedule": [],
+    "chef-info": "",
+    "stars-count": 0,
+    "review-count": 0,
+    "cuisine": [
+      "American",
+      "Italian"
+    ],
+    "cuisine-map": null
+  },
+  {
+    "vendor-name": "Mi Cantarito",
+    "type": "truck",
+    "price": 1,
+    "attribute": {
+      "savory": 1,
+      "sweet": 0,
+      "vegetarian": 0
+    },
+    "about": "The gifted team at Mi Cantarito is taking their 10+ years of foodservice success to the streets of San Francisco to show you how amazing mobile Mexican cuisine can be. Their authentic menu includes tacos, burritos, nachos, and more, all piled high with flavor-packed meats, tasty cheeses, and the freshest toppings. If you can go for a delicious Mexican meal, you simply must make your way to Mi Cantarito!",
+    "menu": " Burrito de Asada - Tacos de Pollo - Tacos al Pastor - Tacos de Asada -",
+    "schedule": [],
+    "chef-info": "",
+    "stars-count": 0,
+    "review-count": 0,
+    "cuisine": [
+      "Mexican"
+    ],
+    "cuisine-map": null
+  },
+  {
+    "vendor-name": "El Sur",
+    "type": "truck",
+    "price": 1,
+    "attribute": {
+      "savory": 1,
+      "sweet": 1,
+      "vegetarian": 1
+    },
+    "about": "El Sur is a  San Francisco based mobile food truck serving artisanal empanadas and other South American specialties.  We have taken our family recipes from Argentina, and combined them with the technique of our French culinary training and the amazing ingredients of Northern California to make the best empanadas in the Bay Area.  El Sur's mission is to preserve the artisanal way of making empanadas and to serve them to you the only way an empanada should be eaten, directly from the oven.",
+    "menu": " Churros with dulce de leche Churros filled with homemade dulce de leche  PARISIEN EMPANADAS Country Ham, Prosciutto, Green Onion, Five Cheeses, Chive Pollo Saltado Empanada Organic chicken, onion, tomato, serrano, olive, egg VERDE EMPANADAS Swiss Chard, Spinach, Green Onion, Five Cheeses, Olive, Egg Grilled Chicken Skewers Grilled Chicken, Lemon Crema, Roasted Vegetable Salsa Alfajores Shortbread cookies with Dulce de Leche Grilled Vegetable Skewers Grilled Seasonal Vegetables, Balsamic Glaze Mixed Greens Mixed Greens with Shaved Fennel and Radish in Shallot-Dijon Vinaigrette Traditional Empanada Hand cut Five Dot Ranch beef, onion, oregano, pimenton, olive, egg CHAMPI\\u00d1ONES EMPANADAS Country Ham, Prosciutto, Green Onion, Five Cheeses, Chive Braised Short Rib Skewers Malbec Braised Short Ribs, Pickled Red Onion, Chimichurri Ensalada Rusa Yukon Gold Potatoes, Peas and Carrots Tossed in Lemon Aioli",
+    "schedule": [
+      {
+        "location": "Civic Center Truck Spot",
+        "address": "355 McAllister",
+        "city": "san francisco",
+        "state": "CA",
+        "latitude": 37.7794918,
+        "longitude": -122.417618,
+        "times": {
+          "month": 4,
+          "day": 25,
+          "startTime": 11,
+          "endTime": 14
+        }
+      },
+      {
+        "location": "Presidio Picnic",
+        "address": "Main Parade Ground",
+        "city": "San Francisco",
+        "state": "CA",
+        "latitude": 37.800739,
+        "longitude": -122.458237,
+        "times": {
+          "month": 4,
+          "day": 29,
+          "startTime": 11,
+          "endTime": 16
+        }
+      },
+      {
+        "location": "Menlo Park",
+        "address": "1120 Merrill St",
+        "city": "Menlo Park",
+        "state": "CA",
+        "latitude": 37.453712,
+        "longitude": -122.181122,
+        "times": {
+          "month": 5,
+          "day": 2,
+          "startTime": 17,
+          "endTime": 21
+        }
+      },
+      {
+        "location": "Presidio Picnic",
+        "address": "Main Parade Ground",
+        "city": "San Francisco",
+        "state": "CA",
+        "latitude": 37.800739,
+        "longitude": -122.458237,
+        "times": {
+          "month": 5,
+          "day": 6,
+          "startTime": 11,
+          "endTime": 16
+        }
+      }
+    ],
+    "chef-info": "",
+    "stars-count": 0,
+    "review-count": 0,
+    "cuisine": [
+      "South American",
+      "Argentine"
+    ],
+    "cuisine-map": null
+  },
+  {
+    "vendor-name": "Spork & Stix",
+    "type": "truck",
+    "price": 1,
+    "attribute": {
+      "savory": 1,
+      "sweet": 0,
+      "vegetarian": 1
+    },
+    "about": "Spork & Stix fuses Korean and Thai traditions to create something entirely new altogether - a new cuisine tailored to heat, sweet spice and pure satisfaction, all around.  San Francisco's never had it so well and so succinctly.  Pre-designed rice bowls and custom, build-your-own noodle dishes make up the main swath of the menu's options, with slider options hitting the spot for smaller appetites - or sitting on top of all the rest for extra-large appetites.  Whatever you're bringing to Spork & Stix, they'll have something waiting to give right back to you.  It's a new tradition born from old ones, much like San Francisco itself.  In many ways, maybe that's the truck's finest fusion of all.  MUST TRY* Nine Hour Pork Belly Slider; slow-cooked and glazed to sweet and savory pleasure.  Your pleasure, to be specific.* Kimchee Bacon Fried Rice, which can be subbed into any rice bowl instead of the standard veggie rice.  In this case, can = should.  Like we need to tell you that.",
+    "menu": " Noodle Bowl Step 1 Choose Sauce, Step 2 Choose Protein Beef Bulgogi Rice Box kimchi, greens, soy vinaigrette Coconut Chicken Rice Box  greens, pickled carrot, cilantro, plum vinaigrette, topped with peanut sauce 9 Hour Pork Belly Rice Box greens, kimchi, sesame leaf, spicy chili sauce Grilled Garlic Shrimp Rice Box arugula, pickled carrots, green onion, fried shallots, tomyum sauce Grilled BBQ Pork Rice Box greens, daikon, cucumber, tamarind sauce Special Chargrilled Pork Jowl  Tender slices of pork jowl chargrilled marinated in cilantro and garlic soy",
+    "schedule": [
+      {
+        "location": "El Cerrito",
+        "address": "6159 Fairmount Ave.",
+        "city": "El Cerrito",
+        "state": "CA",
+        "latitude": 37.900505,
+        "longitude": -122.303207,
+        "times": {
+          "month": 4,
+          "day": 25,
+          "startTime": 17,
+          "endTime": 21
+        }
+      },
+      {
+        "location": "Presidio Picnic",
+        "address": "Main Parade Ground",
+        "city": "San Francisco",
+        "state": "CA",
+        "latitude": 37.800739,
+        "longitude": -122.458237,
+        "times": {
+          "month": 4,
+          "day": 29,
+          "startTime": 11,
+          "endTime": 16
+        }
+      },
+      {
+        "location": "5th & Townsend",
+        "address": "699 5th St.",
+        "city": "San Francisco",
+        "state": "CA",
+        "latitude": 37.7755303,
+        "longitude": -122.3974504,
+        "times": {
+          "month": 4,
+          "day": 30,
+          "startTime": 11,
+          "endTime": 14
+        }
+      },
+      {
+        "location": "Vallejo & Front",
+        "address": "850 Front St. ",
+        "city": "San Francisco",
+        "state": "CA",
+        "latitude": 37.799164,
+        "longitude": -122.399971,
+        "times": {
+          "month": 5,
+          "day": 2,
+          "startTime": 11,
+          "endTime": 14
+        }
+      },
+      {
+        "location": "Foster City",
+        "address": "650 Shell Blvd",
+        "city": "Foster City",
+        "state": "CA",
+        "latitude": 37.557137,
+        "longitude": -122.270088,
+        "times": {
+          "month": 5,
+          "day": 2,
+          "startTime": 17,
+          "endTime": 21
+        }
+      },
+      {
+        "location": "San Mateo Bay Center",
+        "address": "901 Mariners Island Blvd",
+        "city": "San Mateo",
+        "state": "CA",
+        "latitude": 37.559464,
+        "longitude": -122.287437,
+        "times": {
+          "month": 5,
+          "day": 3,
+          "startTime": 11,
+          "endTime": 14
+        }
+      },
+      {
+        "location": "Lake Merritt",
+        "address": "1000 Oak St",
+        "city": "Oakland",
+        "state": "CA",
+        "latitude": 37.798618,
+        "longitude": -122.264191,
+        "times": {
+          "month": 5,
+          "day": 4,
+          "startTime": 17,
+          "endTime": 21
+        }
+      },
+      {
+        "location": "Presidio Picnic",
+        "address": "Main Parade Ground",
+        "city": "San Francisco",
+        "state": "CA",
+        "latitude": 37.800739,
+        "longitude": -122.458237,
+        "times": {
+          "month": 5,
+          "day": 6,
+          "startTime": 11,
+          "endTime": 16
+        }
+      }
+    ],
+    "chef-info": "",
+    "stars-count": 0,
+    "review-count": 0,
+    "cuisine": [
+      "Korean",
+      "Asian Fusion",
+      "Thai"
+    ],
+    "cuisine-map": null
+  },
+  {
+    "vendor-name": "The Boneyard",
+    "type": "truck",
+    "price": 1,
+    "attribute": {
+      "savory": 1,
+      "sweet": 0,
+      "vegetarian": 0
+    },
+    "about": "Bringing the feel of the Bay Area's best backyard BBQs to a street near you, The Boneyard is a food truck you just can't miss! With their smoked and roasted meats, fresh baked bread, and superb side dishes, you'll always find something to love. Feed your inner carnivore with The Boneyard!",
+    "menu": " The Boneyard BBQ Bowl Cally Bowl BBQ Sliders (2) Texas Philly Brisket Nachos Pulled Over Dog Pile Ribs Bohemian BBQ Sandwich Roasted Pork Tenderloin Sandwich Grilled Chicken Salad Sandwich Slambin Lamb Sandwich BLT Portobello Salad Sandwich (Veg) Potato Salad (Veg) Kale Salad (Veg) BBQ Beans Slaw (Veg) Macaroni Salad Creamed Cucumbers (Veg) Smashed Yukon Gold Potatoes (Veg) Entrees Choice of meat, coleslaw, BBQ beans, topped with BBQ sauce Entrees Choice of meat, coleslaw, BBQ beans, topped with spicy bacon aioli, BBQ sauce and finished with a seasoned fried egg Entrees Choice of meat, BBQ sauce and coleslaw Entrees Smoked beef brisket, caramelized onions & peppers and pepper jack cheese on a warm hoagie roll Entrees Smoked beef brisket, BBQ beans, pepper jack cheese, fresh salsa and guacamole, spicy bacon aioli, BBQ sauce over fresh corn tortilla chips Entrees Smoked pulled pork on a soft roll, topped with coleslaw, spicy bacon aioli and finished with a seasoned fried egg Entrees All beef hot dog stacked to the rafters with smoked beef brisket, coleslaw, and topped with BBQ sauce Entrees Fall-off-the-bone ribs Entrees Louisiana hot link and smoked beef brisket with tangy white onions, dill pickles and BBQ sauce Entrees Herb roasted tenderloin, thinly sliced and topped with baby arugula, tomato and wasabi mayo Entrees Our Santa Maria grilled chicken, topped with a spring green mix with bell peppers, red onions and carrots and topped with spicy bacon aioli Entrees Grilled marinated lamb leg, topped with baby arugula and spicy bacon aioli Entrees Thick sliced smoked bacon with fresh romaine and tomato and topped off with spicy bacon aioli Entrees Grilled portobello mushrooms with pepper jack cheese, and topped with a spring green mix with bell peppers, red onions and carrots Sides We're very picky about our potato salad, and this one's not to be missed! Sides Leafy greens, fresh peppers, red onions, carrots dressed with a light olive oil and lemon dressing Sides Tangy sweetness of tomato and molasses, with just a touch of heat to round things out Sides Creamy, tangy & crunchy Sides Sweet and savory with the crunch of fresh veggies Sides Crunch and refreshing Sides Fluffy and golden, the perfect side",
+    "schedule": [
+      {
+        "location": "Lake Merritt",
+        "address": "1000 Oak St",
+        "city": "Oakland",
+        "state": "CA",
+        "latitude": 37.798618,
+        "longitude": -122.264191,
+        "times": {
+          "month": 4,
+          "day": 27,
+          "startTime": 17,
+          "endTime": 21
+        }
+      },
+      {
+        "location": "San Carlos @ Devils Canyon Brewery",
+        "address": "935 Washington Street",
+        "city": "San Carlos",
+        "state": "CA",
+        "latitude": 37.498348,
+        "longitude": -122.244034,
+        "times": {
+          "month": 4,
+          "day": 27,
+          "startTime": 17,
+          "endTime": 22
+        }
+      },
+      {
+        "location": "Alameda @ South Shore Center",
+        "address": "535 South Shore Center",
+        "city": "Alameda",
+        "state": "CA",
+        "latitude": 37.756599,
+        "longitude": -122.252953,
+        "times": {
+          "month": 4,
+          "day": 28,
+          "startTime": 11,
+          "endTime": 15
+        }
+      }
+    ],
+    "chef-info": "",
+    "stars-count": 0,
+    "review-count": 0,
+    "cuisine": [
+      "American",
+      "BBQ"
+    ],
+    "cuisine-map": null
+  },
+  {
+    "vendor-name": "Jeepsilog",
+    "type": "truck",
+    "price": 1,
+    "attribute": {
+      "savory": 1,
+      "sweet": 0,
+      "vegetarian": 0
+    },
+    "about": "Jeepsilog brings delicious Filipino and Asian fusion cuisine to San Francisco. Try their amazing Longsilog or their flavorful Taparitto! You're sure to enjoy every last bite of Jeepsilog's great dishes!",
+    "menu": " Kawalisilog Crispy Deep Fried Pork Belly served with garlic fried rice and egg",
+    "schedule": [
+      {
+        "location": "Foster City",
+        "address": "650 Shell Blvd",
+        "city": "Foster City",
+        "state": "CA",
+        "latitude": 37.557137,
+        "longitude": -122.270088,
+        "times": {
+          "month": 4,
+          "day": 25,
+          "startTime": 17,
+          "endTime": 21
+        }
+      },
+      {
+        "location": "UN Plaza",
+        "address": "10 United Nations Plaza ",
+        "city": "San Francisco",
+        "state": "CA",
+        "latitude": 37.7804816,
+        "longitude": -122.4131768,
+        "times": {
+          "month": 5,
+          "day": 1,
+          "startTime": 11,
+          "endTime": 14
+        }
+      },
+      {
+        "location": "Serramonte",
+        "address": "39 Serramonte Center",
+        "city": "Daly City",
+        "state": "CA",
+        "latitude": 37.672977,
+        "longitude": -122.468491,
+        "times": {
+          "month": 5,
+          "day": 1,
+          "startTime": 17,
+          "endTime": 21
+        }
+      }
+    ],
+    "chef-info": "",
+    "stars-count": 0,
+    "review-count": 0,
+    "cuisine": [
+      "Filipino"
+    ],
+    "cuisine-map": null
+  },
+  {
+    "vendor-name": "Frozen Kuhsterd",
+    "type": "truck",
+    "price": 1,
+    "attribute": {
+      "savory": 0,
+      "sweet": 1,
+      "vegetarian": 1
+    },
+    "about": "Back in 2011, the ever-entrepreneurial Jason Angeles discovered his true calling: to introduce the Bay Area to a delicious taste of frozen custard with his very own West Coast spin. He began selling his unique custard concoctions at the Underground Market and Frozen Kuhsterd (or FK) quickly became a huge hit. In 2012, Chef Tim Luym joined Jason in launching the FK food truck, the first frozen custard truck in California. When employee Justin Sakurai became a partner, they together formed a trio of flavor innovators and now FK is one of the most highly rated and locally acclaimed food trucks in the whole state. With deliciously creative flavors and delightfully creamy textures, FK always provides an unforgettable experience. Book FK for your next event and give your guests a scoop of their new favorite frozen dessert!",
+    "menu": " Dynamo Donut Sandwich Napa Style Sundae Cupcake Sundae Cookie Monster Boba Guys Sundae Single Scoop with Toppings Single Scoop with Toppings Desserts Choice of Dynamo Donut, choice of frozen custard scoop, and choice of one topping. Desserts Scoop of Vanilla Bean frozen custard with a bottom layer of burnt caramel, topped with extra virgin olive oil and Himalayan pink salt. Desserts Choice of cupcake, scoop and one topping Desserts Choice of three cookies, two scoops and two sauce toppings. Desserts Choice of scoop between a bottom layer of almond jelly and a top layer of boba, finished with organic condensed milk.  Desserts  Desserts ",
+    "schedule": [
+      {
+        "location": "Foster City",
+        "address": "650 Shell Blvd",
+        "city": "Foster City",
+        "state": "CA",
+        "latitude": 37.557137,
+        "longitude": -122.270088,
+        "times": {
+          "month": 4,
+          "day": 25,
+          "startTime": 17,
+          "endTime": 21
+        }
+      },
+      {
+        "location": "Fort Mason Center",
+        "address": "2 Marina Blvd",
+        "city": "San Francisco",
+        "state": "CA",
+        "latitude": 37.80573940449265,
+        "longitude": -122.43161905886075,
+        "times": {
+          "month": 4,
+          "day": 27,
+          "startTime": 17,
+          "endTime": 22
+        }
+      },
+      {
+        "location": "Pleasant Hill",
+        "address": "138 Trelany Road ",
+        "city": "Pleasant Hill",
+        "state": "CA",
+        "latitude": 37.947578,
+        "longitude": -122.062576,
+        "times": {
+          "month": 5,
+          "day": 2,
+          "startTime": 17,
+          "endTime": 21
+        }
+      },
+      {
+        "location": "Fort Mason Center",
+        "address": "2 Marina Blvd",
+        "city": "San Francisco",
+        "state": "CA",
+        "latitude": 37.80573940449265,
+        "longitude": -122.43161905886075,
+        "times": {
+          "month": 5,
+          "day": 4,
+          "startTime": 17,
+          "endTime": 22
+        }
+      }
+    ],
+    "chef-info": "",
+    "stars-count": 0,
+    "review-count": 0,
+    "cuisine": [
+      "Ice Cream",
+      "Frozen Custard",
+      "Dessert"
+    ],
+    "cuisine-map": null
+  },
+  {
+    "vendor-name": "El Sabrosito",
+    "type": "truck",
+    "price": 1,
+    "attribute": {
+      "savory": 1,
+      "sweet": 0,
+      "vegetarian": 1
+    },
+    "about": "El Sabroosito is rolling into Oakland with the best Salvadorian food NorCal's seen in a hot minute.  Speaking of time & heat, these pupusas come out warm and fast, from the oven to your mouth, all cooked with gluten-free masa.  The truck's the product of two Salvadorian sisters who moved to Canada, but never left their childhood flavors behind, using the memories to ignite a passion that's now culminated in the Bay Area's gain.  El Sabrosito takes the girls' traditions and spreads them far and wide, exporting new tastes and sensations to a town full of foodies convinced they've had it all.  Judging by the splash they've already made, it's safe to say their traditions have been received pretty well - so well, in fact, it's like the food's brand new, and ready to inspire a whole new generation of tastes.  Give these girls your hot minute, and they'll give you a world of flavor.MUST TRY* Revuelta Pupusas - featuring all the truck's signature tastes, all together, all awesome.  A mixture of house cheese blend, chicharron & Salvadoran frijol de seda* Pata/Mondongo - so nice they named it twice: a warm, rich, aromatic soup featuring cow hoof & belly.  Cooked with cassava, corn & cabbage & served with two had-made tortillas",
+    "menu": " Chicken Tamal Chicken Tamal is Made with Gluten Free Masa. Pupusa Thick corn tortillas filled stuffed with a variety of options.",
+    "schedule": [],
+    "chef-info": "",
+    "stars-count": 0,
+    "review-count": 0,
+    "cuisine": [
+      "Salvadorian",
+      "Soup"
+    ],
+    "cuisine-map": null
+  },
+  {
+    "vendor-name": "Hookt Mini Doughnuts",
+    "type": "truck",
+    "price": 1,
+    "attribute": {
+      "savory": 0,
+      "sweet": 1,
+      "vegetarian": 1
+    },
+    "about": "Hookt Doughnuts is a huge hit on the San Francisco streets for its addictive and heavenly mini donuts! Each freshly fried treat is made right before your eyes, and you can choose the perfect toppings for you, including cinnamon-sugar, powdered sugar, crushed oreos, and many unique ingredients, like guava-infused cream cheese, fruit pebbles & cereal milk, and so many more. The Hookt team takes their creations to all the exciting events and festivals all over town, and are happy to caters private events of all sizes. Once you and your guests try these delicious delights, you all will definitely be hookt!",
+    "menu": " Apple pie Desserts Mini donuts rolled in Apple spice sugar, housemade caramel sauce",
+    "schedule": [
+      {
+        "location": "Presidio Picnic",
+        "address": "Main Parade Ground",
+        "city": "San Francisco",
+        "state": "CA",
+        "latitude": 37.800739,
+        "longitude": -122.458237,
+        "times": {
+          "month": 4,
+          "day": 29,
+          "startTime": 11,
+          "endTime": 16
+        }
+      },
+      {
+        "location": "Presidio Picnic",
+        "address": "Main Parade Ground",
+        "city": "San Francisco",
+        "state": "CA",
+        "latitude": 37.800739,
+        "longitude": -122.458237,
+        "times": {
+          "month": 5,
+          "day": 6,
+          "startTime": 11,
+          "endTime": 16
+        }
+      }
+    ],
+    "chef-info": "",
+    "stars-count": 0,
+    "review-count": 0,
+    "cuisine": [
+      "Doughnuts",
+      "Dessert"
+    ],
+    "cuisine-map": null
+  },
+  {
+    "vendor-name": "Johnny Doughnuts",
+    "type": "truck",
+    "price": 1,
+    "attribute": {
+      "savory": 0,
+      "sweet": 1,
+      "vegetarian": 1
+    },
+    "about": "Johnny Doughnuts are the premiere gourmet doughnuts of the Bay Area! Cooked in store at their brick and mortar San Rafael location and served from their mobile truck. Stop by and try one of their classic, jelly, glazed, creme filled or gluten free doughnuts!",
+    "menu": " Raised Doughnuts Old Fashioned Doughnuts Blueberry Caramel Apple Fritter Bismarks Crodough Cinnamon Doughnuts Wheat-Free Fritter Thang Vegan Raised Doughnut Organic Equator Coffee Organic Equator Teas Organic Equator Teas Espresso Bar Desserts Our take on a \\u201clight and fluffy\\u201d doughnut. A Southern recipe dating back to the 1920\\u2019s, using fresh potato to the dough to give more of a bite. Desserts Combining recipes from the 1930\\u2019s we\\u2019ve come up with an Old Fashioned unlike any other. This cake-like doughnut has just enough crunch on the outside and moistness in the middle to truly make you wonder how you had ever gone without it. Desserts Oodles of blueberries and caramelized apple chunks in this one of a kind, rustic fritter. With rolling hills of apples and blueberries across the raised dough, this fritter is bigger than a bear claw but just the right size to fill your heart (and belly) with joy. Desserts Bismarks are the Holy Grail of filled doughnuts. With homemade jams and custards oozing out of them, they are what we call serious doughnuts. We suggest having a napkin and a friend nearby, because you will feel compelled to share these beauties with the rest of the world. Desserts This flaky piece of heaven! Our Crodough has laminated layers, just like a croissant. We let these unique doughnut-wannabes rise before gently placing them into the frier to become the doughnuts they so desperately want to be. Sometimes rolled in Cinnamon Sugar, or perhaps topped with Chocolate glaze, we make sure the custard is filled through every. Single. Layer. Desserts With cinnamon wrapped, rolled and twisted into the abyss of this specialty raised dough, you\\u2019ll get the perfect cinnamon flavor in every bite. Not to mention, with their twists and turns they are really like doughnut art. Desserts The Fritter Thang is filled with chunks of fresh fruit, topped with vanilla glaze, and here's the best part \\u2013 it tastes like a doughnut should taste! With texture similar to our Old Fashioneds, this gem \\u2013 a WHEAT FREE DOUGHNUT?! \\u2013 is a rarity in the doughnut world, and loved by wheat-free and wheat-loving treat seekers alike. Desserts With texture similar to our classic Raised doughnuts, this baby is rolled in cinnamon sugar to give it just enough sweet to add to the awesome. Drinks  Drinks  Drinks  Drinks ",
+    "schedule": [
+      {
+        "location": "Serramonte",
+        "address": "39 Serramonte Center",
+        "city": "Daly City",
+        "state": "CA",
+        "latitude": 37.672977,
+        "longitude": -122.468491,
+        "times": {
+          "month": 4,
+          "day": 24,
+          "startTime": 17,
+          "endTime": 21
+        }
+      },
+      {
+        "location": "Upper Haight",
+        "address": "Stanyan St & Waller St",
+        "city": "San Francisco",
+        "state": "CA",
+        "latitude": 37.768246,
+        "longitude": -122.453377,
+        "times": {
+          "month": 4,
+          "day": 26,
+          "startTime": 17,
+          "endTime": 21
+        }
+      },
+      {
+        "location": "Fort Mason Center",
+        "address": "2 Marina Blvd",
+        "city": "San Francisco",
+        "state": "CA",
+        "latitude": 37.80573940449265,
+        "longitude": -122.43161905886075,
+        "times": {
+          "month": 4,
+          "day": 27,
+          "startTime": 17,
+          "endTime": 22
+        }
+      },
+      {
+        "location": "Lake Merritt",
+        "address": "1000 Oak St",
+        "city": "Oakland",
+        "state": "CA",
+        "latitude": 37.798618,
+        "longitude": -122.264191,
+        "times": {
+          "month": 4,
+          "day": 27,
+          "startTime": 17,
+          "endTime": 21
+        }
+      },
+      {
+        "location": "Larkspur",
+        "address": "2401 Larkspur Landing Circle ",
+        "city": "Larkspur",
+        "state": "CA",
+        "latitude": 37.946579,
+        "longitude": -122.508522,
+        "times": {
+          "month": 4,
+          "day": 29,
+          "startTime": 11,
+          "endTime": 15
+        }
+      },
+      {
+        "location": "El Cerrito",
+        "address": "6159 Fairmount Ave.",
+        "city": "El Cerrito",
+        "state": "CA",
+        "latitude": 37.900505,
+        "longitude": -122.303207,
+        "times": {
+          "month": 5,
+          "day": 2,
+          "startTime": 17,
+          "endTime": 21
+        }
+      },
+      {
+        "location": "Fort Mason Center",
+        "address": "2 Marina Blvd",
+        "city": "San Francisco",
+        "state": "CA",
+        "latitude": 37.80573940449265,
+        "longitude": -122.43161905886075,
+        "times": {
+          "month": 5,
+          "day": 4,
+          "startTime": 17,
+          "endTime": 22
+        }
+      },
+      {
+        "location": "Alameda @ South Shore Center",
+        "address": "535 South Shore Center",
+        "city": "Alameda",
+        "state": "CA",
+        "latitude": 37.756599,
+        "longitude": -122.252953,
+        "times": {
+          "month": 5,
+          "day": 5,
+          "startTime": 11,
+          "endTime": 15
+        }
+      },
+      {
+        "location": "Larkspur",
+        "address": "2401 Larkspur Landing Circle ",
+        "city": "Larkspur",
+        "state": "CA",
+        "latitude": 37.946579,
+        "longitude": -122.508522,
+        "times": {
+          "month": 5,
+          "day": 6,
+          "startTime": 11,
+          "endTime": 15
+        }
+      }
+    ],
+    "chef-info": "",
+    "stars-count": 0,
+    "review-count": 0,
+    "cuisine": [
+      "Doughnuts",
+      "Coffee",
+      "Dessert"
+    ],
+    "cuisine-map": null
+  },
+  {
+    "vendor-name": "Beyond the Border",
+    "type": "truck",
+    "price": 1,
+    "attribute": {
+      "savory": 1,
+      "sweet": 0,
+      "vegetarian": 0
+    },
+    "about": "Beyond the Border is a Bay Area truck serving up healthier Latin favorites, from fish tacos to pupusas, skirt steak salad, and tortilla soup. Don't miss this truck on the streets of San Francisco!",
+    "menu": " Pacific Rockfish Tacos Orange Roasted Pork Bowl Chimichurri Skirt Steak Taco Chipotle Chicken Taco Pacific Rockfish Bowl Orange Roasted Pork Tacos Garlic Black Bean Taco Chipotle Chicken Bowl Chimichurri Skirt Steak Bowl Garlic Black Bean Bowl Yucca Fries  Beans and Rice Side Salad Entrees Two beer-battered fish, corn tomato salsa, cabbage, cilantro lime sour cream, chipotle lime vinaigrette, corn tortilla Entrees Jack Cheese, Chipotle Lime Vinaigrette.\\n\\n(Bowls Include Black Beans, Rice, Sour Cream, Corn Salsa, Cucumbers) Entrees Skirt steak, chimichurri sauce, cabbage, corn salsa, sour Cream, jack cheese, chipotle, lime vinaigrette, on a corn tortilla. Entrees Grilled chicken,chipotle,corn salsa, sour cream, jack cheese, chipotle, lime vinaigrette, on a corn tortilla. Entrees Beer Batter, Fried, Chipotle Lime Vinaigrette\\n\\n(Bowls Include Black Beans, Rice, Sour Cream, Corn Salsa, Cucumbers) Entrees Jack Cheese, Chipotle Lime Vinaigrette.\\n\\n(Includes Two Large Tacos Topped With Cabbage, Sour Cream, Corn Salsa, On Corn Tortillas) Entrees Garlic black beans, cabbage, sour cream, corn salsa, chipotle lime vinaigrette, on a corn tortilla. (can be vegan without sour cream) Entrees Grilled white meat chicken,chipotle ranch, beans,rice,corn salsa, cucumber. Entrees Grilled skirt steak, chimichurri sauce, beans,rice,corn salsa, cucumber. Entrees Garlic black beans, sour cream,rice,corn salsa, cucumber. Sides Deep-fried yucca with a spicy chipotle aioli Sides Garlic black beans and Spanish rice.  Sides Side Salad With Herb Vinaigrette\\nMixed Greens, Corn Salsa",
+    "schedule": [
+      {
+        "location": "Fort Mason Center",
+        "address": "2 Marina Blvd",
+        "city": "San Francisco",
+        "state": "CA",
+        "latitude": 37.80573940449265,
+        "longitude": -122.43161905886075,
+        "times": {
+          "month": 5,
+          "day": 4,
+          "startTime": 17,
+          "endTime": 22
+        }
+      }
+    ],
+    "chef-info": "",
+    "stars-count": 0,
+    "review-count": 0,
+    "cuisine": [
+      "Latin Fusion"
+    ],
+    "cuisine-map": null
+  },
+  {
+    "vendor-name": "Lexie's Frozen Custard",
+    "type": "truck",
+    "price": 1,
+    "attribute": {
+      "savory": 0,
+      "sweet": 1,
+      "vegetarian": 1
+    },
+    "about": "Lexie's Frozen Custard is a delicious frozen treats truck serving the streets of the Bay Area. What is frozen custard? It\\u2019s the best soft serve ice cream you\\u2019ll ever have. It\\u2019s got a super smooth texture and is way more dense and creamy than other soft serve because there\\u2019s hardly any air incorporated in the freezing process. This custard is crazy popular in the Midwest, and now Lexie's is bringing that joy here to California!",
+    "menu": "",
+    "schedule": [
+      {
+        "location": "El Cerrito",
+        "address": "6159 Fairmount Ave.",
+        "city": "El Cerrito",
+        "state": "CA",
+        "latitude": 37.900505,
+        "longitude": -122.303207,
+        "times": {
+          "month": 4,
+          "day": 25,
+          "startTime": 17,
+          "endTime": 21
+        }
+      }
+    ],
+    "chef-info": "",
+    "stars-count": 0,
+    "review-count": 0,
+    "cuisine": [
+      "Dessert"
+    ],
+    "cuisine-map": null
+  },
+  {
+    "vendor-name": "COOL!NARIA",
+    "type": "truck",
+    "price": 1,
+    "attribute": {
+      "savory": 1,
+      "sweet": 0,
+      "vegetarian": 0
+    },
+    "about": "COOL!NARIA is a contemporary concept from the minds of Chef Alberto Avramow and his wife Elizabeth Rueda, who together invite you to join them in celebrating Mexico\\u2019s loveliest recipes and the Bay Area\\u2019s finest local ingredients. Sourcing fresh and flavorful meats and produce from local organic and sustainable farmers, they have crafted a vibrant menu that features zesty Citrus Ceviche, crispy Hibiscus Deep Fried Tacos, tender and rich Duck Salpicon marinated in dark beer, and much more. For a delightful taste of these incredible culinary creations, come eat at COOL!NARIA soon!",
+    "menu": "",
+    "schedule": [
+      {
+        "location": "Lake Merritt",
+        "address": "1000 Oak St",
+        "city": "Oakland",
+        "state": "CA",
+        "latitude": 37.798618,
+        "longitude": -122.264191,
+        "times": {
+          "month": 4,
+          "day": 27,
+          "startTime": 17,
+          "endTime": 21
+        }
+      },
+      {
+        "location": "Fort Mason Center",
+        "address": "2 Marina Blvd",
+        "city": "San Francisco",
+        "state": "CA",
+        "latitude": 37.80573940449265,
+        "longitude": -122.43161905886075,
+        "times": {
+          "month": 5,
+          "day": 4,
+          "startTime": 17,
+          "endTime": 22
+        }
+      }
+    ],
+    "chef-info": "",
+    "stars-count": 0,
+    "review-count": 0,
+    "cuisine": [
+      "Mexican"
+    ],
+    "cuisine-map": null
+  },
+  {
+    "vendor-name": "PI Wings",
+    "type": "truck",
+    "price": 1,
+    "attribute": {
+      "savory": 1,
+      "sweet": 0,
+      "vegetarian": 0
+    },
+    "about": "P.I. Wings is serving up a whole lot of wings and things to the good folks of San Francisco. But throw out all your preconceived notions of these crispy goodies. Instead, let us introduce you to the ones that P.I. Wings has for you in store, fusing together that all American classic with a myriad of exotic flavors to tantalize your tastebuds. At P.I. Wings, they've specifically culled all the spices and seasonings from authentic Filipino cuisine and fused it into those delectable little forms that are so so good to eat. For starters, each chicken wing is deep fried to golden brown perfection, and from there, they're saucing them up in a few different flavors. From the classic adobo made up of garlic soy and finished with a green onion garnish to kare kare smothered in peanut sauce and complemented with garlic bagoong oil garnish, these wings are elevated to a whole new level of delicious. And that level is decidedly gourmet. So why wait? Treat yourself to an entirely new wing experience by finding P.I. Wings on the streets of San Francisco and beyond. Trust us. This food truck is one you won't want to miss. MUST TRYBicol Express - crispy wings are smothered in a spicy coconut cream glaze, finished with their original recipe green onion jalapeno pepper garnish for a taste you won't soon forget",
+    "menu": " Adobo Arroz Caldo Bicol Express Kare Kare Garlic Rice Balls Coconut Rice Entrees (8) wings in a garlic soy braise - green onion and garlic chip garnish Entrees (8) wings in a citrus ginger - green onion garlic chip with a lemon garnish Entrees (8) wings in a spicy coconut cream - onion garlic chip jalapeno bagoong garnish Entrees (8) wings in a peanut sauce - garlic chip sweet bagoong oil garnish Sides Deep fried garlic rice balls with coconut creme dipping sauce Sides Steamed rice with coconut milk",
+    "schedule": [],
+    "chef-info": "",
+    "stars-count": 0,
+    "review-count": 0,
+    "cuisine": [
+      "Chicken Wings"
+    ],
+    "cuisine-map": null
+  },
+  {
+    "vendor-name": "Del Popolo",
+    "type": "truck",
+    "price": 1,
+    "attribute": {
+      "savory": 1,
+      "sweet": 0,
+      "vegetarian": 0
+    },
+    "about": "Del Popolo is a mobile pizzeria committed to creating rustic Neopolitan-inspired pizza using ingredients sourced from small, generational producers. Del Popolo is housed in a twenty-foot transatlantic shipping container that's been re-purposed and modified into a kitchen. A wall of glass doors exposes the interior, including the traditional Italian-made wood-fired oven.",
+    "menu": " Summer Squash and Cucumber Salad Albacore Tuna Crudo Musk Melon Salad Peaches Roasted in the Wood Oven Crispy Chicken Livers & Cherry Tomatoes Farrotto Monterey Bay Squid House-Cured Bresaola Crispy Chicken Livers & Cherry Tomatoes Marinara Margherita Margherita di Bufala Bianca Eggplant Butterball Potato Anchovy House Made Sausage Sparkling Wines Ros\\u00c3\\u00a9 Wines White Wines Red Wines Appetizers With toasted almonds, nepitella & buttermilk vinaigrette Appetizers With castelvetrano olive tapenade, new potato & aioli Appetizers With Prosciutto di San Daniele, roasted padron peppers & creme fraiche Appetizers With goat's cheese, salsa rustica & seeded cracker Appetizers With house cured pancetta & tarragon Appetizers With wild morel mushrooms, sweet corn, prosciutto & egg yolk Appetizers With golden Romano beans, confit Early Girl tomato & chili Appetizers With olive oil & za'atar Appetizers With house cured pancetta & tarragon Entrees Crushed tomato, green garlic, oregano Entrees Crushed tomato, mozzarella, basil Entrees Crushed tomato, Ramini mozzarella di bufala, basil Entrees Mozzarella, ricotta, basil, garlic Entrees Crushed tomato, mozzarella, 'Nduja, ricotta salata Entrees Leeks, fontina, hot honey Entrees Bitter greens, ricotta, Calabrian chili Entrees Crushed tomato, mozzarella, Gypsy peppers, red onion, chili Drinks  Drinks  Drinks  Drinks ",
+    "schedule": [
+      {
+        "location": "Presidio Picnic",
+        "address": "Main Parade Ground",
+        "city": "San Francisco",
+        "state": "CA",
+        "latitude": 37.800739,
+        "longitude": -122.458237,
+        "times": {
+          "month": 5,
+          "day": 6,
+          "startTime": 11,
+          "endTime": 16
+        }
+      }
+    ],
+    "chef-info": "",
+    "stars-count": 0,
+    "review-count": 0,
+    "cuisine": [
+      "Pizza"
+    ],
+    "cuisine-map": null
+  },
+  {
+    "vendor-name": "Momolicious",
+    "type": "truck",
+    "price": 1,
+    "attribute": {
+      "savory": 1,
+      "sweet": 0,
+      "vegetarian": 1
+    },
+    "about": "Momolicious is serving up momos that aren't just delicious, they're momolicious. Their words, not ours, but really we're apt to believe 'em. Importing this delicious dish all the way from Nepal to the streets of San Francisco, they're out to change your regular old boring lunch routine for the better. Just what is a momo? Similar to a dumpling but so much more delicious, each tender morsel is stuffed with specially marinated meats and vegetables, steamed to perfection. From there, these momo connoisseurs are topping 'em with homemade sauces including the spicy Sichuan pepper sauce, or inside of their signature soup. What's mo', these momos are made from all original recipes dating back generations, using imported spices, seasonings, and the freshest quality ingredients to make each a quality meal every time. So why wait? Find mo' of what you're looking for by tracking down Momolicious on the streets of Emeryville and beyond, or invite 'em to bring mo' momos to your next event. Trust us. Try 'em. They really are that good, mo' so than you'd ever expect. Ok, we'll stop now. MUST TRYFiery Momo - fire up your appetite with these momos, steamed then stir fried with sweet and spicy tomato sauce, onions and bell peppers for your enjoyment",
+    "menu": " Kathmandu Momo The Ultimate Jhol Momo Kothay Momo Fiery Momo Nepali Chicken Curry Chowmein Entrees Steamed dumplings filled with chicken and vegetables that are marinated in homemade spices. Served with special tomato and Sichuan pepper sauce (mild). Entrees Steamed dumplings served with our special tomato, sesame, and soy bean soup.  Entrees Crispy dumplings served with our special tomato and Sichuan pepper sauce (mild). Entrees Crispy dumplings stir-fried with our sweet and spicy tomato sauce, onions, and bell peppers. Entrees Boneless chicken thigh cubes cooked with onion, tomato and curry spices served with Pulau rice (flavored with butter, green peas, carrots) Entrees Stir fried wheat noodles with mushroom, garlic, cabbage, onion, carrots, spices, and soy sauce.",
+    "schedule": [
+      {
+        "location": "Pleasant Hill",
+        "address": "138 Trelany Road ",
+        "city": "Pleasant Hill",
+        "state": "CA",
+        "latitude": 37.947578,
+        "longitude": -122.062576,
+        "times": {
+          "month": 4,
+          "day": 25,
+          "startTime": 17,
+          "endTime": 21
+        }
+      },
+      {
+        "location": "Vallejo & Front",
+        "address": "850 Front St. ",
+        "city": "San Francisco",
+        "state": "CA",
+        "latitude": 37.799164,
+        "longitude": -122.399971,
+        "times": {
+          "month": 4,
+          "day": 30,
+          "startTime": 11,
+          "endTime": 14
+        }
+      },
+      {
+        "location": "5M: 5th & Minna",
+        "address": "410 Minna St",
+        "city": "San Francisco",
+        "state": "CA",
+        "latitude": 37.782116,
+        "longitude": -122.406235,
+        "times": {
+          "month": 5,
+          "day": 2,
+          "startTime": 11,
+          "endTime": 14
+        }
+      },
+      {
+        "location": "El Cerrito",
+        "address": "6159 Fairmount Ave.",
+        "city": "El Cerrito",
+        "state": "CA",
+        "latitude": 37.900505,
+        "longitude": -122.303207,
+        "times": {
+          "month": 5,
+          "day": 2,
+          "startTime": 17,
+          "endTime": 21
+        }
+      },
+      {
+        "location": "5th & Townsend",
+        "address": "699 5th St.",
+        "city": "San Francisco",
+        "state": "CA",
+        "latitude": 37.7755303,
+        "longitude": -122.3974504,
+        "times": {
+          "month": 5,
+          "day": 4,
+          "startTime": 11,
+          "endTime": 14
+        }
+      },
+      {
+        "location": "Lake Merritt",
+        "address": "1000 Oak St",
+        "city": "Oakland",
+        "state": "CA",
+        "latitude": 37.798618,
+        "longitude": -122.264191,
+        "times": {
+          "month": 5,
+          "day": 4,
+          "startTime": 17,
+          "endTime": 21
+        }
+      },
+      {
+        "location": "Alameda @ South Shore Center",
+        "address": "535 South Shore Center",
+        "city": "Alameda",
+        "state": "CA",
+        "latitude": 37.756599,
+        "longitude": -122.252953,
+        "times": {
+          "month": 5,
+          "day": 5,
+          "startTime": 11,
+          "endTime": 15
+        }
+      }
+    ],
+    "chef-info": "",
+    "stars-count": 0,
+    "review-count": 0,
+    "cuisine": [
+      "Halal",
+      "Nepalese"
+    ],
+    "cuisine-map": null
+  },
+  {
+    "vendor-name": "Bombzies BBQ",
+    "type": "truck",
+    "price": 1,
+    "attribute": {
+      "savory": 1,
+      "sweet": 0,
+      "vegetarian": 1
+    },
+    "about": "Asian BBQ can mean a whole lot of things, and almost all those things now come together in San Francisco to complete Bombzies, which collects the best of the best and leaves out the rest.  Available in either a baguette or over rice, you've got a wide range of influences to choose from - Korean to Teriyaki to Thai Coconut Curry to Lemongrass, each packing a country's worth of flavor into one delectable entree.  Running support are sides so good they threaten to overwhelm the main attraction, and altogether, the menu adds up to more than one person can realistically attack in a visit.  Looks like you'll just have to keep coming til you finish the job.  Hope you can handle that.MUST TRY* Kimchee Queso Fries, tart, savory, cheesy and crispy.  They're a full flavor tour in a bowl",
+    "menu": "",
+    "schedule": [
+      {
+        "location": "Lake Merritt",
+        "address": "1000 Oak St",
+        "city": "Oakland",
+        "state": "CA",
+        "latitude": 37.798618,
+        "longitude": -122.264191,
+        "times": {
+          "month": 4,
+          "day": 27,
+          "startTime": 17,
+          "endTime": 21
+        }
+      },
+      {
+        "location": "Presidio Picnic",
+        "address": "Main Parade Ground",
+        "city": "San Francisco",
+        "state": "CA",
+        "latitude": 37.800739,
+        "longitude": -122.458237,
+        "times": {
+          "month": 4,
+          "day": 29,
+          "startTime": 11,
+          "endTime": 16
+        }
+      },
+      {
+        "location": "Pleasant Hill",
+        "address": "138 Trelany Road ",
+        "city": "Pleasant Hill",
+        "state": "CA",
+        "latitude": 37.947578,
+        "longitude": -122.062576,
+        "times": {
+          "month": 5,
+          "day": 2,
+          "startTime": 17,
+          "endTime": 21
+        }
+      },
+      {
+        "location": "Alameda @ South Shore Center",
+        "address": "535 South Shore Center",
+        "city": "Alameda",
+        "state": "CA",
+        "latitude": 37.756599,
+        "longitude": -122.252953,
+        "times": {
+          "month": 5,
+          "day": 5,
+          "startTime": 11,
+          "endTime": 15
+        }
+      },
+      {
+        "location": "Presidio Picnic",
+        "address": "Main Parade Ground",
+        "city": "San Francisco",
+        "state": "CA",
+        "latitude": 37.800739,
+        "longitude": -122.458237,
+        "times": {
+          "month": 5,
+          "day": 6,
+          "startTime": 11,
+          "endTime": 16
+        }
+      }
+    ],
+    "chef-info": "",
+    "stars-count": 0,
+    "review-count": 0,
+    "cuisine": [
+      "Asian Fusion",
+      "BBQ"
+    ],
+    "cuisine-map": null
+  },
+  {
+    "vendor-name": "Rocko's Ice Cream Tacos",
+    "type": "truck",
+    "price": 1,
+    "attribute": {
+      "savory": 0,
+      "sweet": 1,
+      "vegetarian": 1
+    },
+    "about": "Rocko\\u2019s Ice Cream Tacos serves handcrafted ice cream tacos and other frozen treats (frozen bananas, s\\u2019more tacos, etc.) All desserts are made using organic and locally sourced ingredients, and customized using liquid nitrogen to flash freeze on the spot. Our ice cream tacos consist of waffle cone tacos shells filled with an ice cream of choice, dipped into a chocolate or peanut butter dip and rolled in toppings.  A delicious treat for both kids and kids at heart!  We serve at festivals, parties, weddings, and corporate events.  ",
+    "menu": " Choco Peanut Butter  chocolate cake, peanut butter ice cream Triple Fudge chocolate cake with chocolate chunks, fudge chip ice cream Reverse Reeses fudge chip ice cream with peanut butter dip The Founder espresso ice cream with dark chocolate dip The Classic vanilla ice cream with milk chocolate dip EMT espresso ice cream with milk chocolate dip (not so)Red Velvet red velvet cake (minus the food coloring), cream cheese ice cream Banana Creme  banana cake, vanilla ice cream Ice Cream Taco waffle cone taco shell filled with ice cream of choice and dipped in chocolate of choice Tiramisu  marble cake, espresso ice cream Grimm Reaper fudge chip ice cream with dark chocolate dip Salty Nutz salty caramel ice cream with peanut butter dip Doctor mint chip ice cream with dark chocolate dip Frozen Bananas chocolate or PB dipped frozen banana Vanilla Ice  vanilla ice cream with white chocolate dip Evil Banana frozen banana dipped in dark chocolate  The Pop salty caramel ice cream with dark chocolate dip M&M mint chip ice cream with milk chocolate dip Sugar Daddy strawberry ice cream with dark chocolate dip Veteran vanilla ice cream with dark chocolate dip  Ice Cream Cake Pop ice cream and cake mixed together, on a  stick, custom dipped in chocoalte",
+    "schedule": [
+      {
+        "location": "Alameda @ South Shore Center",
+        "address": "535 South Shore Center",
+        "city": "Alameda",
+        "state": "CA",
+        "latitude": 37.756599,
+        "longitude": -122.252953,
+        "times": {
+          "month": 4,
+          "day": 28,
+          "startTime": 11,
+          "endTime": 15
+        }
+      },
+      {
+        "location": "Menlo Park",
+        "address": "1120 Merrill St",
+        "city": "Menlo Park",
+        "state": "CA",
+        "latitude": 37.453712,
+        "longitude": -122.181122,
+        "times": {
+          "month": 5,
+          "day": 2,
+          "startTime": 17,
+          "endTime": 21
+        }
+      }
+    ],
+    "chef-info": "",
+    "stars-count": 0,
+    "review-count": 0,
+    "cuisine": [
+      "Ice Cream",
+      "Dessert"
+    ],
+    "cuisine-map": null
+  },
+  {
+    "vendor-name": "Seoulful Korean Fried Chicken",
+    "type": "truck",
+    "price": 1,
+    "attribute": {
+      "savory": 1,
+      "sweet": 0,
+      "vegetarian": 0
+    },
+    "about": "This great truck is creating traditional Korean fried chicken dishes served with artfully crafted glazes and salts. These mild or spicy chicken bites are sure to drive you wild, so don't miss out! Come on by for some fried chicken for your Seoul.",
+    "menu": "",
+    "schedule": [],
+    "chef-info": "",
+    "stars-count": 0,
+    "review-count": 0,
+    "cuisine": [
+      "Korean"
+    ],
+    "cuisine-map": null
+  },
+  {
+    "vendor-name": "Seoul of Taipei",
+    "type": "truck",
+    "price": 1,
+    "attribute": {
+      "savory": 1,
+      "sweet": 0,
+      "vegetarian": 1
+    },
+    "about": "Korean-Taiwanese fusion has hit the streets of San Francisco! Seoul of Taipei is the fusion of two friends and two regional cuisines. They will be sure to cook up something you'll love!",
+    "menu": " Spicy Chicken Rice Bowl  Shallot infused rice topped with slaw cooked spicy chicken thighs, spicy gravy and a fried egg. Pork Belly Rice Bowl Shallot infused rice topped with duroc pork belly bits, taiwanese three spice gravy and a fried egg Pork Belly Burrito Braised duroc pork belly with grandma's gravy with yellow daikon and cilantro Half and Half Fries Half Seoul and Half Taipei fries. get the best of both. Short Rib Burrito  Braised meyer short rib with grandma's gravy with house made slaw and spiced crema Spicy Chicken Burrito  Spicy organic chicken thigh with house made slaw.  Seoul Fries  Crispy shoe string fries  with meyer's short rib and houseman gravy, melted jack cheese and sriacha Short Rib Rice Bowl  Shallot infused rice topped with meyer's all braised short rib, house made gravy and a fried egg Taipei Fries Crispy shoe string fries topped with duroc pork belly bits, three spice gravy and jack cheese",
+    "schedule": [
+      {
+        "location": "5th & Townsend",
+        "address": "699 5th St.",
+        "city": "San Francisco",
+        "state": "CA",
+        "latitude": 37.7755303,
+        "longitude": -122.3974504,
+        "times": {
+          "month": 4,
+          "day": 23,
+          "startTime": 11,
+          "endTime": 14
+        }
+      },
+      {
+        "location": "5M: 5th & Minna",
+        "address": "410 Minna St",
+        "city": "San Francisco",
+        "state": "CA",
+        "latitude": 37.782116,
+        "longitude": -122.406235,
+        "times": {
+          "month": 4,
+          "day": 25,
+          "startTime": 11,
+          "endTime": 14
+        }
+      },
+      {
+        "location": "Menlo Park",
+        "address": "1120 Merrill St",
+        "city": "Menlo Park",
+        "state": "CA",
+        "latitude": 37.453712,
+        "longitude": -122.181122,
+        "times": {
+          "month": 4,
+          "day": 25,
+          "startTime": 17,
+          "endTime": 21
+        }
+      },
+      {
+        "location": "South Park",
+        "address": "340 Brannan St.",
+        "city": "San Francisco",
+        "state": "CA",
+        "latitude": 37.781174,
+        "longitude": -122.392975,
+        "times": {
+          "month": 4,
+          "day": 26,
+          "startTime": 11,
+          "endTime": 14
+        }
+      },
+      {
+        "location": "Civic Center",
+        "address": "355 McAllister ",
+        "city": "San Francisco",
+        "state": "CA",
+        "latitude": 37.779491,
+        "longitude": -122.417618,
+        "times": {
+          "month": 4,
+          "day": 27,
+          "startTime": 11,
+          "endTime": 14
+        }
+      },
+      {
+        "location": "Presidio Picnic",
+        "address": "Main Parade Ground",
+        "city": "San Francisco",
+        "state": "CA",
+        "latitude": 37.800739,
+        "longitude": -122.458237,
+        "times": {
+          "month": 4,
+          "day": 29,
+          "startTime": 11,
+          "endTime": 16
+        }
+      },
+      {
+        "location": "UN Plaza",
+        "address": "10 United Nations Plaza ",
+        "city": "San Francisco",
+        "state": "CA",
+        "latitude": 37.7804816,
+        "longitude": -122.4131768,
+        "times": {
+          "month": 5,
+          "day": 1,
+          "startTime": 11,
+          "endTime": 14
+        }
+      },
+      {
+        "location": "Serramonte",
+        "address": "39 Serramonte Center",
+        "city": "Daly City",
+        "state": "CA",
+        "latitude": 37.672977,
+        "longitude": -122.468491,
+        "times": {
+          "month": 5,
+          "day": 1,
+          "startTime": 17,
+          "endTime": 21
+        }
+      },
+      {
+        "location": "Foster City",
+        "address": "650 Shell Blvd",
+        "city": "Foster City",
+        "state": "CA",
+        "latitude": 37.557137,
+        "longitude": -122.270088,
+        "times": {
+          "month": 5,
+          "day": 2,
+          "startTime": 17,
+          "endTime": 21
+        }
+      },
+      {
+        "location": "San Mateo Bay Center",
+        "address": "901 Mariners Island Blvd",
+        "city": "San Mateo",
+        "state": "CA",
+        "latitude": 37.559464,
+        "longitude": -122.287437,
+        "times": {
+          "month": 5,
+          "day": 3,
+          "startTime": 11,
+          "endTime": 14
+        }
+      },
+      {
+        "location": "Vallejo & Front",
+        "address": "850 Front St. ",
+        "city": "San Francisco",
+        "state": "CA",
+        "latitude": 37.799164,
+        "longitude": -122.399971,
+        "times": {
+          "month": 5,
+          "day": 4,
+          "startTime": 11,
+          "endTime": 14
+        }
+      },
+      {
+        "location": "Presidio Picnic",
+        "address": "Main Parade Ground",
+        "city": "San Francisco",
+        "state": "CA",
+        "latitude": 37.800739,
+        "longitude": -122.458237,
+        "times": {
+          "month": 5,
+          "day": 6,
+          "startTime": 11,
+          "endTime": 16
+        }
+      }
+    ],
+    "chef-info": "",
+    "stars-count": 0,
+    "review-count": 0,
+    "cuisine": [
+      "Korean",
+      "Taiwanese",
+      "Asian Fusion"
+    ],
+    "cuisine-map": null
+  },
+  {
+    "vendor-name": "Taqueria Angelicas",
+    "type": "truck",
+    "price": 1,
+    "attribute": {
+      "savory": 1,
+      "sweet": 0,
+      "vegetarian": 0
+    },
+    "about": "Tacos, Tortas, Quesadillas, Burritos, and Special Plates available at this Mexican Truck! Serving classic Asada, Pastor, Carnitas, and also Lengua, Cabeza, and Tripe! Check it out!",
+    "menu": " Full Size Entree Menu Medium Size Entree Tasting Sized Menu Entrees FULL SIZE ENTREE  $12.00\\n\\n4 STREET TACOS - Locally made corn tortillas with your choice of meat, diced onions, cilantro, and house made salsa ( Gluten free / Dairy free )\\n  \\nBURRITOS - Flour tortilla, choice of meat, rice, beans, freshly                       diced onions, cilantro, and hot or mild salsa.\\n\\nQUESADILLAS  - Locally made tortilla, choice of meat, served with         \\n a side of lettuce, pico de gallo and sour cream. \\n\\n \\nMEXICAN NACHOS - Choice of meat, refried beans, cheese, sour cream, guacamole, jalape\\u00f1os and pico de gallo               ( Gluten free )\\t\\n\\nPROTEIN CHOICES\\nCARNE ASADA \\u2013 Thinly sliced steak lightly seasoned with lemon and spices \\n\\nGRILLED CHICKEN \\u2013 Diced chicken grilled & marinated in house adobo\\n\\nCARNITAS- Deep fried pulled pork lightly seasoned\\nPASTOR - Thinly sliced pork marinated in house adobo\\n\\nVEGGIE- Beans, grilled peppers & onions     \\n Entrees MEDIUM SIZE MENU $8.00\\n2 STREET TACOS - Locally made corn tortillas with your choice of meat, diced onions, cilantro, and house made salsa ( Gluten free / Dairy free )\\n  \\nMINI BURRITOS - Flour tortilla, choice of meat, rice, beans, freshly                       diced onions, cilantro, and hot or mild salsa.\\n\\nQUESADILLAS  - Locally made tortilla, choice of meat, served with         \\n a side of lettuce, pico de gallo and sour cream. \\n\\nCHICKEN TOSTADA - Shredded chicken breast with lettuce, tomato, avocado, mexican queso fresco and salsa.\\n\\n \\n\\nPROTEIN CHOICES\\nCARNE ASADA \\u2013 Thinly sliced steak lightly seasoned with lemon and spices \\n\\nGRILLED CHICKEN \\u2013 Diced chicken grilled & marinated in house adobo\\n\\nCARNITAS- Deep fried pulled pork lightly seasoned\\nPASTOR - Thinly sliced pork marinated in house adobo\\n\\nVEGGIE- Beans, grilled peppers & onions     \\n Entrees 1 STREET TACO - Locally made corn tortillas with your choice of meat, diced onions, cilantro, and house made salsa ( Gluten free / Dairy free )\\n  \\nMINI QUESADILLA (with one protein option)- Choice of meat with melted cheese served with a side of lettuce, pico de gallo and sour cream.\\n\\nMINI CHICKEN TOSTADA - Shredded chicken breast with lettuce, tomato, avocado, mexican queso fresco and salsa.\\n\\nCHIPS AND GUACAMOLE\\n\\n\\nPROTEIN CHOICES\\nCARNE ASADA \\u2013 Thinly sliced steak lightly seasoned with lemon and spices \\n\\nGRILLED CHICKEN \\u2013 Diced chicken grilled & marinated in house adobo\\n\\nCARNITAS- Deep fried pulled pork lightly seasoned\\nPASTOR - Thinly sliced pork marinated in house adobo\\n\\nVEGGIE- Beans, grilled peppers & onions     \\n",
+    "schedule": [
+      {
+        "location": "Fort Mason Center",
+        "address": "2 Marina Blvd",
+        "city": "San Francisco",
+        "state": "CA",
+        "latitude": 37.80573940449265,
+        "longitude": -122.43161905886075,
+        "times": {
+          "month": 4,
+          "day": 27,
+          "startTime": 17,
+          "endTime": 22
+        }
+      }
+    ],
+    "chef-info": "",
+    "stars-count": 0,
+    "review-count": 0,
+    "cuisine": [
+      "Burritos",
+      "Tacos",
+      "Mexican"
+    ],
+    "cuisine-map": null
+  },
+  {
+    "vendor-name": "Liberty Cheesesteak",
+    "type": "truck",
+    "price": 1,
+    "attribute": {
+      "savory": 1,
+      "sweet": 0,
+      "vegetarian": 0
+    },
+    "about": "Gimmicks are a west coast thing, and Liberty Cheesesteak is having none of it.  Owned & operated by an east coast ex-pat with a knack for big flavor and a whole lack of frills, this is a truck with a simple mission.  But simple is far from basic.  The cheesesteaks that fly out daily are certified fresh, with ribeye sliced on the truck daily, and rolls delivered every morning from Philadelphia's legendary Amoroso's Bakery.  So next time you get a hankering for gimmicks, go elsewhere.  But next time you get a craving for Phillies, we've got a truck for you.  And it'll transport you coast to coast in no time.  Just don't call that a gimmick.MUST TRY* The cheesesteak.  Obviously.  Available in three varieties - shaved ribeye, chicken or portobello, for the veggie crowd.  All savory.  All legendary.  Or they will be, as soon as you've stopped eating long enough to talk about them.",
+    "menu": "",
+    "schedule": [
+      {
+        "location": "UN Plaza",
+        "address": "10 United Nations Plaza ",
+        "city": "San Francisco",
+        "state": "CA",
+        "latitude": 37.7804816,
+        "longitude": -122.4131768,
+        "times": {
+          "month": 4,
+          "day": 26,
+          "startTime": 11,
+          "endTime": 14
+        }
+      },
+      {
+        "location": "5M: 5th & Minna",
+        "address": "410 Minna St",
+        "city": "San Francisco",
+        "state": "CA",
+        "latitude": 37.782116,
+        "longitude": -122.406235,
+        "times": {
+          "month": 4,
+          "day": 27,
+          "startTime": 11,
+          "endTime": 14
+        }
+      }
+    ],
+    "chef-info": "",
+    "stars-count": 0,
+    "review-count": 0,
+    "cuisine": [
+      "Cheesesteak",
+      "American"
+    ],
+    "cuisine-map": null
+  },
+  {
+    "vendor-name": "Mozzeria",
+    "type": "truck",
+    "price": 1,
+    "attribute": {
+      "savory": 1,
+      "sweet": 0,
+      "vegetarian": 1
+    },
+    "about": "Mozzeria Restaurant was launched in December 2011 and due to the demand of catering, Mozzeria unveiled the new food truck- a 25 foot cable car with wood burning oven. We can bring the taste of Mozzeria to you.",
+    "menu": " Margherita Pomodoro, parmesan, mozzarella, basil SHIITAKE MUSHROOM ch\\u00e8vre, arugula, truffle oil Italian Sausage White garlic sauce, red onion, fennel, mozzarella, sausage Quattro Formaggi Parmesan, gorgonzola, provolone, and mozzarella cheese Salumi Pomodoro, chili flakes, mozzarella, soppressata",
+    "schedule": [
+      {
+        "location": "Menlo Park",
+        "address": "1120 Merrill St",
+        "city": "Menlo Park",
+        "state": "CA",
+        "latitude": 37.453712,
+        "longitude": -122.181122,
+        "times": {
+          "month": 4,
+          "day": 25,
+          "startTime": 17,
+          "endTime": 21
+        }
+      },
+      {
+        "location": "San Carlos @ Devils Canyon Brewery",
+        "address": "935 Washington Street",
+        "city": "San Carlos",
+        "state": "CA",
+        "latitude": 37.498348,
+        "longitude": -122.244034,
+        "times": {
+          "month": 4,
+          "day": 27,
+          "startTime": 17,
+          "endTime": 22
+        }
+      },
+      {
+        "location": "Lake Merritt",
+        "address": "1000 Oak St",
+        "city": "Oakland",
+        "state": "CA",
+        "latitude": 37.798618,
+        "longitude": -122.264191,
+        "times": {
+          "month": 5,
+          "day": 4,
+          "startTime": 17,
+          "endTime": 21
+        }
+      }
+    ],
+    "chef-info": "",
+    "stars-count": 0,
+    "review-count": 0,
+    "cuisine": [
+      "Pizza"
+    ],
+    "cuisine-map": null
+  },
+  {
+    "vendor-name": "Izzy's Cheesesteaks",
+    "type": "truck",
+    "price": 1,
+    "attribute": {
+      "savory": 1,
+      "sweet": 0,
+      "vegetarian": 0
+    },
+    "about": "We do cheesesteaks the classic way except with a twist. We only use 100% ribeye and nothing less. If you want something other than the ribeye, we've got you covered. We have a chicken and vegetarian option as well.",
+    "menu": " The Classic Loco Moco Bourbon Crunch Triple Threat Roasted Garlic and Mushroom Trifecta Srirachacha Hoagie Muy Bueno Quin-What?! Julienne Style French Fries Garlic-Parmesan Fries Garlic Cheese Fries Cheesesteak Fries Entrees The classic using your choice of grilled ribeye steak or chicken. Made with grilled onions, hot and sweet peppers (up to you). Entrees Bringing that Hawaiian twist to the cheesesteak, we use grilled onions, mushrooms, provolone cheese, gravy, and finish it off with an egg on top. Entrees This idea came about after one of those late nights on the truck when we needed some munchies. It's made with grilled onions, mushrooms, bourbon sauce, and topped with Chili Cheese Fritos. Entrees If you like cheese, then this one's for you. Provolone cheese... Check. White-American cheese... Check. Cheez-Whiz... Check. Oh yeah, it also has grilled onions. Entrees This is our signature cheesesteak you will crave for.  White-American cheese, grilled onions, roasted garlic & mushrooms. Entrees This one is just like the Classic but has an extra kick of our horseradish sauce and a side of Au Jus. Entrees Made with grilled onions, cheese, and topped with creamy Sriracha sauce that gives it a karate \\u201ccha\\u201dp.  Hi-ya! Entrees Your choice of ribeye steak or chicken with cheese, lettuce, tomatoes and mayo. Entrees Cheese grilled onions, topped with pico de gallo and a cilantro-cotija crema. After this you'll be saying Muy Bueno! Entrees This vegetarian cheesesteak is so good, even carnivores like it.  It\\u2019s made with quinoa and beans for the base, along with some special spices to give it a great taste. Have it as one of the cheesesteaks listed above. Sides  Sides  Sides Using Whiz of course! Sides The Classic over fries! Gluten friendly!",
+    "schedule": [
+      {
+        "location": "Vallejo & Front",
+        "address": "850 Front St. ",
+        "city": "San Francisco",
+        "state": "CA",
+        "latitude": 37.799164,
+        "longitude": -122.399971,
+        "times": {
+          "month": 4,
+          "day": 27,
+          "startTime": 11,
+          "endTime": 14
+        }
+      },
+      {
+        "location": "Lake Merritt",
+        "address": "1000 Oak St",
+        "city": "Oakland",
+        "state": "CA",
+        "latitude": 37.798618,
+        "longitude": -122.264191,
+        "times": {
+          "month": 4,
+          "day": 27,
+          "startTime": 17,
+          "endTime": 21
+        }
+      },
+      {
+        "location": "5M: 5th & Minna",
+        "address": "410 Minna St",
+        "city": "San Francisco",
+        "state": "CA",
+        "latitude": 37.782116,
+        "longitude": -122.406235,
+        "times": {
+          "month": 5,
+          "day": 2,
+          "startTime": 11,
+          "endTime": 14
+        }
+      },
+      {
+        "location": "Foster City",
+        "address": "650 Shell Blvd",
+        "city": "Foster City",
+        "state": "CA",
+        "latitude": 37.557137,
+        "longitude": -122.270088,
+        "times": {
+          "month": 5,
+          "day": 2,
+          "startTime": 17,
+          "endTime": 21
+        }
+      }
+    ],
+    "chef-info": "",
+    "stars-count": 0,
+    "review-count": 0,
+    "cuisine": [
+      "Cheesesteak",
+      "American"
+    ],
+    "cuisine-map": null
+  },
+  {
+    "vendor-name": "Southern Comfort Kitchen",
+    "type": "truck",
+    "price": 1,
+    "attribute": {
+      "savory": 1,
+      "sweet": 0,
+      "vegetarian": 0
+    },
+    "about": "Genuine Cajun cuisine in the Bay Area is ready to satisfy your cravings for the finest food on Earth! Southern Comfort Kitchen is a food truck on the move, run by 3 brothers all the way from New Orleans. This real southern grub is perfect for any occasion you can think of, and you're sure to be hooked from the very first bite!",
+    "menu": " LUMB DUNGENESS CRAB CAKES Sweet Dungeness crab meat mixed with fresh seasonings and creole spices then sauteed golden brown, served with remoulade sauce. CHICKEN & SAUSAGE JAMBALAYA Our spicy rice dish with chicken and Andouille Sausage with our own blend of seasonings. SOUTHERN FRIED CHICKEN SANWHICH Two pieces of chicken breast soaked in buttermilk, Louisiana hot sauce, and our blackened seasoning, Fried gold, served on a french bun with a red wine vinegar cole slaw infused with lemon and cilantro, complemented by two slices of pickles. Topped with our signature old bay garlic aioli. SHRIMP PO'BOY (6) Louisiana Gulf Shrimp with fresh garlic and spices then battered with yellow corn flour, fried golden, served on a french roll with our famous red wine vinegar cole slaw infused with cilantro served with tomatoes and pickles topped with our homemade remoulade sauce BANG BANG SHRIMP Crispy shrimp tossed in a creamy, spicy sauce. Served on a bed of lettuce with scallions. SEAFOOD GUMBO A hearty seafood soup  made with a roux served over white rice with lots of gulf shrimp, crabmeat, cod and seasonings. Served with a slice of french bread. CRAWFISH ETOUFFEE Fresh peeled Louisiana crawfish tails smothered in a rich sauce with saut\\u00e9ed onions, bell peppers, and celery cooked down and made with a roux, served over white rice with a slice of french bread. CATFISH PO\\u2019 BOY Fresh farm raised Mississippi catfish fillets cut into strips seasoned with fresh garlic and spices then battered with yellow corn meal, fried golden, served on a French roll with our famous red wine vinegar cole slaw infused with cilantro topped with our homemade remoulade sauce. RED BEANS & RICE Red kidney beans cooked with a ham hock and a special blend of seasonings, served with a cut of Andouille Sausage.",
+    "schedule": [
+      {
+        "location": "Serramonte",
+        "address": "39 Serramonte Center",
+        "city": "Daly City",
+        "state": "CA",
+        "latitude": 37.672977,
+        "longitude": -122.468491,
+        "times": {
+          "month": 4,
+          "day": 24,
+          "startTime": 17,
+          "endTime": 21
+        }
+      },
+      {
+        "location": "5M: 5th & Minna",
+        "address": "410 Minna St",
+        "city": "San Francisco",
+        "state": "CA",
+        "latitude": 37.782116,
+        "longitude": -122.406235,
+        "times": {
+          "month": 4,
+          "day": 25,
+          "startTime": 11,
+          "endTime": 14
+        }
+      },
+      {
+        "location": "Menlo Park",
+        "address": "1120 Merrill St",
+        "city": "Menlo Park",
+        "state": "CA",
+        "latitude": 37.453712,
+        "longitude": -122.181122,
+        "times": {
+          "month": 4,
+          "day": 25,
+          "startTime": 17,
+          "endTime": 21
+        }
+      },
+      {
+        "location": "San Mateo Bay Center",
+        "address": "901 Mariners Island Blvd",
+        "city": "San Mateo",
+        "state": "CA",
+        "latitude": 37.559464,
+        "longitude": -122.287437,
+        "times": {
+          "month": 4,
+          "day": 26,
+          "startTime": 11,
+          "endTime": 14
+        }
+      },
+      {
+        "location": "Upper Haight",
+        "address": "Stanyan St & Waller St",
+        "city": "San Francisco",
+        "state": "CA",
+        "latitude": 37.768246,
+        "longitude": -122.453377,
+        "times": {
+          "month": 4,
+          "day": 26,
+          "startTime": 17,
+          "endTime": 21
+        }
+      },
+      {
+        "location": "Vallejo & Front",
+        "address": "850 Front St. ",
+        "city": "San Francisco",
+        "state": "CA",
+        "latitude": 37.799164,
+        "longitude": -122.399971,
+        "times": {
+          "month": 4,
+          "day": 27,
+          "startTime": 11,
+          "endTime": 14
+        }
+      },
+      {
+        "location": "Fort Mason Center",
+        "address": "2 Marina Blvd",
+        "city": "San Francisco",
+        "state": "CA",
+        "latitude": 37.80573940449265,
+        "longitude": -122.43161905886075,
+        "times": {
+          "month": 4,
+          "day": 27,
+          "startTime": 17,
+          "endTime": 22
+        }
+      },
+      {
+        "location": "Lake Merritt",
+        "address": "1000 Oak St",
+        "city": "Oakland",
+        "state": "CA",
+        "latitude": 37.798618,
+        "longitude": -122.264191,
+        "times": {
+          "month": 4,
+          "day": 27,
+          "startTime": 17,
+          "endTime": 21
+        }
+      },
+      {
+        "location": "UN Plaza",
+        "address": "10 United Nations Plaza ",
+        "city": "San Francisco",
+        "state": "CA",
+        "latitude": 37.7804816,
+        "longitude": -122.4131768,
+        "times": {
+          "month": 5,
+          "day": 1,
+          "startTime": 11,
+          "endTime": 14
+        }
+      },
+      {
+        "location": "El Cerrito",
+        "address": "6159 Fairmount Ave.",
+        "city": "El Cerrito",
+        "state": "CA",
+        "latitude": 37.900505,
+        "longitude": -122.303207,
+        "times": {
+          "month": 5,
+          "day": 2,
+          "startTime": 17,
+          "endTime": 21
+        }
+      },
+      {
+        "location": "Foster City",
+        "address": "650 Shell Blvd",
+        "city": "Foster City",
+        "state": "CA",
+        "latitude": 37.557137,
+        "longitude": -122.270088,
+        "times": {
+          "month": 5,
+          "day": 2,
+          "startTime": 17,
+          "endTime": 21
+        }
+      },
+      {
+        "location": "Civic Center",
+        "address": "355 McAllister ",
+        "city": "San Francisco",
+        "state": "CA",
+        "latitude": 37.779491,
+        "longitude": -122.417618,
+        "times": {
+          "month": 5,
+          "day": 4,
+          "startTime": 11,
+          "endTime": 14
+        }
+      },
+      {
+        "location": "Fort Mason Center",
+        "address": "2 Marina Blvd",
+        "city": "San Francisco",
+        "state": "CA",
+        "latitude": 37.80573940449265,
+        "longitude": -122.43161905886075,
+        "times": {
+          "month": 5,
+          "day": 4,
+          "startTime": 17,
+          "endTime": 22
+        }
+      },
+      {
+        "location": "Lake Merritt",
+        "address": "1000 Oak St",
+        "city": "Oakland",
+        "state": "CA",
+        "latitude": 37.798618,
+        "longitude": -122.264191,
+        "times": {
+          "month": 5,
+          "day": 4,
+          "startTime": 17,
+          "endTime": 21
+        }
+      },
+      {
+        "location": "Alameda @ South Shore Center",
+        "address": "535 South Shore Center",
+        "city": "Alameda",
+        "state": "CA",
+        "latitude": 37.756599,
+        "longitude": -122.252953,
+        "times": {
+          "month": 5,
+          "day": 5,
+          "startTime": 11,
+          "endTime": 15
+        }
+      }
+    ],
+    "chef-info": "",
+    "stars-count": 0,
+    "review-count": 0,
+    "cuisine": [
+      "Southern Comfort Food",
+      "American"
+    ],
+    "cuisine-map": null
+  },
+  {
+    "vendor-name": "Tres Truck",
+    "type": "truck",
+    "price": 1,
+    "attribute": {
+      "savory": 1,
+      "sweet": 0,
+      "vegetarian": 0
+    },
+    "about": "Tres Truck is serving traditional Jaliscan street food with a San Francisco spin! Check out the Al Pastor tacos, Ceviche, Chicharrones, and more! And grab yourself an agua fresca to wash down that tasty meal.",
+    "menu": "",
+    "schedule": [],
+    "chef-info": "",
+    "stars-count": 0,
+    "review-count": 0,
+    "cuisine": [
+      "Mexican"
+    ],
+    "cuisine-map": null
+  },
+  {
+    "vendor-name": "It's All Gravy",
+    "type": "truck",
+    "price": 1,
+    "attribute": {
+      "savory": 1,
+      "sweet": 0,
+      "vegetarian": 0
+    },
+    "about": "Classic comfort food with a magnificent modern twist is on its way down the streets of San Francisco! It's All Gravy is bringing you food to make you feel good when you're on the go. Pulled pork, fried chicken with gravy, fantastic french fries, and so much more are on their way right to you, thanks to It's All Gravy!",
+    "menu": " gPorkalicious LocoMoco gHen-e-see #SHRIMPtastic #MeSoTofu #Godzilla Skin It's All Gravy Fries It's All Gravy Fries Entrees Marinated and braised pulled pork with rice or wasabi garlic noodles paired with fresh cucumber Entrees 100% Angus beef patty with brown gravy topped with a fried egg over rice Entrees Rum marinated fried chicken with curry gravy over rice Entrees Grilled basil garlic jumbo prawns, served with a lobster saffron gravy over rice Entrees Miso and chipotle marinated deep fried tofu squares served with a truffle coconut gravy over rice Sides Deep fried tempura battered pieces of nori, seasoned with a secret spice blend Sides French fries with mozarrella cheese and jalape\\u00f1os, topped with a brown gravy Sides French fries with mozarrella cheese and jalape\\u00f1os, topped with a brown gravy",
+    "schedule": [],
+    "chef-info": "",
+    "stars-count": 0,
+    "review-count": 0,
+    "cuisine": [
+      "Comfort Food"
+    ],
+    "cuisine-map": null
+  },
+  {
+    "vendor-name": "No Worries",
+    "type": "truck",
+    "price": 1,
+    "attribute": {
+      "savory": 1,
+      "sweet": 0,
+      "vegetarian": 1
+    },
+    "about": "Having a hard time finding a place that serves Filipino vegan cuisine?  Have no worries - literally! No Worries Filipino Vegan Cuisine is the only Filipino vegan food service in the nation, but that's not the only thing that sets it apart. Just one bite from this delicious truck, and you'll understand why it's the best around. Stop by for a meal, and have No Worries!",
+    "menu": " Lumpia Seasoned soy ground beef mixed with shredded cabbage, peas and carrots hand rolled with an eggless rice wrapper, then deep fried to perfection. Sweet chili sauce for dipping!",
+    "schedule": [],
+    "chef-info": "",
+    "stars-count": 0,
+    "review-count": 0,
+    "cuisine": [
+      "Vegan",
+      "Filipino"
+    ],
+    "cuisine-map": null
+  },
+  {
+    "vendor-name": "Street Steam Bunz",
+    "type": "truck",
+    "price": 1,
+    "attribute": {
+      "savory": 1,
+      "sweet": 0,
+      "vegetarian": 1
+    },
+    "about": "Street Steam Bunz is steamin' up the street with their sweet selection of hot buns. Not at all what you're thinking, so stay with us on this. This food truck specializes in those steamy bao buns, host to a myriad of Asian flavors and fusions that are out of this world delicious. And you're getting it all on the streets. Put it together and what do you get? Street Steam Bunz.Got it? Good. At Street Steam Bunz, you're getting a whole lot of freshness, served hot and well, fresh. That's because they're dedicated to using only the freshest quality ingredients, elevating each savory dish to gourmet status with a chef who makes everything from scratch. From baos stuffed with chicken cutlets and tender pork to rice bowls topped with seaweed salad and ginger, you've got all the traditions of great Asian cuisine covered. But Street Steam Bunz is all about reinvention, making their own food traditions. Like offering their specialty braised short rib on poutine fries. Or doing fried chicken Japanese style served with garlic yuzu aioli. Sound good? Track down Street Steam Bunz to get all that goodness delivered right on the curb and into your stomach. Trust us. It really is that good. MUST TRYDuck Confit Buns - the bao takes a bow with this one putting on a fine performance with specialty duck confit stuffed into a warm bun with seaweed and their specialty sauce",
+    "menu": "",
+    "schedule": [
+      {
+        "location": "Pleasant Hill",
+        "address": "138 Trelany Road ",
+        "city": "Pleasant Hill",
+        "state": "CA",
+        "latitude": 37.947578,
+        "longitude": -122.062576,
+        "times": {
+          "month": 4,
+          "day": 25,
+          "startTime": 17,
+          "endTime": 21
+        }
+      },
+      {
+        "location": "El Cerrito",
+        "address": "6159 Fairmount Ave.",
+        "city": "El Cerrito",
+        "state": "CA",
+        "latitude": 37.900505,
+        "longitude": -122.303207,
+        "times": {
+          "month": 5,
+          "day": 2,
+          "startTime": 17,
+          "endTime": 21
+        }
+      },
+      {
+        "location": "Lake Merritt",
+        "address": "1000 Oak St",
+        "city": "Oakland",
+        "state": "CA",
+        "latitude": 37.798618,
+        "longitude": -122.264191,
+        "times": {
+          "month": 5,
+          "day": 4,
+          "startTime": 17,
+          "endTime": 21
+        }
+      }
+    ],
+    "chef-info": "",
+    "stars-count": 0,
+    "review-count": 0,
+    "cuisine": [
+      "Asian Fusion"
+    ],
+    "cuisine-map": null
+  }
+]

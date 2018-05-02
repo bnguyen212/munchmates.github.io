@@ -1,6 +1,10 @@
 {
   "main": "node_modules/expo/AppEntry.js",
   "private": true,
+  "script": {
+    "start": "node js/server"
+
+  },
   "dependencies": {
     "connect-mongo": "^2.0.1",
     "cookie-parser": "^1.4.3",
