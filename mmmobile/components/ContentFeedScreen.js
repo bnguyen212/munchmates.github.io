@@ -23,11 +23,6 @@ export default class ContentFeedScreen extends Component {
     .then(res => res.json())
     .then(res => {
       feed = feed.concat(res.items)
-      return fetch('https://api.rss2json.com/v1/api.json?rss_url=' + this.blogs[1])
-    })
-    .then(res => res.json())
-    .then(res => {
-      feed = feed.concat(res.items)
       return fetch('https://api.rss2json.com/v1/api.json?rss_url=' + this.blogs[2])
     })
     .then(res => res.json())

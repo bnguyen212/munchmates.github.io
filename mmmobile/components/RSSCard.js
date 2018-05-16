@@ -26,9 +26,6 @@ export default class RSSCard extends Component {
       case 'Nik Sharma':
         url = 'https://static1.squarespace.com/static/53c2f8afe4b00a113d59f23a/t/572b500559827e91950d2d3f/1462456335185/Nik+Sharma.jpg?format=200w';
         break;
-      case 'Sarah Menanix':
-        url ='https://www.snixykitchen.com/wp-content/themes/SnixyKitchenTheme/images/SarahMenanixAuthor.png';
-        break;
     }
     return url
   }
