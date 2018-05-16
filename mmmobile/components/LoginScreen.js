@@ -7,54 +7,44 @@ import { StyleSheet,
   Alert,
   Button,
   Image,
-  KeyboardAvoidingView } from 'react-native';
-  import AsyncStorage from "AsyncStorage"
-  import { iOSColors, sanFranciscoWeights } from 'react-native-typography'
+  KeyboardAvoidingView,
+  AsyncStorage } from 'react-native';
+  import { iOSColors } from 'react-native-typography'
 
 export default class LoginScreen extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      email: '',
-      password: '',
+      email: 'ptnguyen212@gmail.com',
+      password: '12345',
     }
   }
   static navigationOptions = (props) => ({
     title: 'Login',
   });
-  componentWillMount(){
-    this.props.navigation.navigate('Home')
-  }
+
   login() {
-    if (this.state.username === '' || this.state.password === '') {
-      alert('Invalid username or password.')
-    } else {
-      fetch(`/*ngrok*//login`, {
-        method: 'POST',
-        headers: {
-          "Content-Type": "application/json"
-        },
-        body: JSON.stringify({
-          username: this.state.email,
-          password: this.state.password,
-        })
-      })
-      .then((response) => {var x= response.json();
-    console.log(response, "response1")
-    console.log(x, "x")
-  return x})
-      .then((responseJson) => {
-        console.log(responseJson, "response")
-        this.props.navigation.navigate('Home')
-      })
-      .then(()=>AsyncStorage.setItem('user', JSON.stringify({
+    fetch('https://munchmates.herokuapp.com/login', {
+      method: 'POST',
+      body: JSON.stringify({
         username: this.state.email,
         password: this.state.password
-      })))
-      .catch((err) => {
-        alert( err);
-      });
-    }
+      }),
+      headers: {
+        'Content-Type': 'application/json'
+      }
+    })
+    .then(res => res.json())
+    .then(res => {
+      if (res.authenticated === true) {
+        AsyncStorage.setItem('email', this.state.email);
+        this.setState({email: '', password: ''})
+        this.props.navigation.navigate('Profile')
+      }
+    })
+    .catch(err => {
+      Alert.alert('Failed to log in')
+    })
   }
 
   render() {
@@ -63,10 +53,6 @@ export default class LoginScreen extends Component {
 
         <View style={styles.backgroundContainer}>
           <Image source={require('../assets/background3.jpg')} style={styles.backgroundImage} />
-        </View>
-
-        <View style={styles.titleContainer}>
-          <Text style={styles.title}>MUNCHMATES</Text>
         </View>
 
         <View style={styles.formContainer}>
@@ -79,7 +65,7 @@ export default class LoginScreen extends Component {
                      placeholder="Password"
                      value={this.state.password}
                      onChangeText={password => this.setState({password})} />
-          <TouchableOpacity style={[styles.button, styles.buttonBlue]} onPress={ () => this.login() }>
+          <TouchableOpacity style={styles.button} onPress={ () => this.login() }>
             <Text style={styles.buttonLabel}>Login</Text>
           </TouchableOpacity>
         </View>
@@ -96,8 +82,8 @@ const styles = StyleSheet.create({
 
   },
   navRight: {
-    fontSize: 20,
-    color: 'blue',
+    fontSize: 20, 
+    color: 'blue', 
     marginRight: 15
   },
   input: {
@@ -120,11 +106,6 @@ const styles = StyleSheet.create({
     marginRight: 5,
     borderRadius: 5,
     alignItems: 'center',
-  },
-  buttonRed: {
-    backgroundColor: iOSColors.red,
-  },
-  buttonBlue: {
     backgroundColor: iOSColors.blue,
   },
   buttonLabel: {
@@ -132,25 +113,9 @@ const styles = StyleSheet.create({
     fontSize: 20,
     color: 'white'
   },
-  title: {
-    fontSize: 30,
-    color: iOSColors.yellow,
-    ...sanFranciscoWeights.heavy,
-    marginTop: 15,
-    marginBottom: 15,
-  },
-  titleContainer: {
-    backgroundColor: 'black',
-    alignItems: 'center',
-    justifyContent: 'center',
-    position: 'absolute',
-    top: 0,
-    left: 0,
-    width: '100%'
-  },
   backgroundContainer: {
     position: 'absolute',
-    top: '5%',
+    top: 0,
     left: 0,
     width: '100%',
     height: '100%'
